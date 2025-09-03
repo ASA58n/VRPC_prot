@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VRChatフォトイベントカレンダー</title>
+    
+    <!-- FullCalendar CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.css" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* ヘッダー・検索エリア */
+        .header {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+
+        .header h1 {
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .search-container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .search-box {
+            flex: 1;
+            max-width: 400px;
+            position: relative;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 12px 16px;
+            border: 2px solid #e1e8ed;
+            border-radius: 25px;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+            background: white;
+        }
+
+        .search-box input:focus {
+            outline: none;
+            border-color: #3498db;
+        }
+
+        .search-box input::placeholder {
+            color: #95a5a6;
+        }
+
+        /* メインコンテンツエリア */
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 20px;
+            min-height: 600px;
+        }
+
+        /* イベント詳細エリア（左側） */
+        .event-details {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 24px;
+        }
+
+        .event-details h2 {
+            font-size: 1.4rem;
+            color: #2c3e50;
+            margin-bottom: 16px;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 8px;
+        }
+
+        .event-info {
+            display: none;
+        }
+
+        .event-info.active {
+            display: block;
+        }
+
+        .event-info h3 {
+            font-size: 1.2rem;
+            color: #3498db;
+            margin-bottom: 12px;
+        }
+
+        .event-field {
+            margin-bottom: 16px;
+        }
+
+        .event-field label {
+            display: block;
+            font-weight: 600;
+            color: #555;
+            margin-bottom: 4px;
+            font-size: 0.9rem;
+        }
+
+        .event-field .value {
+            background: #f8f9fa;
+            padding: 8px 12px;
+            border-radius: 6px;
+            border-left: 3px solid #3498db;
+        }
+
+        .no-event-selected {
+            text-align: center;
+            color: #95a5a6;
+            font-style: italic;
+            margin-top: 40px;
+        }
+
+        /* カレンダーエリア（右側） */
+        .calendar-container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 20px;
+        }
+
+        #calendar {
+            height: 100%;
+            min-height: 500px;
+        }
+
+        /* FullCalendar カスタムスタイル */
+        .fc-toolbar-title {
+            font-size: 1.5rem !important;
+            font-weight: 600 !important;
+            color: #2c3e50 !important;
+        }
+
+        .fc-button-primary {
+            background-color: #3498db !important;
+            border-color: #3498db !important;
+            color: white !important;
+        }
+
+        .fc-button-primary:hover {
+            background-color: #2980b9 !important;
+            border-color: #2980b9 !important;
+        }
+
+        .fc-event {
+            border-radius: 4px !important;
+            border: none !important;
+            cursor: pointer !important;
+        }
+
+        .fc-event:hover {
+            opacity: 0.8 !important;
+        }
+
+        /* レスポンシブ対応 */
+        @media (max-width: 768px) {
+            .main-content {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+            
+            .container {
+                padding: 15px;
+            }
+            
+            .header h1 {
+                font-size: 1.5rem;
+            }
+            
+            .search-container {
+                flex-direction: column;
+            }
+            
+            .search-box {
+                max-width: none;
+            }
+        }
+
+        @media (min-width: 769px) and (max-width: 1024px) {
+            .main-content {
+                grid-template-columns: 1fr 1.5fr;
+            }
+        }
+
+        @media (min-width: 1025px) {
+            .main-content {
+                grid-template-columns: 1fr 2fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- ヘッダー・検索エリア -->
+        <div class="header">
+            <h1>VRChatフォトイベントカレンダー</h1>
+            <div class="search-container">
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="イベント名、説明、主催者で検索...">
+                </div>
+            </div>
+        </div>
+
+        <!-- メインコンテンツ -->
+        <div class="main-content">
+            <!-- イベント詳細エリア（左側） -->
+            <div class="event-details">
+                <h2>イベント詳細</h2>
+                
+                <div class="no-event-selected" id="noEventMessage">
+                    カレンダーからイベントを選択してください
+                </div>
+                
+                <div class="event-info" id="eventInfo">
+                    <h3 id="eventTitle">イベント名</h3>
+                    
+                    <div class="event-field">
+                        <label>日時</label>
+                        <div class="value" id="eventDate">-</div>
+                    </div>
+                    
+                    <div class="event-field">
+                        <label>説明</label>
+                        <div class="value" id="eventDescription">-</div>
+                    </div>
+                    
+                    <div class="event-field">
+                        <label>ワールド</label>
+                        <div class="value" id="eventWorld">-</div>
+                    </div>
+                    
+                    <div class="event-field">
+                        <label>主催者</label>
+                        <div class="value" id="eventOrganizer">-</div>
+                    </div>
+                    
+                    <div class="event-field">
+                        <label>参加方法</label>
+                        <div class="value" id="eventJoinMethod">-</div>
+                    </div>
+                    
+                    <div class="event-field">
+                        <label>プラットフォーム</label>
+                        <div class="value" id="eventPlatform">-</div>
+                    </div>
+                    
+                    <div class="event-field">
+                        <label>情報源</label>
+                        <div class="value" id="eventSource">-</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- カレンダーエリア（右側） -->
+            <div class="calendar-container">
+                <div id="calendar"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FullCalendar JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js"></script>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // カレンダー要素を取得
+            const calendarEl = document.getElementById('calendar');
+            
+            // FullCalendarを初期化
+            const calendar = new FullCalendar.Calendar(calendarEl, {
+                initialView: 'dayGridMonth',
+                locale: 'ja',
+                headerToolbar: {
+                    left: 'prev,next today',
+                    center: 'title',
+                    right: 'dayGridMonth,timeGridWeek,timeGridDay,listWeek'
+                },
+                buttonText: {
+                    today: '今日',
+                    month: '月',
+                    week: '週',
+                    day: '日',
+                    list: 'リスト'
+                },
+                height: 'auto',
+                eventDisplay: 'block',
+                dayMaxEvents: 3,
+                moreLinkText: function(num) {
+                    return '+' + num + ' 件';
+                },
+                // イベントクリック時の処理
+                eventClick: function(info) {
+                    showEventDetails(info.event);
+                },
+                // サンプルイベントデータ
+                events: [
+                    {
+                        id: '1',
+                        title: 'VRChatフォト撮影会',
+                        start: '2025-09-05T14:00:00',
+                        end: '2025-09-05T16:00:00',
+                        backgroundColor: '#3498db',
+                        extendedProps: {
+                            description: 'みんなでVRChatの世界で写真撮影を楽しみましょう！',
+                            world: 'Photo Studio World',
+                            organizer: 'VRC Photo Club',
+                            join_method: 'Joinリンクをクリック',
+                            platform: 'VRChat',
+                            source: 'Discord #events'
+                        }
+                    },
+                    {
+                        id: '2',
+                        title: 'アバター撮影イベント',
+                        start: '2025-09-07T19:00:00',
+                        end: '2025-09-07T21:00:00',
+                        backgroundColor: '#e74c3c',
+                        extendedProps: {
+                            description: '新しいアバターをお披露目する撮影イベントです',
+                            world: 'Avatar Showcase',
+                            organizer: 'Avatar Community',
+                            join_method: 'Friendリクエスト後Join',
+                            platform: 'VRChat',
+                            source: 'Twitter @vrchat_photo'
+                        }
+                    }
+                ]
+            });
+            
+            // カレンダーを表示
+            calendar.render();
+            
+            // イベント詳細を表示する関数
+            function showEventDetails(event) {
+                const noEventMessage = document.getElementById('noEventMessage');
+                const eventInfo = document.getElementById('eventInfo');
+                
+                // メッセージを隠してイベント情報を表示
+                noEventMessage.style.display = 'none';
+                eventInfo.classList.add('active');
+                
+                // イベント詳細を更新
+                document.getElementById('eventTitle').textContent = event.title;
+                document.getElementById('eventDate').textContent = formatEventDate(event.start, event.end);
+                document.getElementById('eventDescription').textContent = event.extendedProps.description || '-';
+                document.getElementById('eventWorld').textContent = event.extendedProps.world || '-';
+                document.getElementById('eventOrganizer').textContent = event.extendedProps.organizer || '-';
+                document.getElementById('eventJoinMethod').textContent = event.extendedProps.join_method || '-';
+                document.getElementById('eventPlatform').textContent = event.extendedProps.platform || '-';
+                document.getElementById('eventSource').textContent = event.extendedProps.source || '-';
+            }
+            
+            // 日時フォーマット関数
+            function formatEventDate(start, end) {
+                const options = {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric',
+                    weekday: 'long',
+                    hour: '2-digit',
+                    minute: '2-digit'
+                };
+                
+                let dateString = start.toLocaleDateString('ja-JP', options);
+                
+                if (end) {
+                    const endTime = end.toLocaleTimeString('ja-JP', {
+                        hour: '2-digit',
+                        minute: '2-digit'
+                    });
+                    dateString += ' ～ ' + endTime;
+                }
+                
+                return dateString;
+            }
+            
+            // 検索機能
+            const searchInput = document.getElementById('searchInput');
+            searchInput.addEventListener('input', function(e) {
+                const searchTerm = e.target.value.toLowerCase();
+                
+                // 全イベントを取得
+                const allEvents = calendar.getEvents();
+                
+                // 検索結果に基づいてイベントの表示/非表示を切り替え
+                allEvents.forEach(event => {
+                    const title = event.title.toLowerCase();
+                    const description = (event.extendedProps.description || '').toLowerCase();
+                    const organizer = (event.extendedProps.organizer || '').toLowerCase();
+                    
+                    const isVisible = searchTerm === '' || 
+                        title.includes(searchTerm) || 
+                        description.includes(searchTerm) || 
+                        organizer.includes(searchTerm);
+                    
+                    // イベントの表示/非表示を制御
+                    event.setProp('display', isVisible ? 'auto' : 'none');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
