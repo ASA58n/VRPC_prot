@@ -256,7 +256,7 @@
                     </div>
                     
                     <div class="event-field">
-                        <label>ワールド</label>
+                        <label>注意事項</label>
                         <div class="value" id="eventWorld">-</div>
                     </div>
                     
@@ -304,9 +304,10 @@
                 headerToolbar: {
                     left: 'prev,next today',
                     center: 'title',
-                    right: 'dayGridMonth,timeGridWeek,timeGridDay,listWeek'
+                    right: 'multiMonthYear,dayGridMonth,timeGridWeek,timeGridDay'
                 },
                 buttonText: {
+                    year: '年',
                     today: '今日',
                     month: '月',
                     week: '週',
@@ -323,43 +324,49 @@
                 eventClick: function(info) {
                     showEventDetails(info.event);
                 },
-                // サンプルイベントデータ
-                events: [
-                    {
-                        id: '1',
-                        title: 'VRChatフォト撮影会',
-                        start: '2025-09-05T14:00:00',
-                        end: '2025-09-05T16:00:00',
-                        backgroundColor: '#3498db',
-                        extendedProps: {
-                            description: 'みんなでVRChatの世界で写真撮影を楽しみましょう！',
-                            world: 'Photo Studio World',
-                            organizer: 'VRC Photo Club',
-                            join_method: 'Joinリンクをクリック',
-                            platform: 'VRChat',
-                            source: 'Discord #events'
-                        }
-                    },
-                    {
-                        id: '2',
-                        title: 'アバター撮影イベント',
-                        start: '2025-09-07T19:00:00',
-                        end: '2025-09-07T21:00:00',
-                        backgroundColor: '#e74c3c',
-                        extendedProps: {
-                            description: '新しいアバターをお披露目する撮影イベントです',
-                            world: 'Avatar Showcase',
-                            organizer: 'Avatar Community',
-                            join_method: 'Friendリクエスト後Join',
-                            platform: 'VRChat',
-                            source: 'Twitter @vrchat_photo'
-                        }
-                    }
-                ]
+                // イベントデータを動的に読み込み
+                events: function(info, successCallback, failureCallback) {
+                    fetch('./events.json')
+                        .then(response => {
+                            if (!response.ok) {
+                                throw new Error('events.jsonの読み込みに失敗しました');
+                            }
+                            return response.json();
+                        })
+                        .then(data => {
+                            // JSONデータをFullCalendar用のイベント形式に変換
+                            const events = data.events.map((event, index) => ({
+                                title: event.event_name,
+                                start: event['start date'],
+                                end: event['end date'],
+                                backgroundColor: getEventColor(index),
+                                borderColor: getEventColor(index),
+                                extendedProps: {
+                                    description: event.description,
+                                    organizer: event.organizer,
+                                    join_method: event.join_method,
+                                    source: event.source,
+                                    info: event.info
+                                }
+                            }));
+                            
+                            successCallback(events);
+                        })
+                        .catch(error => {
+                            console.error('イベントデータの読み込みエラー:', error);
+                            failureCallback(error);
+                        });
+                }
             });
             
             // カレンダーを表示
             calendar.render();
+            
+            // イベント色を取得する関数
+            function getEventColor(index) {
+                const colors = ['#3498db', '#e74c3c', '#2ecc71', '#f39c12', '#9b59b6', '#1abc9c', '#34495e', '#e67e22'];
+                return colors[index % colors.length];
+            }
             
             // イベント詳細を表示する関数
             function showEventDetails(event) {
@@ -374,10 +381,10 @@
                 document.getElementById('eventTitle').textContent = event.title;
                 document.getElementById('eventDate').textContent = formatEventDate(event.start, event.end);
                 document.getElementById('eventDescription').textContent = event.extendedProps.description || '-';
-                document.getElementById('eventWorld').textContent = event.extendedProps.world || '-';
+                document.getElementById('eventWorld').textContent = event.extendedProps.info || '-';
                 document.getElementById('eventOrganizer').textContent = event.extendedProps.organizer || '-';
                 document.getElementById('eventJoinMethod').textContent = event.extendedProps.join_method || '-';
-                document.getElementById('eventPlatform').textContent = event.extendedProps.platform || '-';
+                document.getElementById('eventPlatform').textContent = 'VRChat';
                 document.getElementById('eventSource').textContent = event.extendedProps.source || '-';
             }
             

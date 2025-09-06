@@ -1,0 +1,112 @@
+{
+  "events": [
+    {
+      "event_name": "春の桜フォトコンテスト2025",
+      "start date": "2025-04-01T00:00:00+09:00",
+      "end date": "2025-04-30T23:59:59+09:00",
+      "description": "桜をテーマにした美しいVRChat写真を募集します。桜の名所ワールドでの撮影推奨",
+      "organizer": "VRChat桜愛好会",
+      "join_method": "ハッシュタグ #VRChat桜フォトコン2025 をつけてTwitterに投稿",
+      "source": "Twitter: @vrchat_sakura_contest",
+      "info": "優秀作品は公式サイトで展示。賞金総額10万円"
+    },
+    {
+      "event_name": "夜景ポートレートコンテスト", 
+      "start date": "2025-04-15T00:00:00+09:00",
+      "end date": "2025-05-15T23:59:59+09:00",
+      "description": "夜景をバックにしたポートレート写真のコンテスト。ライティング技術が鍵",
+      "organizer": "VRCNightPhoto",
+      "join_method": "ハッシュタグ #VRC夜景ポートレート をつけてDiscordに投稿",
+      "source": "Discord: VRC Night Photography",
+      "info": "審査基準：構図、ライティング、創造性。月末締切"
+    },
+    {
+      "event_name": "アニメキャラなりきりフォトコン",
+      "start date": "2025-05-01T00:00:00+09:00",
+      "end date": "2025-05-07T23:59:59+09:00",
+      "description": "人気アニメキャラクターになりきった写真のコンテスト。1週間の短期決戦",
+      "organizer": "VRアニメ同好会",
+      "join_method": "ハッシュタグ #VRCアニメなりきり をつけて投稿",
+      "source": "VRChatグループ: VRアニメファン",
+      "info": "キャラクター名も明記。オリジナルキャラは対象外"
+    },
+    {
+      "event_name": "風景写真グランプリ",
+      "start date": "2025-05-10T00:00:00+09:00",
+      "end date": "2025-06-10T23:59:59+09:00",
+      "description": "VRChatの美しい風景を切り取った写真コンテスト。自然系ワールド限定",
+      "organizer": "VR風景写真協会",
+      "join_method": "ハッシュタグ #VRC風景グランプリ をつけてInstagramに投稿",
+      "source": "Instagram: @vr_landscape_photo",
+      "info": "ワールド名記載必須。人物が写り込んでいるものは審査対象外"
+    },
+    {
+      "event_name": "SF世界観フォトコンテスト",
+      "start date": "2025-06-01T00:00:00+09:00",
+      "end date": "2025-06-21T23:59:59+09:00",
+      "description": "サイバーパンク・SF系ワールドでの創造的な写真を募集",
+      "organizer": "VRCyberWorld",
+      "join_method": "ハッシュタグ #VRCSFフォト をつけてTwitterに投稿",
+      "source": "Twitter: @vrc_scifi_contest",
+      "info": "未来的エフェクト使用歓迎。3週間募集期間"
+    },
+    {
+      "event_name": "ペット＆アニマルフォトコン",
+      "start date": "2025-06-15T00:00:00+09:00",
+      "end date": "2025-06-22T23:59:59+09:00",
+      "description": "可愛い動物アバターとの写真コンテスト。癒し系写真大募集",
+      "organizer": "VRCペット愛好家",
+      "join_method": "ハッシュタグ #VRCペットフォト をつけて投稿",
+      "source": "Discord: VRC Animal Lovers",
+      "info": "ペット系アバター必須。1週間の短期募集"
+    },
+    {
+      "event_name": "夏祭りフォトコンテスト2025",
+      "start date": "2025-07-01T00:00:00+09:00",
+      "end date": "2025-08-31T23:59:59+09:00",
+      "description": "夏祭りワールドでの思い出写真コンテスト。浴衣アバター推奨",
+      "organizer": "VR夏祭り実行委員会",
+      "join_method": "ハッシュタグ #VRC夏祭りフォト2025 をつけてTwitterに投稿",
+      "source": "公式サイト: vrc-matsuri.com",
+      "info": "2ヶ月間の長期開催。週間賞・月間賞・グランプリ設定"
+    },
+    {
+      "event_name": "クリエイター作品展示フォトコン",
+      "start date": "2025-07-15T00:00:00+09:00",
+      "end date": "2025-08-15T23:59:59+09:00",
+      "description": "VRChatクリエイターの作品と一緒に撮影した写真のコンテスト",
+      "organizer": "VRCクリエイター支援団体",
+      "join_method": "ハッシュタグ #VRCクリエイター応援フォト をつけて投稿",
+      "source": "Discord: VRC Creator Support",
+      "info": "クリエイター名とワールド名記載必須。作品紹介も歓迎"
+    }
+  ],
+  "weekly_recurring_events": {
+    "weekly_theme_contest": {
+      "event_name": "週間テーマフォトコン",
+      "day_of_week": 1,
+      "time": "00:00",
+      "duration": 10080,
+      "description": "毎週異なるテーマでの写真コンテスト",
+      "organizer": "VRC Weekly Contest"
+    },
+    "monthly_challenge": {
+      "event_name": "月間チャレンジ",
+      "day_of_week": 1, 
+      "time": "00:00",
+      "duration": 43200,
+      "description": "月単位での大型フォトコンテスト",
+      "organizer": "VRC Monthly Challenge"
+    }
+  },
+  "event_summary": {
+    "total_events": 8,
+    "categories": {
+      "seasonal": 3,
+      "themed": 3,
+      "creative": 2
+    },
+    "organizers_count": 8,
+    "average_duration_days": 25.5
+  }
+}
