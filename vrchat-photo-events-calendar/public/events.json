@@ -79,6 +79,76 @@
       "join_method": "ハッシュタグ #VRCクリエイター応援フォト をつけて投稿",
       "source": "Discord: VRC Creator Support",
       "info": "クリエイター名とワールド名記載必須。作品紹介も歓迎"
+    },
+    {
+      "event_name": "プレさんフォトコン",
+      "start date": "2025-09-10T00:00:00+09:00",
+      "end date": "2025-09-30T23:59:59+09:00",
+      "description": "主催者のBOOTHアイテムを1点以上使用し、VRChat内で撮影。改変・カメラギミック・ライティング・particle OK。画像加工NG。",
+      "organizer": "@hyades_05 (プレアデス05)",
+      "join_method": "#プレさんフォトコン タグ付きでXに投稿（1投稿1画像、複数投稿OK）。応募条件: 主催者アカウントフォロー。",
+      "source": "https://x.com/hyades_05/status/1965227081958371698",
+      "info": "BOOTHアイテム: https://ple-sandbox.booth.pm/"
+    },
+    {
+      "event_name": "uulonフォトコン",
+      "start date": "2025-09-07T00:00:00+09:00",
+      "end date": "2025-10-01T23:59:59+09:00",
+      "description": "VRChat内で撮影。画像に主催者の服を使用推奨。",
+      "organizer": "@tyoryu_nagao (烏龍長男)",
+      "join_method": "#uulon タグ付きでXに投稿。写真に https://uulon.booth.pm/ URLを記載。",
+      "source": "https://x.com/tyoryu_nagao/status/1964703537340076519",
+      "info": "BOOTHアイテム: https://uulon.booth.pm/"
+    },
+    {
+      "event_name": "旅フォトコン",
+      "start date": "2025-09-01T00:00:00+09:00",
+      "end date": "2025-09-30T23:59:59+09:00",
+      "description": "VRChat内で撮影。テーマ: 『旅』。アバター指定なし、レタッチ・合成無制限、AI生成禁止。最新2作品採用。",
+      "organizer": "@kaname00_vrc (かなめ)",
+      "join_method": "#旅フォトコン タグ付きでXに投稿。",
+      "source": "https://x.com/kaname00_vrc/status/1953214813854941565",
+      "info": "トーナメント投票あり。"
+    },
+    {
+      "event_name": "Tokyo Mood by BEAMS × HoP コラボフォトコン",
+      "start date": "2025-08-15T00:00:00+09:00",
+      "end date": "2025-09-23T23:59:59+09:00",
+      "description": "VRChatワールド「Tokyo Mood by BEAMS」を舞台に撮影。テーマ: ファッションスナップ/ワールド写真。",
+      "organizer": "@Virtual_BEAMS & @fujifilmjp_hop (Fujifilm House of Photography in Metaverse)",
+      "join_method": "#TokyoMoodSnap タグ付きでXに投稿（ファッションスナップ、全身縦写真推奨）。またはDiscordの専用チャンネルにワールド写真投稿。",
+      "source": "https://x.com/fujifilmjp_hop/status/1956272584179507602",
+      "info": "Discord: https://discord.com/invite/GwtSahdFwD, 詳細: https://houseofphotography-jp.fujifilm.com/contents/gallery/gallery-4876/"
+    },
+    {
+      "event_name": "第1回VRC旅フォトコン",
+      "start date": "2025-09-05T00:00:00+09:00",
+      "end date": "2025-09-15T23:59:59+09:00",
+      "description": "VRChat内で撮影。テーマ: 「夏のワンシーンフォト」。BOOTHギフト券賞品（最優秀・優秀賞のみ）。",
+      "organizer": "@Eve_Information (運営代表: 來夢 @__raimu__46)",
+      "join_method": "#VRC旅フォト タグ付きで投稿。",
+      "source": "https://x.com/Eve_Information/status/1963020494187204659",
+      "info": "詳細ルール: https://insulator-syaimeiri.com/?page_id=304, 発表: 9/20予定"
+    },
+    {
+      "event_name": "Null Keys Barフォトコン",
+      "start date": "2025-09-01T00:00:00+09:00",
+      "end date": "2025-09-14T23:59:59+09:00",
+      "description": "テーマ: 「アングラ」。",
+      "organizer": "@NullKeysBar",
+      "join_method": "#NKsBarフォトコン タグ付きでXに投稿。",
+      "source": "https://x.com/NullKeysBar/status/1962093042539942125",
+      "info": "詳細画像参照: https://t.co/El75jaFbqf"
+    },
+    {
+      "event_name": "VRC観測者フォトコン",
+      "start date": "2025-09-01T00:00:00+09:00",
+      "end date": "2025-09-17T23:59:59+09:00",
+      "description": "テーマ: 神椿関連（コスプレ・再現・概念アバター）。景品あり。",
+      "organizer": "@sheep_m87 (日辻めいか, 仮想的交流開拓局)",
+      "join_method": "#VRC観測者フォトコン タグ付きで投稿。",
+      "source": "https://x.com/sheep_m87/status/1951964258998313218",
+      "info": "詳細: Discord https://discord.com/invite/r2uSEUQafN のフォトコンチャンネル"
     }
   ],
   "weekly_recurring_events": {
@@ -100,13 +170,13 @@
     }
   },
   "event_summary": {
-    "total_events": 8,
+    "total_events": 15,
     "categories": {
       "seasonal": 3,
-      "themed": 3,
-      "creative": 2
+      "themed": 8,
+      "creative": 4
     },
-    "organizers_count": 8,
-    "average_duration_days": 25.5
+    "organizers_count": 15,
+    "average_duration_days": 22.1
   }
 }
