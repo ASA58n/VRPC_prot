@@ -31,14 +31,34 @@
       "info": "トーナメント投票あり。"
     },
     {
-      "event_name": "Tokyo Mood by BEAMS × HoP コラボフォトコン",
-      "start date": "2025-08-15T00:00:00+09:00",
+      "event_name": "Fujifilm HoP × Tokyo Mood by BEAMS フォトコン",
+      "start date": "2025-08-25T00:00:00+09:00",
       "end date": "2025-09-23T23:59:59+09:00",
-      "description": "VRChatワールド「Tokyo Mood by BEAMS」を舞台に撮影。テーマ: ファッションスナップ/ワールド写真。",
-      "organizer": "@Virtual_BEAMS & @fujifilmjp_hop (Fujifilm House of Photography in Metaverse)",
-      "join_method": "#TokyoMoodSnap タグ付きでXに投稿（ファッションスナップ、全身縦写真推奨）。またはDiscordの専用チャンネルにワールド写真投稿。",
-      "source": "https://x.com/fujifilmjp_hop/status/1956272584179507602",
-      "info": "Discord: https://discord.com/invite/GwtSahdFwD, 詳細: https://houseofphotography-jp.fujifilm.com/contents/gallery/gallery-4876/"
+      "description": "Tokyo Mood by BEAMSワールドの写真：ワールド写真はDiscord「VR PHOTO PRINT CLUB」投稿、ファッションスナップは#TokyoMoodSnap でX投稿（全身縦写真推奨）。photo zine掲載可能性。",
+      "organizer": "BEAMS virtual staff (@Virtual_BEAMS)",
+      "join_method": "ワールド写真はDiscord「VR PHOTO PRINT CLUB」投稿、ファッションスナップは#TokyoMoodSnap でX投稿（全身縦写真推奨）。",
+      "source": "https://x.com/Virtual_BEAMS/status/1959816617870938133",
+      "info": "photo zine掲載可能性あり"
+    },
+    {
+      "event_name": "第五回VRC感情の解釈フォトコン",
+      "start date": "2025-09-08T00:00:00+09:00",
+      "end date": "2025-09-22T23:59:59+09:00",
+      "description": "「憧憬（憧れ）」をテーマに解釈したVRChat写真を、#第五回VRC感情の解釈フォトコン を付けてXに投稿。賞金なし、解釈自由。",
+      "organizer": "しろねこ (@46nekoVRC)",
+      "join_method": "#第五回VRC感情の解釈フォトコン を付けてXに投稿。",
+      "source": "https://x.com/46nekoVRC/status/1964860869151793562",
+      "info": "テーマ：憧憬（憧れ）、解釈自由"
+    },
+    {
+      "event_name": "第5回Velleフォトコン",
+      "start date": "2025-09-14T00:00:00+09:00",
+      "end date": "2025-09-30T23:59:59+09:00",
+      "description": "Velleちゃんを被写体（同意必須）のVRChat写真を、#Velleフォトコン を付けてXに投稿。1投稿4枚まで、レタッチ自由、NSFW控えめ。賞金なし。",
+      "organizer": "こま (@kommma_)",
+      "join_method": "#Velleフォトコン を付けてXに投稿。1投稿4枚まで。",
+      "source": "https://x.com/kommma_/status/1967398020133331110",
+      "info": "被写体：Velleちゃん（同意必須）、レタッチ自由、NSFW控えめ"
     },
     {
       "event_name": "第1回VRC旅フォトコン",
