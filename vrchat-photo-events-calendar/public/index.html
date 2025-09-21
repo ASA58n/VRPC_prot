@@ -413,14 +413,14 @@
                     day: 'numeric',
                     weekday: 'long'
                 };
-
+                
                 let dateString = start.toLocaleDateString('ja-JP', options);
-
+                
                 if (end) {
                     const endDate = end.toLocaleDateString('ja-JP', options);
                     dateString += ' - ' + endDate;
                 }
-
+                
                 return dateString;
             }
             
