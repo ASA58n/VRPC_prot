@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VRChatフォトイベントカレンダー</title>
+    
+    <!-- FullCalendar CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.css" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* ヘッダー・検索エリア */
+        .header {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+
+        .header h1 {
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .search-container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .search-box {
+            flex: 1;
+            max-width: 400px;
+            position: relative;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 12px 16px;
+            border: 2px solid #e1e8ed;
+            border-radius: 25px;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+            background: white;
+        }
+
+        .search-box input:focus {
+            outline: none;
+            border-color: #3498db;
+        }
+
+        .search-box input::placeholder {
+            color: #95a5a6;
+        }
+
+        /* 現在開催中セクション（PC版のみ） */
+        .current-events-section {
+            background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(238, 90, 36, 0.3);
+            margin-bottom: 20px;
+            padding: 20px;
+            color: white;
+            display: none; /* デフォルトで非表示 */
+        }
+
+        .current-events-section.has-events {
+            display: block; /* イベントがある時のみ表示 */
+        }
+
+        .current-events-section h2 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .current-events-section h2::before {
+            content: "🔴";
+            font-size: 1.2rem;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        .current-events-list {
+            display: grid;
+            gap: 12px;
+        }
+
+        .current-event-item {
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 8px;
+            padding: 16px;
+            border-left: 4px solid rgba(255, 255, 255, 0.8);
+            transition: transform 0.2s ease;
+        }
+
+        .current-event-item:hover {
+            transform: translateY(-2px);
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .current-event-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .current-event-info {
+            font-size: 0.9rem;
+            opacity: 0.9;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .current-event-time {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+
+        /* メインコンテンツエリア */
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 20px;
+            min-height: 600px;
+        }
+
+        /* イベント詳細エリア（左側） */
+        .event-details {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 24px;
+        }
+
+        .event-details h2 {
+            font-size: 1.4rem;
+            color: #2c3e50;
+            margin-bottom: 16px;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 8px;
+        }
+
+        .event-info {
+            display: none;
+        }
+
+        .event-info.active {
+            display: block;
+        }
+
+        .event-info h3 {
+            font-size: 1.2rem;
+            color: #3498db;
+            margin-bottom: 12px;
+        }
+
+        .event-field {
+            margin-bottom: 16px;
+        }
+
+        .event-field label {
+            display: block;
+            font-weight: 600;
+            color: #555;
+            margin-bottom: 4px;
+            font-size: 0.9rem;
+        }
+
+        .event-field .value {
+            background: #f8f9fa;
+            padding: 8px 12px;
+            border-radius: 6px;
+            border-left: 3px solid #3498db;
+        }
+
+        .no-event-selected {
+            text-align: center;
+            color: #95a5a6;
+            font-style: italic;
+            margin-top: 40px;
+        }
+
+        /* カレンダーエリア（右側） */
+        .calendar-container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 20px;
+        }
+
+        #calendar {
+            height: 100%;
+            min-height: 500px;
+        }
+
+        /* エラーメッセージ */
+        .error-message {
+            background: #ffe6e6;
+            border: 1px solid #ff9999;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            color: #d32f2f;
+            margin: 20px 0;
+        }
+
+        .error-message p {
+            margin-bottom: 8px;
+        }
+
+        .error-message p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* ローディング表示 */
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+
+        .loading-spinner {
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #3498db;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 16px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* FullCalendar カスタムスタイル */
+        .fc-toolbar-title {
+            font-size: 1.5rem !important;
+            font-weight: 600 !important;
+            color: #2c3e50 !important;
+        }
+
+        .fc-button-primary {
+            background-color: #3498db !important;
+            border-color: #3498db !important;
+            color: white !important;
+        }
+
+        .fc-button-primary:hover {
+            background-color: #2980b9 !important;
+            border-color: #2980b9 !important;
+        }
+
+        .fc-event {
+            border-radius: 4px !important;
+            border: none !important;
+            cursor: pointer !important;
+        }
+
+        .fc-event:hover {
+            opacity: 0.8 !important;
+        }
+
+        /* 年表示を強制的に無効化 */
+        .fc-multiMonthYear-view {
+            display: none !important;
+        }
+
+        /* 現在開催中イベントのスタイル */
+        .fc-event.event-current {
+            background-color: #ff6b6b !important;
+            border-color: #ee5a24 !important;
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes glow {
+            from { box-shadow: 0 0 5px rgba(238, 90, 36, 0.5); }
+            to { box-shadow: 0 0 10px rgba(238, 90, 36, 0.8), 0 0 15px rgba(238, 90, 36, 0.6); }
+        }
+
+        /* PC版 - 年表示専用スタイル */
+        @media (min-width: 769px) {
+            .main-content {
+                grid-template-columns: 1fr 2fr;
+            }
+            .current-events-section {
+                display: block; /* PC版では常に表示領域を確保 */
+            }
+        }
+
+        /* タブレット版 */
+        @media (min-width: 769px) and (max-width: 1024px) {
+            .main-content {
+                grid-template-columns: 1fr 1.5fr;
+            }
+        }
+
+        /* モバイル専用スタイル - 現在開催中セクションを非表示 */
+        @media (max-width: 768px) {
+            /* 現在開催中セクションをモバイルでは非表示 */
+            .current-events-section {
+                display: none !important;
+            }
+            
+            /* レイアウトを縦並びに変更 */
+            .main-content {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+            
+            /* ヘッダーの調整 */
+            .container {
+                padding: 10px;
+            }
+            
+            .header {
+                padding: 15px;
+                margin-bottom: 15px;
+            }
+            
+            .header h1 {
+                font-size: 1.4rem;
+                margin-bottom: 12px;
+            }
+            
+            /* 検索ボックスの調整 */
+            .search-container {
+                flex-direction: column;
+            }
+            
+            .search-box {
+                max-width: none;
+            }
+            
+            .search-box input {
+                padding: 14px 18px; /* タッチしやすいサイズに */
+                font-size: 16px; /* iOSのズーム防止 */
+            }
+            
+            /* イベント詳細エリアの調整 */
+            .event-details {
+                padding: 16px;
+                order: 1; /* イベント詳細を上に移動 */
+            }
+            
+            /* カレンダーエリアの調整 */
+            .calendar-container {
+                padding: 12px;
+                order: 2; /* カレンダーを下に移動 */
+            }
+            
+            /* FullCalendar ToolBarの大幅改善 */
+            .fc-toolbar {
+                flex-direction: column !important;
+                gap: 12px !important;
+                padding: 8px 4px !important;
+            }
+            
+            .fc-toolbar-chunk {
+                display: flex !important;
+                justify-content: center !important;
+                align-items: center !important;
+            }
+            
+            /* ボタンサイズを大きく */
+            .fc-button {
+                padding: 10px 16px !important;
+                font-size: 14px !important;
+                min-height: 44px !important; /* Apple推奨タッチサイズ */
+                margin: 0 2px !important;
+            }
+            
+            /* タイトルの調整 */
+            .fc-toolbar-title {
+                font-size: 1.2rem !important;
+                margin: 8px 0 !important;
+                text-align: center !important;
+            }
+            
+            /* カレンダー本体の調整 */
+            .fc-daygrid-event {
+                font-size: 12px !important;
+                padding: 2px 4px !important;
+            }
+            
+            .fc-col-header-cell {
+                padding: 8px 2px !important;
+            }
+            
+            .fc-daygrid-day-number {
+                padding: 8px !important;
+                font-size: 14px !important;
+            }
+        }
+
+        /* 極小画面（iPhone SE等）対応 */
+        @media (max-width: 480px) {
+            .header h1 {
+                font-size: 1.2rem;
+            }
+            
+            .fc-button {
+                padding: 8px 12px !important;
+                font-size: 13px !important;
+            }
+            
+            .fc-toolbar-title {
+                font-size: 1.1rem !important;
+            }
+            
+            /* より読みやすいイベント表示 */
+            .fc-daygrid-event {
+                font-size: 11px !important;
+                white-space: nowrap !important;
+                overflow: hidden !important;
+                text-overflow: ellipsis !important;
+            }
+            
+            /* イベント詳細の調整 */
+            .event-details {
+                padding: 12px;
+            }
+            
+            .event-field .value {
+                padding: 6px 10px;
+                font-size: 14px;
+                line-height: 1.4;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- ヘッダー・検索エリア -->
+        <div class="header">
+            <h1>VRChatフォトイベントカレンダー</h1>
+            <div class="search-container">
+                <div class="search-box">
+                    <input 
+                        type="text" 
+                        id="searchInput" 
+                        placeholder="イベント名、説明、主催者で検索..."
+                        aria-label="イベント検索"
+                        autocomplete="off"
+                        autocapitalize="off"
+                        autocorrect="off"
+                    >
+                </div>
+            </div>
+        </div>
+
+        <!-- 現在開催中セクション（PC版のみ） -->
+        <div class="current-events-section" id="currentEventsSection">
+            <h2>現在開催中のイベント</h2>
+            <div class="current-events-list" id="currentEventsList">
+                <!-- 現在開催中のイベントがここに動的に表示される -->
+            </div>
+        </div>
+
+        <!-- メインコンテンツ -->
+        <div class="main-content">
+            <!-- イベント詳細エリア（左側） -->
+            <div class="event-details">
+                <h2>イベント詳細</h2>
+                
+                <div class="no-event-selected" id="noEventMessage">
+                    カレンダーからイベントを選択してください
+                </div>
+                
+                <div class="event-info" id="eventInfo">
+                    <h3 id="eventTitle">イベント名</h3>
+                    
+                    <div class="event-field">
+                        <label>日時</label>
+                        <div class="value" id="eventDate">-</div>
+                    </div>
+                    
+                    <div class="event-field">
+                        <label>説明</label>
+                        <div class="value" id="eventDescription">-</div>
+                    </div>
+                    
+                    <div class="event-field">
+                        <label>ワールド/会場</label>
+                        <div class="value" id="eventWorld">-</div>
+                    </div>
+                    
+                    <div class="event-field">
+                        <label>主催者</label>
+                        <div class="value" id="eventOrganizer">-</div>
+                    </div>
+                    
+                    <div class="event-field">
+                        <label>参加方法</label>
+                        <div class="value" id="eventJoinMethod">-</div>
+                    </div>
+                    
+                    <div class="event-field">
+                        <label>プラットフォーム</label>
+                        <div class="value" id="eventPlatform">-</div>
+                    </div>
+                    
+                    <div class="event-field">
+                        <label>情報源</label>
+                        <div class="value" id="eventSource">-</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- カレンダーエリア（右側） -->
+            <div class="calendar-container">
+                <div id="loadingMessage" class="loading">
+                    <div class="loading-spinner"></div>
+                    <p>イベントデータを読み込み中...</p>
+                </div>
+                <div id="calendar"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FullCalendar JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js"></script>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // カレンダー要素を取得
+            const calendarEl = document.getElementById('calendar');
+            const loadingEl = document.getElementById('loadingMessage');
+            let allEvents = []; // 全イベントを保持
+            
+            // モバイル検出
+            function isMobile() {
+                return window.innerWidth <= 768;
+            }
+            
+            // PC/モバイルに応じた初期ビューを決定
+            function getInitialView() {
+                return isMobile() ? 'dayGridMonth' : 'multiMonthYear';
+            }
+            
+            // PC/モバイルに応じたヘッダーツールバーを決定
+            function getHeaderToolbar() {
+                return {
+                    left: 'prev,next',
+                    center: 'title',
+                    right: ''
+                };
+            }
+            
+            // テキストサニタイズ関数
+            function sanitizeText(text) {
+                if (!text) return '-';
+                const div = document.createElement('div');
+                div.textContent = text;
+                return div.textContent;
+            }
+            
+            // エラー表示関数
+            function showError(message) {
+                const errorDiv = document.createElement('div');
+                errorDiv.className = 'error-message';
+                errorDiv.innerHTML = `
+                    <p>⚠️ ${message}</p>
+                    <p>しばらく時間をおいてから再度お試しください</p>
+                `;
+                
+                const calendarContainer = document.querySelector('.calendar-container');
+                calendarContainer.appendChild(errorDiv);
+                loadingEl.style.display = 'none';
+            }
+            
+            // 現在開催中イベントの判定
+            function isEventCurrent(eventDate, duration = 2) {
+                const now = new Date();
+                const eventStart = new Date(eventDate);
+                const eventEnd = new Date(eventStart.getTime() + duration * 60 * 60 * 1000); // デフォルト2時間
+                
+                return now >= eventStart && now <= eventEnd;
+            }
+            
+            // 現在開催中イベントの表示更新
+            function updateCurrentEvents(events) {
+                const currentEventsSection = document.getElementById('currentEventsSection');
+                const currentEventsList = document.getElementById('currentEventsList');
+                
+                // PC版でのみ処理
+                if (isMobile()) {
+                    currentEventsSection.style.display = 'none';
+                    return;
+                }
+                
+                // 現在開催中のイベントを抽出
+                const currentEvents = events.filter(event => {
+                    return isEventCurrent(event.start);
+                });
+                
+                // 現在開催中のイベントがあるかどうかでセクション表示を制御
+                if (currentEvents.length > 0) {
+                    currentEventsSection.classList.add('has-events');
+                    
+                    // 現在開催中イベントのHTML生成
+                    const currentEventsHTML = currentEvents.map(event => {
+                        const eventTime = new Date(event.start).toLocaleTimeString('ja-JP', {
+                            hour: '2-digit',
+                            minute: '2-digit'
+                        });
+                        
+                        return `
+                            <div class="current-event-item" onclick="selectCurrentEvent('${event.id}')">
+                                <div class="current-event-title">${sanitizeText(event.title)}</div>
+                                <div class="current-event-info">
+                                    <span class="current-event-time">${eventTime}〜</span>
+                                    <span>主催: ${sanitizeText(event.extendedProps.organizer)}</span>
+                                </div>
+                            </div>
+                        `;
+                    }).join('');
+                    
+                    currentEventsList.innerHTML = currentEventsHTML;
+                } else {
+                    currentEventsSection.classList.remove('has-events');
+                }
+            }
+            
+            // 現在開催中イベントクリック時の処理
+            window.selectCurrentEvent = function(eventId) {
+                const event = allEvents.find(e => e.id === eventId);
+                if (event) {
+                    showEventDetails(event);
+                    // カレンダーでそのイベントをハイライト
+                    calendar.select(event.start);
+                }
+            };
+            
+            // カレンダー設定
+            const calendarConfig = {
+                initialView: getInitialView(),
+                locale: 'ja',
+                headerToolbar: getHeaderToolbar(),
+                buttonText: {
+                    year: '年',
+                    today: '今日',
+                    month: '月',
+                    week: '週',
+                    day: '日',
+                    list: 'リスト'
+                },
+                height: 'auto',
+                eventDisplay: 'block',
+                dayMaxEvents: isMobile() ? 2 : 3,
+                displayEventTime: false,
+                moreLinkText: function(num) {
+                    return '+' + num + ' 件';
+                },
+                // イベントクリック時の処理
+                eventClick: function(info) {
+                    showEventDetails(info.event);
+                    // モバイルの場合はイベント詳細にスクロール
+                    if (isMobile()) {
+                        setTimeout(() => {
+                            document.getElementById('eventInfo').scrollIntoView({
+                                behavior: 'smooth',
+                                block: 'start'
+                            });
+                        }, 100);
+                    }
+                },
+                // イベントレンダリング後の処理
+                eventDidMount: function(info) {
+                    // 現在開催中のイベントにスタイルを適用
+                    if (isEventCurrent(info.event.start)) {
+                        info.el.classList.add('event-current');
+                    }
+                },
+                // イベントデータを動的に読み込み
+                events: function(info, successCallback, failureCallback) {
+                    // 実際のJSONデータ（拡張版）
+                    const jsonData = {
+                        "events": [
+                            {
+                                "event_name": "VRC「撮影の集い」",
+                                "date": "2024-09-02T22:00:00+09:00",
+                                "description": "毎週月曜日22:00-24:00開催の定期撮影会。写真好きが集まる最も人気の撮影イベント。初心者歓迎で基本的なカメラ操作指導もあり。毎回70-80名参加。",
+                                "world": "週替わり（撮影向けワールド選定）",
+                                "organizer": "Reg(土)さん (@ANCR_eret)",
+                                "join_method": "主催者へフレンド申請後、開催時間にJoin",
+                                "platform": "PC/Quest",
+                                "source": "VR Life Magazine / @vrc_phototsudoi"
+                            },
+                            {
+                                "event_name": "VRC Avatar Collection「1Dozen Collection」Col.1",
+                                "date": "2024-11-04T21:00:00+09:00",
+                                "description": "12体の新作アバターを紹介するファッションショー形式の撮影イベント。ランウェイ形式で新作アバターの魅力を撮影できる高品質イベント。参加者60名限定。",
+                                "world": "Collection専用ランウェイワールド",
+                                "organizer": "VRC Avatar Collection (@vrc_avacolle)",
+                                "join_method": "事前申込制（参加者60名限定）",
+                                "platform": "PC/Quest（Poorランク以上のアバター必須）",
+                                "source": "X (Twitter) @vrc_avacolle"
+                            },
+                            {
+                                "event_name": "Virtual Market 2024 Winter フォトエリア",
+                                "date": "2024-12-21T12:00:00+09:00",
+                                "description": "世界最大規模のVRイベント「バーチャルマーケット」内の撮影専用エリア。新作アバターやワールドでの撮影が楽しめる期間限定大型イベント。",
+                                "world": "Virtual Market 2024 Winter各会場",
+                                "organizer": "HIKKY / Virtual Market運営",
+                                "join_method": "Vketワールドへ直接参加",
+                                "platform": "PC/Quest",
+                                "source": "Virtual Market公式サイト"
+                            },
+                            {
+                                "event_name": "Japan Street新年集合写真",
+                                "date": "2025-01-01T23:00:00+09:00",
+                                "description": "日本最大のVRChatコミュニティハブ「Japan Street」での新年恒例集合写真イベント。毎年多数の参加者が集まる伝統行事。42,000以上のお気に入りを持つ人気ワールド。",
+                                "world": "Japan Street",
+                                "organizer": "Japan Street コミュニティ (NEET ENGINEER制作)",
+                                "join_method": "Japan Street Discord (discord.gg/YhK4gXr) または直接参加",
+                                "platform": "PC/Quest",
+                                "source": "VRChat Wiki"
+                            },
+                            {
+                                "event_name": "現在開催中テストイベント",
+                                "date": new Date().toISOString(),
+                                "description": "現在開催中の表示テスト用のサンプルイベントです。実際には存在しません。",
+                                "world": "テスト用ワールド",
+                                "organizer": "テスト主催者",
+                                "join_method": "テスト参加方法",
+                                "platform": "PC/Quest",
+                                "source": "テストデータ"
+                            },
+                            {
+                                "event_name": "VRC夜景撮影会【開催中】",
+                                "date": new Date(Date.now() - 30 * 60 * 1000).toISOString(),
+                                "description": "東京の美しい夜景を背景にした撮影会。現在開催中のイベントです。初心者大歓迎！",
+                                "world": "Tokyo Night View World",
+                                "organizer": "夜景撮影サークル (@yakai_vrc)",
+                                "join_method": "主催者にフレンド申請後Join",
+                                "platform": "PC/Quest",
+                                "source": "VRC撮影コミュニティ"
+                            },
+                            {
+                                "event_name": "VRCフォト交流会【開催中】",
+                                "date": new Date(Date.now() - 60 * 60 * 1000).toISOString(),
+                                "description": "写真好きが集まる交流会。現在開催中です！撮影テクニックの共有やアバター撮影など盛りだくさん。",
+                                "world": "Photo Studio World",
+                                "organizer": "フォト交流サークル (@photo_vrc)",
+                                "join_method": "Discord経由で参加",
+                                "platform": "PC/Quest",
+                                "source": "VRCフォトコミュニティ"
+                            },
+                            {
+                                "event_name": "強制表示テストイベント",
+                                "date": new Date(Date.now() - 10 * 60 * 1000).toISOString(),
+                                "description": "確実に現在開催中として表示されるテストイベント（10分前開始）",
+                                "world": "強制表示ワールド",
+                                "organizer": "デバッグ用主催者",
+                                "join_method": "テスト参加",
+                                "platform": "PC/Quest",
+                                "source": "デバッグデータ"
+                            }
+                        ]
+                    };
+                    
+                    try {
+                        // データ検証
+                        if (!jsonData || !Array.isArray(jsonData.events)) {
+                            throw new Error('イベントデータの形式が正しくありません');
+                        }
+                        
+                        // 有効なイベントのみフィルタリング
+                        const validEvents = jsonData.events.filter(event => {
+                            return event.event_name && 
+                                   event.date && 
+                                   event.date.trim() !== '';
+                        });
+                        
+                        if (validEvents.length === 0) {
+                            throw new Error('有効なイベントデータが見つかりません');
+                        }
+                        
+                        // JSONデータをFullCalendar用のイベント形式に変換
+                        const events = validEvents.map((event, index) => ({
+                            id: `event-${index}`,
+                            title: sanitizeText(event.event_name),
+                            start: event.date,
+                            backgroundColor: getEventColor(index),
+                            borderColor: getEventColor(index),
+                            extendedProps: {
+                                description: sanitizeText(event.description),
+                                world: sanitizeText(event.world),
+                                organizer: sanitizeText(event.organizer),
+                                join_method: sanitizeText(event.join_method),
+                                platform: sanitizeText(event.platform),
+                                source: sanitizeText(event.source)
+                            }
+                        }));
+                        
+                        // 全イベントを保持
+                        allEvents = events;
+                        
+                        // 現在開催中イベントを更新
+                        updateCurrentEvents(events);
+                        
+                        loadingEl.style.display = 'none';
+                        successCallback(events);
+                    } catch (error) {
+                        console.error('イベントデータの処理エラー:', error);
+                        showError('イベントデータの読み込みに失敗しました');
+                        failureCallback(error);
+                    }
+                }
+            };
+            
+            // FullCalendarを初期化
+            calendar = new FullCalendar.Calendar(calendarEl, calendarConfig);
+            
+            // カレンダーを表示
+            calendar.render();
+            
+            // 初期化後に月表示を確実にする
+            setTimeout(() => {
+                if (calendar.view.type !== 'dayGridMonth') {
+                    calendar.changeView('dayGridMonth');
+                }
+            }, 100);
+            
+            // イベント色を取得する関数
+            function getEventColor(index) {
+                const colors = ['#3498db', '#e74c3c', '#2ecc71', '#f39c12', '#9b59b6', '#1abc9c', '#34495e', '#e67e22'];
+                return colors[index % colors.length];
+            }
+            
+            // イベント詳細を表示する関数
+            function showEventDetails(event) {
+                const noEventMessage = document.getElementById('noEventMessage');
+                const eventInfo = document.getElementById('eventInfo');
+                
+                // メッセージを隠してイベント情報を表示
+                noEventMessage.style.display = 'none';
+                eventInfo.classList.add('active');
+                
+                // イベント詳細を更新
+                document.getElementById('eventTitle').textContent = event.title;
+                document.getElementById('eventDate').textContent = formatEventDate(event.start, event.end);
+                document.getElementById('eventDescription').textContent = event.extendedProps.description;
+                document.getElementById('eventWorld').textContent = event.extendedProps.world;
+                document.getElementById('eventOrganizer').textContent = event.extendedProps.organizer;
+                document.getElementById('eventJoinMethod').textContent = event.extendedProps.join_method;
+                document.getElementById('eventPlatform').textContent = event.extendedProps.platform;
+                document.getElementById('eventSource').textContent = event.extendedProps.source;
+            }
+            
+            // 日時フォーマット関数
+            function formatEventDate(start, end) {
+                const options = {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric',
+                    weekday: 'long',
+                    hour: '2-digit',
+                    minute: '2-digit'
+                };
+                
+                let dateString = start.toLocaleDateString('ja-JP', options);
+                
+                if (end) {
+                    const endTime = end.toLocaleTimeString('ja-JP', {
+                        hour: '2-digit',
+                        minute: '2-digit'
+                    });
+                    dateString += ' ～ ' + endTime;
+                }
+                
+                return dateString;
+            }
+            
+            // 検索機能（デバウンス付き）
+            let searchTimeout;
+            const searchInput = document.getElementById('searchInput');
+            
+            function performSearch(searchTerm) {
+                const normalizedTerm = searchTerm.toLowerCase().trim();
+                
+                // 全イベントを取得
+                const allCalendarEvents = calendar.getEvents();
+                
+                // 検索結果に基づいてイベントの表示/非表示を切り替え
+                allCalendarEvents.forEach(event => {
+                    const title = event.title.toLowerCase();
+                    const description = (event.extendedProps.description || '').toLowerCase();
+                    const organizer = (event.extendedProps.organizer || '').toLowerCase();
+                    
+                    const isVisible = normalizedTerm === '' || 
+                        title.includes(normalizedTerm) || 
+                        description.includes(normalizedTerm) || 
+                        organizer.includes(normalizedTerm);
+                    
+                    // イベントの表示/非表示を制御
+                    event.setProp('display', isVisible ? 'auto' : 'none');
+                });
+                
+                // 現在開催中イベントも検索結果に基づいて更新
+                const filteredEvents = allEvents.filter(event => {
+                    const title = event.title.toLowerCase();
+                    const description = (event.extendedProps.description || '').toLowerCase();
+                    const organizer = (event.extendedProps.organizer || '').toLowerCase();
+                    
+                    return normalizedTerm === '' || 
+                           title.includes(normalizedTerm) || 
+                           description.includes(normalizedTerm) || 
+                           organizer.includes(normalizedTerm);
+                });
+                
+                updateCurrentEvents(filteredEvents);
+            }
+            
+            searchInput.addEventListener('input', function(e) {
+                clearTimeout(searchTimeout);
+                searchTimeout = setTimeout(() => {
+                    performSearch(e.target.value);
+                }, 300); // 300ms後に検索実行
+            });
+            
+            // 現在開催中イベントの定期更新（1分ごと）
+            setInterval(() => {
+                if (!isMobile() && allEvents.length > 0) {
+                    updateCurrentEvents(allEvents);
+                    
+                    // カレンダー上のイベントスタイルも更新
+                    const calendarEvents = calendar.getEvents();
+                    calendarEvents.forEach(event => {
+                        const eventEl = event.getElement();
+                        if (eventEl) {
+                            if (isEventCurrent(event.start)) {
+                                eventEl.classList.add('event-current');
+                            } else {
+                                eventEl.classList.remove('event-current');
+                            }
+                        }
+                    });
+                }
+            }, 60000); // 60秒ごと
+            
+            // ウィンドウリサイズ時の対応
+            window.addEventListener('resize', function() {
+                if (calendar) {
+                    // PC・モバイル共に月表示を維持
+                    if (calendar.view.type !== 'dayGridMonth') {
+                        calendar.changeView('dayGridMonth');
+                    }
+                    
+                    // ヘッダーツールバーを更新
+                    calendar.setOption('headerToolbar', getHeaderToolbar());
+                    
+                    // 現在開催中イベントの表示更新
+                    updateCurrentEvents(allEvents);
+                }
+            });
+            
+            // ページの可視性変更時の処理は不要（データ更新なし）
+            // document.addEventListener('visibilitychange', function() {
+            //     if (!document.hidden && allEvents.length > 0) {
+            //         // ページがアクティブになった時に現在開催中イベントを更新
+            //         updateCurrentEvents(allEvents);
+            //     }
+            // }); // 削除：リアルタイム更新なし
+        });
+    </script>
+</body>
+</html>
+                
