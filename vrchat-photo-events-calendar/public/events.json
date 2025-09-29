@@ -4,11 +4,51 @@
       "event_name": "プレさんフォトコン",
       "start date": "2025-09-10T00:00:00+09:00",
       "end date": "2025-09-30T23:59:59+09:00",
-      "description": "主催者のBOOTHアイテムを1点以上使用し、VRChat内で撮影。改変・カメラギミック・ライティング・particle OK。画像加工NG。",
+      "description": "プレさんの箱庭BOOTHショップのアイテムを1つ以上使用した写真を撮影。VRChat内で撮影、画像加工NG。",
       "organizer": "@hyades_05 (プレアデス05)",
-      "join_method": "#プレさんフォトコン タグ付きでXに投稿（1投稿1画像、複数投稿OK）。応募条件: 主催者アカウントフォロー。",
-      "source": "https://x.com/hyades_05/status/1965227081958371698",
+      "join_method": "主催者@hyades_05をフォローし、#プレさんフォトコン をつけてXに投稿。",
+      "source": "https://x.com/hyades_05/status/1970854713731236158",
       "info": "BOOTHアイテム: https://ple-sandbox.booth.pm/"
+    },
+    {
+      "event_name": "ビナアちゃんフォトコンテスト-秋-",
+      "start date": "2025-10-01T00:00:00+09:00",
+      "end date": "2025-10-31T23:59:59+09:00",
+      "description": "テーマ「秋」のビナアちゃんを被写体とした写真を撮影。VRC内で撮影、加筆修正・レタッチ自由、NSFW表現はお控えください。1人1投稿4枚まで。サンプル部門、改変部門、スケアク部門あり。",
+      "organizer": "@amayori_toi (@Photocon_Binah) (雨寄とい)",
+      "join_method": "#Binah_3D #ビナアちゃんフォトコン秋 をつけてXに投稿。",
+      "source": "https://x.com/Photocon_Binah/status/1971152698352296160",
+      "info": "参加賞あり(全投稿者にVRC+1ヶ月分)。入賞者にAmazonギフト券(3000円分など)。"
+    },
+    {
+      "event_name": "第一回 概念結晶展 フォトコンテスト",
+      "start date": "2025-09-29T00:00:00+09:00",
+      "end date": "2025-10-15T23:59:59+09:00",
+      "description": "テーマ「自分(Self)」の写真を撮影。VRChatのデフォルトカメラ機能のみ使用、色調整・フィルターOKだが合成・AI生成・追加要素禁止。1人2作品まで。タイトル・説明文投稿禁止。",
+      "organizer": "@amorphousgroup (AMORPHOUS)",
+      "join_method": "#AMORPHOUS #概念結晶展 をつけてXに投稿後、Google Formで申請。",
+      "source": "https://x.com/amorphousgroup/status/1969343174020600193",
+      "info": "入賞者にBOOTHギフト(3000円分/2000円分)。"
+    },
+    {
+      "event_name": "のラシュ会フォトコン2",
+      "start date": "2025-08-01T00:00:00+09:00",
+      "end date": "2025-09-29T23:59:59+09:00",
+      "description": "テーマ「青」のラシューシャアバターを被写体とした写真を撮影。VRC内で撮影。結果発表9/30。",
+      "organizer": "@Nolasyu_kouhou (のラシュ会広報)",
+      "join_method": "#のラシュ会フォトコン2 をつけてXに投稿。",
+      "source": "https://x.com/Nolasyu_kouhou/status/1971967440449163713",
+      "info": "結果発表：2025-09-30"
+    },
+    {
+      "event_name": "へびてんちょーのお店(仮) 写真コンテスト",
+      "start date": "2025-09-20T00:00:00+09:00",
+      "end date": "2025-09-29T23:59:59+09:00",
+      "description": "へびてんちょーのお店(仮)関連の写真を撮影。VRC内で撮影。プレオープン中開催。",
+      "organizer": "@m0u_damepo (妄田めぽ)",
+      "join_method": "#へびてんちょーのお店(仮) をつけてXに投稿。",
+      "source": "https://x.com/m0u_damepo/status/1969541388246401406",
+      "info": "選ばれた方にギフトプレゼント。"
     },
     {
       "event_name": "uulonフォトコン",
