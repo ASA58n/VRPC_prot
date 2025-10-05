@@ -129,6 +129,46 @@
       "join_method": "#VRC観測者フォトコン タグ付きで投稿。",
       "source": "https://x.com/sheep_m87/status/1951964258998313218",
       "info": "詳細: Discord https://discord.com/invite/r2uSEUQafN のフォトコンチャンネル"
+    },
+    {
+      "event_name": "ミルフィちゃんデフォルトフォトコン",
+      "start date": "2025-10-04T00:00:00+09:00",
+      "end date": "2025-10-14T23:59:59+09:00",
+      "description": "ミルフィちゃんのデフォルトアバターまたはサンプルアバターを使用した写真を撮影。加筆修正レタッチ自由、NSFW不可。1人1投稿4枚まで。",
+      "organizer": "@Emiru_VR",
+      "join_method": "#ミルフィちゃんデフォルトフォトコン を付けてXに投稿。",
+      "source": "https://x.com/Emiru_VR/status/1974112564150972901",
+      "info": "デフォルトアバターまたはサンプルアバター使用"
+    },
+    {
+      "event_name": "ハロウィンフォトコンテスト",
+      "start date": "2025-10-01T00:00:00+09:00",
+      "end date": "2025-10-26T23:59:59+09:00",
+      "description": "VRChat内で撮影されたハロウィン関連の写真コンテスト。レタッチ・合成OK、複数人OK、過去作OK、AI生成NG、R18過激NG。",
+      "organizer": "@tukiura_vrc",
+      "join_method": "#VRCハロウィンフォトコン_2025 と部門ハッシュタグを付けて元ポストに引用RT。",
+      "source": "https://x.com/tukiura_vrc/status/1972904363439079646",
+      "info": "部門: 最優秀賞部門、人外部門、ハロウィン部門、部門外部門"
+    },
+    {
+      "event_name": "猫又しっぽフォトコン",
+      "start date": "2025-10-05T00:00:00+09:00",
+      "end date": "2025-10-27T23:59:59+09:00",
+      "description": "猫又しっぽをテーマにした写真コンテスト。",
+      "organizer": "@tasyu692553",
+      "join_method": "#猫又しっぽフォトコン でXに投稿。",
+      "source": "https://x.com/tasyu692553/status/1974660198292959577",
+      "info": ""
+    },
+    {
+      "event_name": "フジヤマフォトコン2025",
+      "start date": "2025-10-01T00:00:00+09:00",
+      "end date": "2025-10-20T23:59:59+09:00",
+      "description": "フジヤマをテーマにした写真コンテスト。",
+      "organizer": "@Keikai_Gumin",
+      "join_method": "#フジフォト2025 #AvatarLife2025 でXに投稿。",
+      "source": "https://x.com/Keikai_Gumin/status/1973402533143191571",
+      "info": ""
     }
   ],
   "weekly_recurring_events": {
