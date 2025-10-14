@@ -169,6 +169,56 @@
       "join_method": "#フジフォト2025 #AvatarLife2025 でXに投稿。",
       "source": "https://x.com/JP_Fujiyama/status/1966454559783686340",
       "info": ""
+    },
+    {
+      "event_name": "Vketレーシングサポーター フォトコンテスト",
+      "start date": "2025-10-10T00:00:00+09:00",
+      "end date": "2025-10-19T23:59:59+09:00",
+      "description": "レースクイーンやピットクルーなどの改変アバターを撮影し、採用された作品はVket会場でパネル設置。",
+      "organizer": "VirtualMarket バーチャルマーケット Vket (@Virtual_Market_)",
+      "join_method": "#VketFormulaPhoto をつけてXに投稿。",
+      "source": "https://x.com/Virtual_Market_/status/1976573429596954801",
+      "info": "採用された作品はVket会場でパネル設置"
+    },
+    {
+      "event_name": "第1回 メガネしなの集会 目の愛護デー杯 フォトコン",
+      "start date": "2025-10-10T00:00:00+09:00",
+      "end date": "2025-11-16T23:59:59+09:00",
+      "description": "テーマ「メガネしなの」でメガネしなのちゃんの写真を撮影。入賞者1名にネームロゴ制作。",
+      "organizer": "〜メガネしなの集会〜 (@megane_shinano)",
+      "join_method": "#メガしなフォトコン をつけてXにツイート。",
+      "source": "https://x.com/megane_shinano/status/1976605549690294300",
+      "info": "入賞者1名にネームロゴ制作"
+    },
+    {
+      "event_name": "Mon Fleur PhotoContest",
+      "start date": "2025-10-10T00:00:00+09:00",
+      "end date": "2025-11-30T23:59:59+09:00",
+      "description": "「Mon Fleur」を着用してペア写真を撮影。テーマ「色あせない恋ごころ。おそろいで、ずっときれい。」最優秀賞1組に次回新作衣装ペアセットGIFT + フルイラスト1枚GIFT、優秀賞4組に次回新作衣装1着GIFT。",
+      "organizer": "R&Coco. (@R_and_Coco)",
+      "join_method": "#MonFleur_PhotoContest をつけてXに投稿。",
+      "source": "https://x.com/R_and_Coco/status/1976580968007053518",
+      "info": "最優秀賞1組に次回新作衣装ペアセットGIFT + フルイラスト1枚GIFT、優秀賞4組に次回新作衣装1着GIFT"
+    },
+    {
+      "event_name": "ミルフィちゃんフォトコン",
+      "start date": "2025-10-03T00:00:00+09:00",
+      "end date": null,
+      "description": "ミルフィちゃんのデフォルトアバター限定で写真を撮影。サンプルアバターも参加可能、賞品でミルフィちゃんプレゼント。",
+      "organizer": "ゑゑみゐる (@Emiru_VR)",
+      "join_method": "指定のハッシュタグで投稿。",
+      "source": "https://x.com/Emiru_VR/status/1974112564150972901",
+      "info": "サンプルアバターも参加可能、賞品でミルフィちゃんプレゼント"
+    },
+    {
+      "event_name": "おはツイフォトコン (おはコン)",
+      "start date": null,
+      "end date": "2025-10-15T23:59:59+09:00",
+      "description": "おはツイ写真を投稿。",
+      "organizer": "おる@VRC (@oluVRC2ndG)",
+      "join_method": "#おはコン でおはツイ写真を投稿。",
+      "source": "https://x.com/oluVRC2ndG/status/1976052484834525385",
+      "info": ""
     }
   ],
   "weekly_recurring_events": {
@@ -190,13 +240,13 @@
     }
   },
   "event_summary": {
-    "total_events": 15,
+    "total_events": 21,
     "categories": {
       "seasonal": 3,
-      "themed": 8,
+      "themed": 14,
       "creative": 4
     },
-    "organizers_count": 15,
+    "organizers_count": 21,
     "average_duration_days": 22.1
   }
 }
