@@ -219,6 +219,36 @@
       "join_method": "#おはコン でおはツイ写真を投稿。",
       "source": "https://x.com/oluVRC2ndG/status/1976052484834525385",
       "info": ""
+    },
+    {
+      "event_name": "シルバートレイへ行こう！フォトコン",
+      "start date": "2025-09-30T00:00:00+09:00",
+      "end date": "2025-10-23T23:59:59+09:00",
+      "description": "シルバートレイのワールドで撮影した写真を投稿。",
+      "organizer": "@silvertrayvrc",
+      "join_method": "#シルバートレイへ行こうフォトコン をつけて投稿。",
+      "source": "https://x.com/silvertrayvrc/status/1972949690263232851",
+      "info": ""
+    },
+    {
+      "event_name": "第六回VRC感情の解釈フォトコン",
+      "start date": "2025-10-06T00:00:00+09:00",
+      "end date": "2025-10-20T23:59:59+09:00",
+      "description": "感情の解釈をテーマにした写真コンテスト。",
+      "organizer": "@46nekoVRC",
+      "join_method": "#第六回VRC感情の解釈フォトコン と #VRCフォトコン応募要項 をつけて投稿。",
+      "source": "https://x.com/46nekoVRC/status/1975003074897883361",
+      "info": ""
+    },
+    {
+      "event_name": "かふぇゆり1周年記念フォトコン",
+      "start date": "2025-10-20T00:00:00+09:00",
+      "end date": "2025-10-31T23:59:59+09:00",
+      "description": "Juliusのメイド改変写真を撮影。",
+      "organizer": "@Julius_cafe2024",
+      "join_method": "#かふぇゆりメイドフォトコン をつけて投稿。",
+      "source": "https://x.com/Julius_cafe2024/status/1971194382889123856",
+      "info": ""
     }
   ],
   "weekly_recurring_events": {
