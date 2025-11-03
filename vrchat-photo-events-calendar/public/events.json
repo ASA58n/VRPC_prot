@@ -269,6 +269,46 @@
       "join_method": "#トネフォト #Tonnerre_Meeting を付与し、@MeetingToneのいいね+リポストを受ける。",
       "source": "https://x.com/MeetingTone/status/1981284469500719460",
       "info": ""
+    },
+    {
+      "event_name": "第七回VRC感情の解釈フォトコン",
+      "start date": "2025-11-03T00:00:00+09:00",
+      "end date": "2025-11-17T23:59:59+09:00",
+      "description": "#第七回VRC感情の解釈フォトコン を付けて投稿 今回のテーマは「優越感」",
+      "organizer": "@46nekoVRC",
+      "join_method": "#第七回VRC感情の解釈フォトコン を付けて投稿。",
+      "source": "https://x.com/46nekoVRC/status/1985097081699385466",
+      "info": "テーマ：優越感"
+    },
+    {
+      "event_name": "ナナオモチフォトコン",
+      "start date": "2025-10-21T00:00:00+09:00",
+      "end date": "2025-11-03T23:59:59+09:00",
+      "description": "ナナオモチのアバターをハロウィン改変して撮影し、#ナナオモチフォトコン を付けて投稿",
+      "organizer": "@nanaomochi1125",
+      "join_method": "#ナナオモチフォトコン を付けて投稿。",
+      "source": "https://x.com/ykm0sz/status/1984460564236812739",
+      "info": "ハロウィン改変"
+    },
+    {
+      "event_name": "VR PHOTO COMPETITION2025",
+      "start date": "2025-10-27T00:00:00+09:00",
+      "end date": "2025-11-17T23:59:59+09:00",
+      "description": "テーマ「2025 BEST MOMENT」に沿ったVR写真を応募サイトから投稿",
+      "organizer": "@miwonderful (主催団体: VR PHOTO EXHIBITION)",
+      "join_method": "応募サイトから投稿。",
+      "source": "https://x.com/miwonderful/status/1982733554888135048",
+      "info": "テーマ：2025 BEST MOMENT"
+    },
+    {
+      "event_name": "OKEANOS PHOTOCONTEST",
+      "start date": "2025-11-01T00:00:00+09:00",
+      "end date": "2025-11-30T23:59:59+09:00",
+      "description": "OKEANOS DESCENTイベントで撮影した写真を#OkeanosPC を付けて投稿",
+      "organizer": "@descent14071",
+      "join_method": "#OkeanosPC を付けて投稿。",
+      "source": "https://x.com/descent14071/status/1984402241210683841",
+      "info": ""
     }
   ],
   "weekly_recurring_events": {
