@@ -309,6 +309,26 @@
       "join_method": "#OkeanosPC を付けて投稿。",
       "source": "https://x.com/descent14071/status/1984402241210683841",
       "info": ""
+    },
+    {
+      "event_name": "SCD_Pianoフォトコン",
+      "start date": "2025-11-02T00:00:00+09:00",
+      "end date": "2025-11-16T18:00:00+09:00",
+      "description": "ピアノ演奏の様子を撮影・投稿。ハッシュタグ #S_C_Devil #SCD_Pianoフォト を付与。加筆・背景変更OK、1人3投稿まで。不可：ピアノ本体の形が崩れる加工",
+      "organizer": "@S_C_Devil (neneco_)",
+      "join_method": "#S_C_Devil #SCD_Pianoフォト を付与してXに投稿。",
+      "source": "https://sheepcatdevil.booth.pm/items/7608979",
+      "info": "加筆・背景変更OK、1人3投稿まで。不可：ピアノ本体の形が崩れる加工"
+    },
+    {
+      "event_name": "VRCPSS1stAnniv_PhotoContest",
+      "start date": "2025-11-03T00:00:00+09:00",
+      "end date": "2026-01-31T23:59:59+09:00",
+      "description": "Discordサーバー（https://discord.com/invite/S8srHVHaZs）参加後、#VRCPSS1stAnniv_PhotoContestチャンネルにVRChat内写真を投稿",
+      "organizer": "@VRCPSS_official (VRCPSS - VRChat Photo Sharing Server)",
+      "join_method": "Discordサーバー参加後、#VRCPSS1stAnniv_PhotoContestチャンネルに投稿。",
+      "source": "https://x.com/VRCPSS_official/status/1985112182124662894",
+      "info": "Discordサーバー: https://discord.com/invite/S8srHVHaZs"
     }
   ],
   "weekly_recurring_events": {
