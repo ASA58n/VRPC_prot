@@ -329,6 +329,26 @@
       "join_method": "Discordサーバー参加後、#VRCPSS1stAnniv_PhotoContestチャンネルに投稿。",
       "source": "https://x.com/VRCPSS_official/status/1985112182124662894",
       "info": "Discordサーバー: https://discord.com/invite/S8srHVHaZs"
+    },
+    {
+      "event_name": "第3回 YOYOGIMORIアバターフォトコンテスト",
+      "start date": "2025-11-15T00:00:00+09:00",
+      "end date": "2025-12-14T23:59:59+09:00",
+      "description": "#YMアバターフォトコン3rd をつけてXに投稿 + Googleフォームより作品投稿",
+      "organizer": "@Fancafe_Kittens",
+      "join_method": "#YMアバターフォトコン3rd をつけてXに投稿 + Googleフォームより作品投稿。",
+      "source": "https://x.com/Fancafe_Kittens/status/1989531934603841828",
+      "info": ""
+    },
+    {
+      "event_name": "第一回ドラ龍フォトコン",
+      "start date": "2025-11-15T00:00:00+09:00",
+      "end date": "2025-12-15T23:59:59+09:00",
+      "description": "#ドラ龍フォトコン をつけてXに投稿",
+      "organizer": "@Hiroshisan_",
+      "join_method": "#ドラ龍フォトコン をつけてXに投稿。",
+      "source": "https://x.com/Hiroshisan_/status/1986558699704623441",
+      "info": ""
     }
   ],
   "weekly_recurring_events": {
