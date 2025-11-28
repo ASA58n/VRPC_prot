@@ -349,6 +349,26 @@
       "join_method": "#ドラ龍フォトコン をつけてXに投稿。",
       "source": "https://x.com/Hiroshisan_/status/1986558699704623441",
       "info": ""
+    },
+    {
+      "event_name": "VRChat Photo SPOTLIGHT \"冬\"",
+      "start date": "2025-11-28T00:00:00+09:00",
+      "end date": "2025-12-12T23:59:59+09:00",
+      "description": "#VRC_Photo_SPOTLIGHT をつけてXにポスト（VRChat内で撮影した作品、詳細ルール: 未経験者対象、1人1作品、ファイル形式PNG/JPG、Unity外作成不可、AI生成不可など）",
+      "organizer": "@suzuki_vrc",
+      "join_method": "#VRC_Photo_SPOTLIGHT をつけてXにポスト。",
+      "source": "https://x.com/suzuki_vrc/status/1994345550536482986",
+      "info": "詳細ルール: 未経験者対象、1人1作品、ファイル形式PNG/JPG、Unity外作成不可、AI生成不可など"
+    },
+    {
+      "event_name": "第2回映えフォトコンテスト「カッコイイ」",
+      "start date": null,
+      "end date": "2025-11-30T23:59:59+09:00",
+      "description": "#第二回映えフォトコンテスト をつけて投稿（過去写真OK、ハッシュタグが反映されない場合再投稿）",
+      "organizer": "@wata404",
+      "join_method": "#第二回映えフォトコンテスト をつけて投稿。",
+      "source": "https://x.com/wata404/status/1994200526205178295",
+      "info": "過去写真OK、ハッシュタグが反映されない場合再投稿"
     }
   ],
   "weekly_recurring_events": {
