@@ -334,8 +334,13 @@
                 },
                 height: 'auto',
                 eventDisplay: 'block',
-                dayMaxEvents: 3,
+                dayMaxEventRows: 4,
                 displayEventTime: false,
+                views: {
+                    dayGrid: {
+                        dayMaxEventRows: 4
+                    }
+                },
                 moreLinkText: function(num) {
                     return '+' + num + ' 件';
                 },
