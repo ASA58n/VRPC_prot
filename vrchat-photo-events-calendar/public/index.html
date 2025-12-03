@@ -160,6 +160,40 @@
             margin-top: 40px;
         }
 
+        /* 当日のイベント表示スタイル */
+        .today-events {
+            display: none;
+        }
+
+        .today-events.active {
+            display: block;
+        }
+
+        .today-event-item {
+            background: #f8f9fa;
+            padding: 16px;
+            border-radius: 8px;
+            margin-bottom: 12px;
+            border-left: 4px solid #3498db;
+            transition: background 0.2s ease;
+        }
+
+        .today-event-item:hover {
+            background: #e9ecef;
+        }
+
+        .today-event-item h3 {
+            font-size: 1.1rem;
+            color: #2c3e50;
+            margin-bottom: 8px;
+        }
+
+        .today-event-item .days-remaining {
+            color: #e74c3c;
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+
         /* カレンダーエリア（右側） */
         .calendar-container {
             background: white;
@@ -254,12 +288,16 @@
         <div class="main-content">
             <!-- イベント詳細エリア（左側） -->
             <div class="event-details">
-                <h2>イベント詳細</h2>
-                
+                <h2 id="detailsTitle">イベント詳細</h2>
+
                 <div class="no-event-selected" id="noEventMessage">
                     カレンダーからイベントを選択してください
                 </div>
-                
+
+                <div class="today-events" id="todayEvents">
+                    <!-- 当日のイベントがここに表示されます -->
+                </div>
+
                 <div class="event-info" id="eventInfo">
                     <h3 id="eventTitle">イベント名</h3>
                     
@@ -314,7 +352,12 @@
         document.addEventListener('DOMContentLoaded', function() {
             // カレンダー要素を取得
             const calendarEl = document.getElementById('calendar');
-            
+
+            // 全イベントデータを保持
+            let allEventsData = [];
+            // 当日開催中のイベントを保持
+            let currentTodayEvents = [];
+
             // FullCalendarを初期化
             const calendar = new FullCalendar.Calendar(calendarEl, {
                 initialView: 'dayGridMonth',
@@ -346,7 +389,12 @@
                 },
                 // イベントクリック時の処理
                 eventClick: function(info) {
+                    info.jsEvent.stopPropagation(); // イベントバブリングを防ぐ
                     showEventDetails(info.event);
+                },
+                // カレンダー上の空白をクリックした時
+                dateClick: function(info) {
+                    showTodayEvents();
                 },
                 // イベントデータを動的に読み込み
                 events: function(info, successCallback, failureCallback) {
@@ -373,8 +421,16 @@
                                     info: event.info
                                 }
                             }));
-                            
+
+                            // イベントデータを保存
+                            allEventsData = events;
+
                             successCallback(events);
+
+                            // イベントデータ読み込み完了後に当日のイベントを表示
+                            setTimeout(() => {
+                                showTodayEvents();
+                            }, 100);
                         })
                         .catch(error => {
                             console.error('イベントデータの読み込みエラー:', error);
@@ -385,7 +441,7 @@
             
             // カレンダーを表示
             calendar.render();
-            
+
             // イベント色を取得する関数
             function getEventColor(index) {
                 const colors = ['#3498db', '#e74c3c', '#2ecc71', '#f39c12', '#9b59b6', '#1abc9c', '#34495e', '#e67e22'];
@@ -396,11 +452,19 @@
             function showEventDetails(event) {
                 const noEventMessage = document.getElementById('noEventMessage');
                 const eventInfo = document.getElementById('eventInfo');
-                
+                const todayEvents = document.getElementById('todayEvents');
+                const detailsTitle = document.getElementById('detailsTitle');
+
+                // 当日のイベント表示を非表示に
+                todayEvents.classList.remove('active');
+
+                // タイトルを変更
+                detailsTitle.textContent = 'イベント詳細';
+
                 // メッセージを隠してイベント情報を表示
                 noEventMessage.style.display = 'none';
                 eventInfo.classList.add('active');
-                
+
                 // イベント詳細を更新
                 document.getElementById('eventTitle').textContent = event.title;
                 document.getElementById('eventDate').textContent = formatEventDate(event.start, event.end);
@@ -418,6 +482,74 @@
                 }
             }
             
+            // 当日のイベントを表示する関数
+            function showTodayEvents() {
+                const noEventMessage = document.getElementById('noEventMessage');
+                const eventInfo = document.getElementById('eventInfo');
+                const todayEvents = document.getElementById('todayEvents');
+                const detailsTitle = document.getElementById('detailsTitle');
+
+                // イベント詳細を非表示に
+                eventInfo.classList.remove('active');
+                noEventMessage.style.display = 'none';
+
+                // タイトルを変更
+                detailsTitle.textContent = '本日開催中のフォトコン';
+
+                // 当日の日付を取得（時刻を00:00:00にする）
+                const today = new Date();
+                today.setHours(0, 0, 0, 0);
+
+                // 当日開催中のイベントをフィルタリング
+                currentTodayEvents = allEventsData.filter(event => {
+                    const startDate = new Date(event.start);
+                    const endDate = event.end ? new Date(event.end) : startDate;
+
+                    startDate.setHours(0, 0, 0, 0);
+                    endDate.setHours(23, 59, 59, 999);
+
+                    return today >= startDate && today <= endDate;
+                });
+
+                // 当日のイベントを表示
+                if (currentTodayEvents.length > 0) {
+                    let html = '';
+
+                    currentTodayEvents.forEach((event, index) => {
+                        const endDate = event.end ? new Date(event.end) : new Date(event.start);
+                        endDate.setHours(0, 0, 0, 0);
+
+                        // 残り日数を計算
+                        const daysRemaining = Math.ceil((endDate - today) / (1000 * 60 * 60 * 24));
+                        const daysText = daysRemaining === 0 ? '本日最終日' : `あと${daysRemaining}日`;
+
+                        // イベントの色を取得
+                        const eventColor = event.backgroundColor || '#3498db';
+
+                        html += `
+                            <div class="today-event-item" style="border-left-color: ${eventColor}; cursor: pointer;" data-event-index="${index}">
+                                <h3>${event.title}</h3>
+                                <div class="days-remaining">${daysText}</div>
+                            </div>
+                        `;
+                    });
+
+                    todayEvents.innerHTML = html;
+                    todayEvents.classList.add('active');
+
+                    // 各イベントアイテムにクリックイベントを追加
+                    const eventItems = todayEvents.querySelectorAll('.today-event-item');
+                    eventItems.forEach((item, index) => {
+                        item.addEventListener('click', function() {
+                            showEventDetails(currentTodayEvents[index]);
+                        });
+                    });
+                } else {
+                    todayEvents.innerHTML = '<p style="text-align: center; color: #95a5a6; margin-top: 20px;">本日開催中のイベントはありません</p>';
+                    todayEvents.classList.add('active');
+                }
+            }
+
             // 日時フォーマット関数
             function formatEventDate(start, end) {
                 const options = {
@@ -426,14 +558,18 @@
                     day: 'numeric',
                     weekday: 'long'
                 };
-                
-                let dateString = start.toLocaleDateString('ja-JP', options);
-                
-                if (end) {
-                    const endDate = end.toLocaleDateString('ja-JP', options);
-                    dateString += ' - ' + endDate;
+
+                // 文字列の場合はDateオブジェクトに変換
+                const startDate = typeof start === 'string' ? new Date(start) : start;
+                const endDate = end ? (typeof end === 'string' ? new Date(end) : end) : null;
+
+                let dateString = startDate.toLocaleDateString('ja-JP', options);
+
+                if (endDate) {
+                    const endDateString = endDate.toLocaleDateString('ja-JP', options);
+                    dateString += ' - ' + endDateString;
                 }
-                
+
                 return dateString;
             }
             
@@ -441,24 +577,34 @@
             const searchInput = document.getElementById('searchInput');
             searchInput.addEventListener('input', function(e) {
                 const searchTerm = e.target.value.toLowerCase();
-                
+
                 // 全イベントを取得
                 const allEvents = calendar.getEvents();
-                
+
                 // 検索結果に基づいてイベントの表示/非表示を切り替え
                 allEvents.forEach(event => {
                     const title = event.title.toLowerCase();
                     const description = (event.extendedProps.description || '').toLowerCase();
                     const organizer = (event.extendedProps.organizer || '').toLowerCase();
-                    
-                    const isVisible = searchTerm === '' || 
-                        title.includes(searchTerm) || 
-                        description.includes(searchTerm) || 
+
+                    const isVisible = searchTerm === '' ||
+                        title.includes(searchTerm) ||
+                        description.includes(searchTerm) ||
                         organizer.includes(searchTerm);
-                    
+
                     // イベントの表示/非表示を制御
                     event.setProp('display', isVisible ? 'auto' : 'none');
                 });
+            });
+
+            // event-details以外をクリックした時の処理
+            document.addEventListener('click', function(e) {
+                const eventDetails = document.querySelector('.event-details');
+
+                // クリックされた要素がevent-details以外の場合
+                if (!eventDetails.contains(e.target)) {
+                    showTodayEvents();
+                }
             });
         });
     </script>
