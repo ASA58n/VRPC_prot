@@ -303,7 +303,7 @@
     {
       "event_name": "OKEANOS PHOTOCONTEST",
       "start date": "2025-11-01T00:00:00+09:00",
-      "end date": "2025-11-30T23:59:59+09:00",
+      "end date": "2025-12-31T23:59:59+09:00",
       "description": "OKEANOS DESCENTイベントで撮影した写真を#OkeanosPC を付けて投稿",
       "organizer": "@descent14071",
       "join_method": "#OkeanosPC を付けて投稿。",
@@ -379,6 +379,36 @@
       "join_method": "Discordサーバで詳細を確認",
       "source": "https://x.com/ASA58n_/status/1993669870052143413",
       "info": "詳細はディスコードで確認 discord.gg/EDhfWuxCAr"
+    },
+    {
+      "event_name": "ビナアちゃんフォトコンテスト-冬-",
+      "start date": "2025-12-15T00:00:00+09:00",
+      "end date": "2026-01-15T23:59:59+09:00",
+      "description": "#ビナアちゃん または #Binah_3D をつけてXに投稿。テーマは「冬」。写真部門（改変/サンプル）とイラスト部門あり。",
+      "organizer": "@amayori_toi (@Photocon_Binah) (雨寄とい)",
+      "join_method": "#ビナアちゃん または #Binah_3D をつけてXに投稿。",
+      "source": "https://x.com/Photocon_Binah/status/1996414157617578107",
+      "info": "テーマ「冬」、写真部門（改変/サンプル）とイラスト部門あり"
+    },
+    {
+      "event_name": "Senseiフォトコン",
+      "start date": "2025-11-28T00:00:00+09:00",
+      "end date": "2025-12-31T23:59:59+09:00",
+      "description": "#Senseiフォトコン をつけてXに写真を投稿。SASIKIZUアバター使用、サンプル可、複数投稿可、1人1賞のみ。",
+      "organizer": "@secchanan_vrc / @Diesel_484gal (セッチャン / Quartz)",
+      "join_method": "#Senseiフォトコン をつけてXに投稿。",
+      "source": "https://x.com/secchanan_vrc/status/1994391731949948929",
+      "info": "SASIKIZUアバター使用、サンプル可、複数投稿可、1人1賞のみ"
+    },
+    {
+      "event_name": "第2回 ぶいちゃコーデ フォトコンテスト",
+      "start date": "2025-12-01T00:00:00+09:00",
+      "end date": "2025-12-31T23:59:59+09:00",
+      "description": "#ぶいちゃコーデ をタグ付けしてXに投稿。アバター/服装が見える写真、VRC/Unity撮影可、複数投稿可、複数人可。",
+      "organizer": "@vrc_style (ぶいちゃコーデ | VRC Fashion Media)",
+      "join_method": "#ぶいちゃコーデ をタグ付けしてXに投稿。",
+      "source": "https://x.com/vrc_style/status/1995814133405811148",
+      "info": "アバター/服装が見える写真、VRC/Unity撮影可、複数投稿可、複数人可"
     }
   ],
   "weekly_recurring_events": {
