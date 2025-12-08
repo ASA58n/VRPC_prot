@@ -409,6 +409,36 @@
       "join_method": "#ぶいちゃコーデ をタグ付けしてXに投稿。",
       "source": "https://x.com/vrc_style/status/1995814133405811148",
       "info": "アバター/服装が見える写真、VRC/Unity撮影可、複数投稿可、複数人可"
+    },
+    {
+      "event_name": "文太くんフォトコン",
+      "start date": "2025-12-13T00:00:00+09:00",
+      "end date": "2025-12-20T23:59:59+09:00",
+      "description": "審査員3名フォロー＋元ポストいいね/RT＋#文太くんフォトコン で引用RT（テーマ「The cold Blake X'mas」薄着クリスマス、NSFW/R18可）",
+      "organizer": "Gussan VR chat垢 (@GussanVRC777)",
+      "join_method": "審査員3名フォロー＋元ポストいいね/RT＋#文太くんフォトコン で引用RT。",
+      "source": "https://x.com/GussanVRC777/status/1995816364721000496",
+      "info": "テーマ「The cold Blake X'mas」薄着クリスマス、NSFW/R18可"
+    },
+    {
+      "event_name": "第2回 凪ちゃんフォトコン",
+      "start date": "2025-11-16T00:00:00+09:00",
+      "end date": "2025-12-10T23:59:59+09:00",
+      "description": "Googleフォームから応募（詳細画像参照、rio/BOOTHギフト賞品）",
+      "organizer": "樹-Itsuki- (@Itsuki_for_VRC)",
+      "join_method": "Googleフォームから応募。",
+      "source": "https://x.com/Itsuki_for_VRC/status/1990185612100731371",
+      "info": "rio/BOOTHギフト賞品あり"
+    },
+    {
+      "event_name": "第3回キプかわフォトコンテスト",
+      "start date": "2025-12-07T00:00:00+09:00",
+      "end date": "2025-12-21T23:59:59+09:00",
+      "description": "#キプかわフォトコン をタイトルに付けてXに投稿（1投稿1枚、無制限。キプフェル被写体必須、レタッチ自由。複数人OK、投稿者が代表）。一般/コミュニティポスト不問。",
+      "organizer": "キプかわコミュニティ (@haise_rei)",
+      "join_method": "#キプかわフォトコン をタイトルに付けてXに投稿。",
+      "source": "https://x.com/haise_rei/status/1997517787200389259",
+      "info": "1投稿1枚、無制限。キプフェル被写体必須、レタッチ自由。複数人OK"
     }
   ],
   "weekly_recurring_events": {
