@@ -509,6 +509,46 @@
       "join_method": "①@XRGrapherをフォロー ②#第3回VRフォトコン2026 を付けてX投稿 ③Googleフォーム提出。",
       "source": "https://x.com/XRGrapher/status/1998693225398464513",
       "info": "部門4種 / ワールド展示・フォトブック掲載"
+    },
+    {
+      "event_name": "ゆるフォト交流会 第一回フォトコン",
+      "start date": "2025-12-27T00:00:00+09:00",
+      "end date": "2026-01-10T23:59:59+09:00",
+      "description": "#ゆるフォト交流会 を付けてX投稿（テーマ: 2025年お気に入りの一枚）。詳細は主催者固定ツイート参照。レタッチ自由。",
+      "organizer": "駄狐 こん (@psk_esk)",
+      "join_method": "#ゆるフォト交流会 を付けてX投稿。",
+      "source": "https://x.com/psk_esk/status/2004839828488421678",
+      "info": "テーマ: 2025年お気に入りの一枚、レタッチ自由"
+    },
+    {
+      "event_name": "第二回TMフォトコン",
+      "start date": "2026-01-15T00:00:00+09:00",
+      "end date": "2026-02-15T23:59:59+09:00",
+      "description": "VRCデフォルトカメラ使用、レタッチ・編集不可、センシティブNG。テーマ「SHIK」（四季/指揮/私記など解釈自由）。応募詳細スレッド参照、全作品展示ワールド掲載。",
+      "organizer": "写真グループ【TMPY】 (@akira_VRC0614)",
+      "join_method": "応募詳細スレッド参照。",
+      "source": "https://x.com/akira_VRC0614/status/2005221689425318076",
+      "info": "テーマ「SHIK」（四季/指揮/私記など解釈自由）、全作品展示ワールド掲載"
+    },
+    {
+      "event_name": "第6回Velleフォトコン",
+      "start date": "2025-12-14T00:00:00+09:00",
+      "end date": "2026-01-04T23:59:59+09:00",
+      "description": "#Velleフォトコン でX投稿（Velle被写体、同意必須、VRC撮影、レタッチOK、NSFW NG、1投稿4枚まで）。最終日ポスト選考。",
+      "organizer": "こま (@kommma_)",
+      "join_method": "#Velleフォトコン でX投稿。",
+      "source": "https://x.com/kommma_/status/2001567949547802873",
+      "info": "Velle被写体（同意必須）、レタッチOK、NSFW NG、1投稿4枚まで"
+    },
+    {
+      "event_name": "まめひなたフォトコン",
+      "start date": "2025-12-22T00:00:00+09:00",
+      "end date": "2026-01-12T23:59:59+09:00",
+      "description": "#まめひなたフォトコン と参加部門のタグをつけてX投稿。 お正月部門とサンプルアバター部門。レタッチ自由、生成AI不可。",
+      "organizer": "いすたー (@ist_vrc)",
+      "join_method": "#まめひなたフォトコン と参加部門のタグをつけてX投稿。",
+      "source": "https://x.com/ist_vrc/status/2002756059266761019",
+      "info": "お正月部門とサンプルアバター部門、レタッチ自由、生成AI不可"
     }
   ],
   "weekly_recurring_events": {
