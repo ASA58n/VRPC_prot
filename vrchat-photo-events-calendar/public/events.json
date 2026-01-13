@@ -559,6 +559,36 @@
       "join_method": "#第九回VRC感情の解釈フォトコン を付けてX投稿。",
       "source": "https://x.com/46nekoVRC/status/2007980367890796642",
       "info": "テーマ：狂気"
+    },
+    {
+      "event_name": "Liliフォトコン (璃々フォトコン)",
+      "start date": "2025-12-31T00:00:00+09:00",
+      "end date": "2026-01-08T23:59:59+09:00",
+      "description": "璃々サンプルアバターで撮影し、#Liliフォトコン または #璃々フォトコン をつけて投稿。@h1i9r8o1 をフォロー。写真・動画OK、複数投稿可。",
+      "organizer": "@h1i9r8o1",
+      "join_method": "#Liliフォトコン または #璃々フォトコン をつけて投稿。@h1i9r8o1 をフォロー。",
+      "source": "https://x.com/h1i9r8o1/status/2006155388706512949",
+      "info": "璃々サンプルアバター使用、写真・動画OK、複数投稿可"
+    },
+    {
+      "event_name": "CYCR_PHOTOCON2025",
+      "start date": "2025-12-19T00:00:00+09:00",
+      "end date": "2026-01-19T23:59:59+09:00",
+      "description": "#CYCR_PHOTOCON2025 で写真を投稿。",
+      "organizer": "@CyberCritter3D",
+      "join_method": "#CYCR_PHOTOCON2025 で写真を投稿。",
+      "source": "https://x.com/CyberCritter3D/status/2001897147462299770",
+      "info": ""
+    },
+    {
+      "event_name": "11Back フォトコン",
+      "start date": "2026-01-06T00:00:00+09:00",
+      "end date": "2026-01-27T23:59:59+09:00",
+      "description": "テーマ「節分」でVRChat内撮影の写真を告知ポストを引用RPし、#11Back_フォトコン をつけて投稿。4枚まで。",
+      "organizer": "@VRC_11BACK",
+      "join_method": "告知ポストを引用RPし、#11Back_フォトコン をつけて投稿。4枚まで。",
+      "source": "https://x.com/VRC_11BACK/status/2008553895623102916",
+      "info": "テーマ：節分、4枚まで"
     }
   ],
   "weekly_recurring_events": {
