@@ -524,11 +524,11 @@
       "event_name": "第二回TMフォトコン",
       "start date": "2026-01-15T00:00:00+09:00",
       "end date": "2026-02-15T23:59:59+09:00",
-      "description": "VRCデフォルトカメラ使用、レタッチ・編集不可、センシティブNG。テーマ「SHIK」（四季/指揮/私記など解釈自由）。応募詳細スレッド参照、全作品展示ワールド掲載。",
-      "organizer": "写真グループ【TMPY】 (@akira_VRC0614)",
-      "join_method": "応募詳細スレッド参照。",
-      "source": "https://x.com/akira_VRC0614/status/2005221689425318076",
-      "info": "テーマ「SHIK」（四季/指揮/私記など解釈自由）、全作品展示ワールド掲載"
+      "description": "本ポスト引用RPに #第二回TMフォトコン を付与・写真1枚（VRCデフォルトカメラ、レタッチ不可、センシティブNG）。テーマ: SIKI。",
+      "organizer": "TMPY / あきらのVRC垢 (@akira_VRC0614)",
+      "join_method": "本ポスト引用RPに #第二回TMフォトコン を付与。",
+      "source": "https://x.com/akira_VRC0614/status/2011624020916256996",
+      "info": "テーマ: SIKI、VRCデフォルトカメラのみ、レタッチ不可"
     },
     {
       "event_name": "第6回Velleフォトコン",
@@ -589,6 +589,46 @@
       "join_method": "告知ポストを引用RPし、#11Back_フォトコン をつけて投稿。4枚まで。",
       "source": "https://x.com/VRC_11BACK/status/2008553895623102916",
       "info": "テーマ：節分、4枚まで"
+    },
+    {
+      "event_name": "ミルフィちゃんエクちゃんフォトコン（合同）",
+      "start date": "2026-01-10T00:00:00+09:00",
+      "end date": "2026-01-25T23:59:59+09:00",
+      "description": "X投稿に #ミルフィちゃんエクちゃんフォトコン を付与（1人2枚まで、レタッチOK・過度NG、撮影ギミック一部NG、被写体許可必須）。サンプル賞は追加タグ。",
+      "organizer": "ミルフィちゃん集会 (@MilfyChanShukai) / エクちゃん集会 (@ekuchanshukai)",
+      "join_method": "X投稿に #ミルフィちゃんエクちゃんフォトコン を付与。",
+      "source": "https://x.com/ekuchanshukai/status/2009597194219991084",
+      "info": "1人2枚まで、レタッチOK・過度NG、撮影ギミック一部NG、被写体許可必須"
+    },
+    {
+      "event_name": "ルミアちゃんVRChatフォトコンテスト",
+      "start date": "2026-01-19T00:00:00+09:00",
+      "end date": "2026-01-31T23:59:59+09:00",
+      "description": "本ポスト引用RPに写真投稿（サンプルアバターOK）。",
+      "organizer": "@U_StellaWeb (ユーステラ)",
+      "join_method": "本ポスト引用RPに写真投稿。",
+      "source": "https://x.com/U_StellaWeb/status/2013252677661327530",
+      "info": "サンプルアバターOK"
+    },
+    {
+      "event_name": "VRCドライブ部一周年記念フォトコン",
+      "start date": "2026-01-16T00:00:00+09:00",
+      "end date": "2026-02-22T23:59:59+09:00",
+      "description": "指定ドライブワールドで撮影、#VRCドライブ部一周年フォトコン で投稿。",
+      "organizer": "@VRCDriveBu (VRCドライブ部)",
+      "join_method": "#VRCドライブ部一周年フォトコン で投稿。",
+      "source": "https://x.com/VRCDriveBu/status/2012167918289588460",
+      "info": "指定ドライブワールドで撮影"
+    },
+    {
+      "event_name": "第1回VRoidフォトコンテスト",
+      "start date": "2026-02-01T00:00:00+09:00",
+      "end date": "2026-02-28T23:59:59+09:00",
+      "description": "VRChat/clusterでVRoidアバター撮影、#VRoid_フォトコン で投稿。協賛ショップ賞多数。",
+      "organizer": "tokino (@allianzkadett) / VRoidCafe",
+      "join_method": "#VRoid_フォトコン で投稿。",
+      "source": "https://x.com/allianzkadett/status/2012374292579958909",
+      "info": "VRChat/cluster対応、協賛ショップ賞多数"
     }
   ],
   "weekly_recurring_events": {
