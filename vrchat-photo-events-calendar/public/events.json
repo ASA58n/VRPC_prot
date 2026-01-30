@@ -614,21 +614,61 @@
       "event_name": "VRCドライブ部一周年記念フォトコン",
       "start date": "2026-01-16T00:00:00+09:00",
       "end date": "2026-02-22T23:59:59+09:00",
-      "description": "指定ドライブワールドで撮影、#VRCドライブ部一周年フォトコン で投稿。",
-      "organizer": "@VRCDriveBu (VRCドライブ部)",
+      "description": "指定ドライブワールド（Into the Snowy Midnight/running、新緑ドライブロードなど全8種）でドライブ写真撮影。",
+      "organizer": "VRCドライブ部 (@VRCDriveBu、主催代表: @stbr4772)",
       "join_method": "#VRCドライブ部一周年フォトコン で投稿。",
       "source": "https://x.com/VRCDriveBu/status/2012167918289588460",
-      "info": "指定ドライブワールドで撮影"
+      "info": "指定ドライブワールド（Into the Snowy Midnight/running、新緑ドライブロードなど全8種）で撮影"
     },
     {
       "event_name": "第1回VRoidフォトコンテスト",
       "start date": "2026-02-01T00:00:00+09:00",
       "end date": "2026-02-28T23:59:59+09:00",
-      "description": "VRChat/clusterでVRoidアバター撮影、#VRoid_フォトコン で投稿。協賛ショップ賞多数。",
+      "description": "VRoidアバター限定。VRChat/cluster内で撮影後、X/Blueskyに「#VRoid_フォトコン」を付けて投稿。協賛ショップ賞多数。",
       "organizer": "tokino (@allianzkadett) / VRoidCafe",
       "join_method": "#VRoid_フォトコン で投稿。",
       "source": "https://x.com/allianzkadett/status/2012374292579958909",
       "info": "VRChat/cluster対応、協賛ショップ賞多数"
+    },
+    {
+      "event_name": "ミルフィくんフォトコン（男の子改変ミルフィくん）",
+      "start date": "2026-01-26T00:00:00+09:00",
+      "end date": "2026-02-09T23:59:59+09:00",
+      "description": "VRChat内で男の子改変ミルフィくんを撮影。レタッチOK、1人1枚。",
+      "organizer": "ゑゑみゐる (@Emiru_VR) / グラフィック: ニャル (@nyardayo)",
+      "join_method": "X(Twitter)に写真投稿し「#Milfyくんフォトコン」を付ける。",
+      "source": "https://x.com/Emiru_VR/status/2015624520112177227",
+      "info": "男の子改変ミルフィくん限定、レタッチOK、1人1枚"
+    },
+    {
+      "event_name": "シャロ フォトコン",
+      "start date": "2026-02-01T00:00:00+09:00",
+      "end date": "2026-03-17T23:59:59+09:00",
+      "description": "「好きなシャロ」を撮影。X投稿後、Discordサーバー経由で応募（リプ/DM可）。受賞作はシャロくんカフェに展示。",
+      "organizer": "シャロくん愛好会 (@VRCChaloFanClub)",
+      "join_method": "X投稿後、Discordサーバー経由で応募（リプ/DM可）。",
+      "source": "https://x.com/VRCChaloFanClub/status/2014714995255476699",
+      "info": "受賞作はシャロくんカフェに展示"
+    },
+    {
+      "event_name": "メガネアバターを広める会フォトコン",
+      "start date": "2026-01-24T00:00:00+09:00",
+      "end date": "2026-02-14T23:59:59+09:00",
+      "description": "VRChat内でアイウェア（メガネ/サングラス/ゴーグル等）着用アバターを撮影。複数/過去写真OK。",
+      "organizer": "そなつ/桐一葉想夏 (@live_sonatu) / メガネアバターを広める会 (@Megane_hiromeru)",
+      "join_method": "Xに「#メガネアバターを広める会フォトコン」を付けて投稿。",
+      "source": "https://x.com/live_sonatu/status/2014866042674458671",
+      "info": "アイウェア（メガネ/サングラス/ゴーグル等）着用アバター、複数/過去写真OK"
+    },
+    {
+      "event_name": "バーチャルSANJOフォトコンテスト with 越後屋ときな",
+      "start date": "2026-01-19T00:00:00+09:00",
+      "end date": "2026-02-19T23:59:59+09:00",
+      "description": "「バーチャルSANJO」ワールド内の越後屋ときなスタンドオブジェクト使用撮影。",
+      "organizer": "新潟県三条市 / 三条市役所",
+      "join_method": "Xに部門名+「#バーチャルSANJOフォトコン #バーチャルSANJO #越後屋ときな」を付けて投稿。",
+      "source": "https://virtual-sanjo.jp/news/20260114_26.html",
+      "info": "バーチャルSANJOワールド内の越後屋ときなスタンドオブジェクト使用"
     }
   ],
   "weekly_recurring_events": {
