@@ -669,6 +669,26 @@
       "join_method": "Xに部門名+「#バーチャルSANJOフォトコン #バーチャルSANJO #越後屋ときな」を付けて投稿。",
       "source": "https://virtual-sanjo.jp/news/20260114_26.html",
       "info": "バーチャルSANJOワールド内の越後屋ときなスタンドオブジェクト使用"
+    },
+    {
+      "event_name": "ピンクミルフィちゃんフォトコン",
+      "start date": "2026-01-24T00:00:00+09:00",
+      "end date": "2026-02-20T23:59:59+09:00",
+      "description": "VRChat内でピンクメイン改変ミルフィを撮影した写真をXに#ピンクミルフィちゃんフォトコンを付けて投稿（1人2枚まで）。過度レタッチ・サンプル・NSFW・暴力・性的表現・MMDワールドNG。",
+      "organizer": "ミルフィちゃんフォトコン委員会 (@MilfyPhoto) 委員長: @_maify 審査員: かぐら(@kagura122_), ハセ太郎(@TAROMARU_VRC), ひなた(@Hi7TAv), みりしゃ(@locomomo2711), みに(@Setc101)",
+      "join_method": "#ピンクミルフィちゃんフォトコン を付けてXに投稿（1人2枚まで）。",
+      "source": "https://x.com/MilfyPhoto/status/2014888321043071098",
+      "info": "ピンクメイン改変ミルフィ、1人2枚まで、過度レタッチ・サンプル・NSFW・暴力・性的表現・MMDワールドNG"
+    },
+    {
+      "event_name": "神椿市建設中。VIRTUAL REALITY ワールド公開記念フォトコンテスト",
+      "start date": "2026-01-30T00:00:00+09:00",
+      "end date": "2026-02-13T23:59:59+09:00",
+      "description": "@uc_kamitsubakiをフォローし、VRChat内で撮影した画像を#神椿市建設中VRフォトコン2を付けて投稿。",
+      "organizer": "神椿市 (@uc_kamitsubaki)",
+      "join_method": "@uc_kamitsubakiをフォローし、#神椿市建設中VRフォトコン2 を付けて投稿。",
+      "source": "https://x.com/uc_kamitsubaki/status/2017162791992664110",
+      "info": ""
     }
   ],
   "weekly_recurring_events": {
