@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://asa58n.github.io/VRPC_prot/sitemap.xml

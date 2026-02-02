@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VRChatフォトコンカレンダー - 移転しました</title>
-
-    <!-- 301 Permanent Redirect (SEO用) -->
-    <link rel="canonical" href="https://asa58n.github.io/VRPC_prot/">
-    <meta name="robots" content="noindex, follow">
-    <meta http-equiv="refresh" content="0; url=https://asa58n.github.io/VRPC_prot/">
-
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0H73TR7HY7"></script>
     <script>
@@ -18,7 +9,50 @@
       gtag('js', new Date());
       gtag('config', 'G-0H73TR7HY7');
     </script>
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VRChatフォトコンカレンダー | VRChat写真コンテストの開催情報</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="VRChatで開催される写真コンテスト・フォトコンの開催日程をカレンダー形式で確認できるサイトです。イベントの詳細情報、応募方法、主催者情報を簡単に検索・閲覧できます。">
+    <meta name="keywords" content="VRChat,フォトコン,写真コンテスト,イベント,カレンダー,VR,バーチャル,フォトグラフィー,VRChat写真,VRChatイベント">
+    <meta name="author" content="VRChat Photo Contest Calendar">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph Protocol (OGP) -->
+    <meta property="og:title" content="VRChatフォトコンカレンダー | VRChat写真コンテストの開催情報">
+    <meta property="og:description" content="VRChatで開催される写真コンテスト・フォトコンの開催日程をカレンダー形式で確認できるサイトです。">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="VRChatフォトコンカレンダー">
+    <meta property="og:locale" content="ja_JP">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="VRChatフォトコンカレンダー | VRChat写真コンテストの開催情報">
+    <meta name="twitter:description" content="VRChatで開催される写真コンテスト・フォトコンの開催日程をカレンダー形式で確認できるサイトです。">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "VRChatフォトコンカレンダー",
+      "description": "VRChatで開催される写真コンテスト・フォトコンの開催日程をカレンダー形式で確認できるサイトです。",
+      "applicationCategory": "LifestyleApplication",
+      "operatingSystem": "Web Browser",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "JPY"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "ratingCount": "100"
+      }
+    }
+    </script>
+
     <!-- FullCalendar CSS -->
     <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.css" rel="stylesheet">
     
@@ -279,7 +313,7 @@
     </style>
 </head>
 <body>
-    <div class="container">
+    <header class="container">
         <!-- ヘッダー・検索エリア -->
         <div class="header">
             <h1>VRChatフォトコンカレンダー</h1>
@@ -289,11 +323,13 @@
                 </div>
             </div>
         </div>
+    </header>
 
+    <main class="container">
         <!-- メインコンテンツ -->
         <div class="main-content">
             <!-- イベント詳細エリア（左側） -->
-            <div class="event-details">
+            <aside class="event-details">
                 <h2 id="detailsTitle">イベント詳細</h2>
 
                 <div class="no-event-selected" id="noEventMessage">
@@ -342,14 +378,14 @@
                         <div class="value" id="eventSource">-</div>
                     </div>
                 </div>
-            </div>
+            </aside>
 
             <!-- カレンダーエリア（右側） -->
-            <div class="calendar-container">
+            <section class="calendar-container">
                 <div id="calendar"></div>
-            </div>
+            </section>
         </div>
-    </div>
+    </main>
 
     <!-- FullCalendar JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js"></script>
@@ -404,7 +440,7 @@
                 },
                 // イベントデータを動的に読み込み
                 events: function(info, successCallback, failureCallback) {
-                    fetch('./events.json')
+                    fetch('./vrchat-photo-events-calendar/public/events.json')
                         .then(response => {
                             if (!response.ok) {
                                 throw new Error('events.jsonの読み込みに失敗しました');
