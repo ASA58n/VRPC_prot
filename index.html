@@ -15,21 +15,26 @@
 
     <!-- SEO Meta Tags -->
     <meta name="description" content="VRChatで開催される写真コンテスト・フォトコンの開催日程をカレンダー形式で確認できるサイトです。イベントの詳細情報、応募方法、主催者情報を簡単に検索・閲覧できます。">
-    <meta name="keywords" content="VRChat,フォトコン,写真コンテスト,イベント,カレンダー,VR,バーチャル,フォトグラフィー,VRChat写真,VRChatイベント">
+    <meta name="keywords" content="VRChat,フォトコン,写真コンテスト,イベント,カレンダー,VRC,バーチャル,フォトグラフィー,VRChat写真,ぶいちゃ">
     <meta name="author" content="VRChat Photo Contest Calendar">
     <meta name="robots" content="index, follow">
 
     <!-- Open Graph Protocol (OGP) -->
     <meta property="og:title" content="VRChatフォトコンカレンダー | VRChat写真コンテストの開催情報">
-    <meta property="og:description" content="VRChatで開催される写真コンテスト・フォトコンの開催日程をカレンダー形式で確認できるサイトです。">
+    <meta property="og:description" content="VRChatで開催される写真コンテスト・フォトコンの開催日程をカレンダー形式で確認できるサイトです。イベントの詳細情報、応募方法、主催者情報を簡単に検索・閲覧できます。">
     <meta property="og:type" content="website">
+    <meta property="og:url" content="https://asa58n.github.io/VRPC_prot/">
+    <meta property="og:image" content="https://asa58n.github.io/VRPC_prot/ogp-VPC.svg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="VRChatフォトコンカレンダー">
     <meta property="og:locale" content="ja_JP">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="VRChatフォトコンカレンダー | VRChat写真コンテストの開催情報">
-    <meta name="twitter:description" content="VRChatで開催される写真コンテスト・フォトコンの開催日程をカレンダー形式で確認できるサイトです。">
+    <meta name="twitter:description" content="VRChatで開催される写真コンテスト・フォトコンの開催日程をカレンダー形式で確認できるサイトです。イベントの詳細情報、応募方法、主催者情報を簡単に検索・閲覧できます。">
+    <meta name="twitter:image" content="https://asa58n.github.io/VRPC_prot/ogp-VPC.svg">
 
     <!-- Structured Data (JSON-LD) -->
     <script type="application/ld+json">
@@ -313,21 +318,19 @@
     </style>
 </head>
 <body>
-    <header class="container">
+    <div class="container">
         <!-- ヘッダー・検索エリア -->
-        <div class="header">
+        <header class="header">
             <h1>VRChatフォトコンカレンダー</h1>
             <div class="search-container">
                 <div class="search-box">
                     <input type="text" id="searchInput" placeholder="イベント名、説明、主催者で検索...">
                 </div>
             </div>
-        </div>
-    </header>
+        </header>
 
-    <main class="container">
         <!-- メインコンテンツ -->
-        <div class="main-content">
+        <main class="main-content">
             <!-- イベント詳細エリア（左側） -->
             <aside class="event-details">
                 <h2 id="detailsTitle">イベント詳細</h2>
@@ -384,13 +387,13 @@
             <section class="calendar-container">
                 <div id="calendar"></div>
             </section>
-        </div>
-    </main>
+        </main>
+    </div>
 
     <!-- FullCalendar JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js"></script>
-    
-    <script>
+    <script defer src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js"></script>
+
+    <script defer>
         document.addEventListener('DOMContentLoaded', function() {
             // カレンダー要素を取得
             const calendarEl = document.getElementById('calendar');
