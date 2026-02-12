@@ -689,6 +689,56 @@
       "join_method": "@uc_kamitsubakiをフォローし、#神椿市建設中VRフォトコン2 を付けて投稿。",
       "source": "https://x.com/uc_kamitsubaki/status/2017162791992664110",
       "info": ""
+    },
+    {
+      "event_name": "クマリフォトコン",
+      "start date": "2026-02-06T00:00:00+09:00",
+      "end date": "2026-03-07T23:59:59+09:00",
+      "description": "VRChatでクマリ（#KUMALY3D）アバターを撮影した写真を#クマリフォトコンタグ付きでXに投稿（他アバター映り込み不可・複数人OK・レタッチOK・1ツイート1枚・1日1ポストまで）。サンプル部門は#サンプルクマリも併用。",
+      "organizer": "@yaeza_kura (八重咲 クラ)",
+      "join_method": "#クマリフォトコン をつけてXに投稿（他アバター映り込み不可・複数人OK・レタッチOK・1ツイート1枚・1日1ポストまで）。サンプル部門は#サンプルクマリも併用。",
+      "source": "https://x.com/yaeza_kura/status/2019524678789001608",
+      "info": "他アバター映り込み不可・複数人OK・レタッチOK・1ツイート1枚・1日1ポストまで"
+    },
+    {
+      "event_name": "墨惺フォトコン (Bokusei Reki Photo Contest)",
+      "start date": "2026-02-01T00:00:00+09:00",
+      "end date": "2026-02-28T23:59:59+09:00",
+      "description": "墨惺（#bokusei3D）アバターをメインに撮影した写真を最大3枚投稿（他アバターOK・レタッチ無制限・応募作品の紹介に同意）。タグ未指定だが告知ポスト引用推奨。",
+      "organizer": "@bokuseireki (墨惺暦)",
+      "join_method": "墨惺（#bokusei3D）アバターをメインに撮影した写真を最大3枚投稿。告知ポスト引用推奨。",
+      "source": "https://x.com/bokuseireki/status/2017805330307289488",
+      "info": "他アバターOK・レタッチ無制限・応募作品の紹介に同意・最大3枚"
+    },
+    {
+      "event_name": "第二回ゆるフォトコン (第二回ゆるフォト交流会)",
+      "start date": "2026-02-01T00:00:00+09:00",
+      "end date": "2026-02-15T23:59:59+09:00",
+      "description": "#ゆるフォトコンタグを付けておはツイ/写真をXに投稿（テーマ「おはよう」・レタッチ/Unity撮影全OK）。",
+      "organizer": "@psk_esk (駄狐 こん / ゆるフォト交流会主催)",
+      "join_method": "#ゆるフォトコン タグを付けておはツイ/写真をXに投稿。",
+      "source": "https://x.com/psk_esk/status/2017883879701676289",
+      "info": "テーマ「おはよう」・レタッチ/Unity撮影全OK"
+    },
+    {
+      "event_name": "しなのデフォ服フォトコンテスト",
+      "start date": "2026-02-09T00:00:00+09:00",
+      "end date": "2026-03-08T23:59:59+09:00",
+      "description": "#しなのデフォ服フォトコンをつけて投稿 デフォルトの服限定色や小物などは改変OK",
+      "organizer": "@naru_020301",
+      "join_method": "#しなのデフォ服フォトコン をつけて投稿。",
+      "source": "https://x.com/naru_020301/status/2020422349292483029",
+      "info": "デフォルトの服限定・色や小物などは改変OK"
+    },
+    {
+      "event_name": "第十回VRC感情の解釈フォトコン",
+      "start date": "2026-02-09T00:00:00+09:00",
+      "end date": "2026-02-23T23:59:59+09:00",
+      "description": "テーマは恋慕 #第十回VRC感情の解釈フォトコン をつけてXに投稿",
+      "organizer": "@46nekoVRC",
+      "join_method": "#第十回VRC感情の解釈フォトコン をつけてXに投稿。",
+      "source": "https://x.com/46nekoVRC/status/2020663947657883704",
+      "info": "テーマ：恋慕"
     }
   ],
   "weekly_recurring_events": {
