@@ -759,6 +759,26 @@
       "join_method": "#日瑚3D #Nico3D を付けてX投稿後、Googleフォームで申請。",
       "source": "https://x.com/MetaCreatorsTYO/status/2022959097994444867",
       "info": "日瑚サンプルアバター、テーマ「笑顔」、全員参加特典（衣装プレゼント、上限3）、最優秀賞BOOTHギフト1万円"
+    },
+    {
+      "event_name": "NakiyaPhotocon01",
+      "start date": "2026-02-20T00:00:00+09:00",
+      "end date": "2026-03-09T23:59:59+09:00",
+      "description": "泣夜写真（NSFW NG）を告知ポスト引用RPし、#NakiyaPhotocon01 を付けてXに投稿。優秀者5名にギフト5000円分。",
+      "organizer": "きゃの (@keenoo_kyano)",
+      "join_method": "引用RP に #NakiyaPhotocon01 を付けて泣夜写真を投稿（NSFW NG）。",
+      "source": "https://x.com/keenoo_kyano/status/2024408619299803435",
+      "info": "優秀5人:ギフト5000円分"
+    },
+    {
+      "event_name": "第三回ゆるフォトコン",
+      "start date": "2026-03-02T00:00:00+09:00",
+      "end date": "2026-03-13T23:59:59+09:00",
+      "description": "テーマ「色」でレタッチOKの写真を#ゆるフォトコン を付けてXに投稿。大賞: Booth2000円×3+掲示。",
+      "organizer": "駄狐 こん (@psk_esk)",
+      "join_method": "#ゆるフォトコン を付けて「色」テーマの写真を投稿（レタッチOK）。",
+      "source": "https://x.com/psk_esk/status/2028380670691835957",
+      "info": "大賞:Booth2000円×3+掲示"
     }
   ],
   "weekly_recurring_events": {
