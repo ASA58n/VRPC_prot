@@ -809,6 +809,26 @@
       "join_method": "下記2つのハッシュタグをつけて投稿 #アルモニアVRC #アルモニア魔法少女フォトコン",
       "source": "https://x.com/armonia_vrc/status/2028032524191248801",
       "info": "詳細は元ポストをご確認ください"
+    },
+    {
+      "event_name": "第4回 ぶいちゃコーデ フォトコンテスト",
+      "start date": "2026-03-10T00:00:00+09:00",
+      "end date": "2026-04-10T23:59:59+09:00",
+      "description": "VRCファッション・コーデ写真コンテスト（賞金総額高め・多数部門賞あり）",
+      "organizer": "ぶいちゃコーデ (@vrc_style)",
+      "join_method": "@vrc_styleをフォロー&RT + #ぶいちゃコーデ タグで投稿（部門タグ追加可）。",
+      "source": "https://x.com/vrc_style/status/2031309208352891284",
+      "info": "アバター利用規約遵守・VRC/Unity撮影可・無制限投稿OK・複数人参加可"
+    },
+    {
+      "event_name": "-Rêve des Poupées- ドール改変 フォトコンテスト",
+      "start date": "2026-03-03T00:00:00+09:00",
+      "end date": "2026-04-04T23:59:59+09:00",
+      "description": "ドールサイズ改変アバター（体長40-60cm程度）専門フォトコン（入賞でイベント展示・招待券賞品）",
+      "organizer": "Doll's little Party (@DLP_RDP_VRC)",
+      "join_method": "#VRC_RDP_PhotoC タグ + 概要ポスト引用で投稿。",
+      "source": "https://x.com/DLP_RDP_VRC/status/2028667808377364533",
+      "info": "ドール改変アバターがメイン・加工/レタッチ自由"
     }
   ],
   "weekly_recurring_events": {
