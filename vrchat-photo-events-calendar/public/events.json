@@ -849,6 +849,56 @@
       "join_method": "#第十一回VRC感情の解釈フォトコン をつけてXでポスト。",
       "source": "https://x.com/46nekoVRC/status/2030810804619186197",
       "info": "テーマ：欲、制限なし、賞品あり"
+    },
+    {
+      "event_name": "制服フォトコンテスト（Pavillion / OGRE）",
+      "start date": "2026-03-20T00:00:00+09:00",
+      "end date": "2026-04-08T23:59:59+09:00",
+      "description": "OGREまたはPavillionの制服を着用した写真。VRC/Unity撮影・レタッチOK。人数自由（複数人時は代表者に賞品）。",
+      "organizer": "OGRE / Pavillion 公式 (@ogre_pavillion)",
+      "join_method": "#制服フォトコンVRC をつけてX投稿。",
+      "source": "https://x.com/ogre_pavillion/status/2034935272002265301",
+      "info": "対象衣装着用必須・複数人時はグループで賞品山分け"
+    },
+    {
+      "event_name": "第1回士堂フォトコン",
+      "start date": "2026-03-22T00:00:00+09:00",
+      "end date": "2026-04-10T23:59:59+09:00",
+      "description": "テーマ「大人の余裕」。士堂アバター着用写真（改変部門・サンプル部門・人気投稿部門・FAN部門）。VRC/Unity撮影・レタッチ自由。NSFW禁止。投稿数無制限。",
+      "organizer": "メタバースクリエイターズ (@MetaCreatorsTYO)",
+      "join_method": "当ポストに画像添付して引用RP＋#士堂3D #Shidou3D タグで投稿。",
+      "source": "https://x.com/MetaCreatorsTYO/status/2035552058829672467",
+      "info": "NSFW禁止・士堂サンプルは人気投稿部門対象外・複数人撮影時は投稿者に賞品"
+    },
+    {
+      "event_name": "第7回Velleフォトコン",
+      "start date": "2026-03-25T00:00:00+09:00",
+      "end date": "2026-04-12T23:59:59+09:00",
+      "description": "Velleちゃんを被写体とした写真（被写体の同意必須）。VRC撮影（加筆・修正・レタッチ自由）。NSFW禁止。1人1投稿4枚まで。",
+      "organizer": "こま (@kommma_ / Velleちゃん集会)",
+      "join_method": "#Velleフォトコン をつけてXに投稿。",
+      "source": "https://x.com/kommma_/status/2036401802216923262",
+      "info": "被写体の同意必須・NSFW禁止・1人4枚上限"
+    },
+    {
+      "event_name": "TKNPOSEフォトコンテスト（メニュー1ページ到達記念）",
+      "start date": "2026-03-25T00:00:00+09:00",
+      "end date": "2026-04-12T23:59:59+09:00",
+      "description": "TKNPOSE1〜6のいずれかを使用した写真。編集・加工自由（過度なポーズ崩しはNG）。最優秀1万円・優秀2名各3千円のBOOTH商品。",
+      "organizer": "たかな (@takanaVRC)",
+      "join_method": "#TKNPOSE_PC タグでX投稿。",
+      "source": "https://x.com/takanaVRC/status/2036352330338279539",
+      "info": "必須ポーズ使用・利用規約遵守・投稿数無制限"
+    },
+    {
+      "event_name": "おはし春のフォトコンテスト",
+      "start date": "2026-04-04T00:00:00+09:00",
+      "end date": "2026-04-15T23:59:59+09:00",
+      "description": "「春」を感じる最高の1枚（横画像のみ）。VRC+なども使用可。1位にはお好きなアバター贈呈。",
+      "organizer": "おはしはし (@ohashihashiVRC)",
+      "join_method": "詳細は告知ポストのツリー/フォームを確認（タイトル添えて応募）。",
+      "source": "https://x.com/ohashihashiVRC/status/2032732554051342751",
+      "info": "横画像のみ・春テーマ厳守"
     }
   ],
   "weekly_recurring_events": {
