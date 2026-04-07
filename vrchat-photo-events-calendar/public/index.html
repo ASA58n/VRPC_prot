@@ -474,10 +474,10 @@
                 // イベント詳細を更新
                 document.getElementById('eventTitle').textContent = event.title;
                 document.getElementById('eventDate').textContent = formatEventDate(event.start, event.end);
-                document.getElementById('eventDescription').textContent = event.extendedProps.description || '-';
+                document.getElementById('eventDescription').innerHTML = linkifyHashtags(event.extendedProps.description);
                 document.getElementById('eventWorld').textContent = event.extendedProps.info || '-';
                 document.getElementById('eventOrganizer').textContent = event.extendedProps.organizer || '-';
-                document.getElementById('eventJoinMethod').textContent = event.extendedProps.join_method || '-';
+                document.getElementById('eventJoinMethod').innerHTML = linkifyHashtags(event.extendedProps.join_method);
                 document.getElementById('eventPlatform').textContent = 'VRChat';
                 const sourceElement = document.getElementById('eventSource');
                 const sourceUrl = event.extendedProps.source;
@@ -554,6 +554,16 @@
                     todayEvents.innerHTML = '<p style="text-align: center; color: #95a5a6; margin-top: 20px;">本日開催中のイベントはありません</p>';
                     todayEvents.classList.add('active');
                 }
+            }
+
+            // ハッシュタグをXの検索リンクに変換する関数
+            function linkifyHashtags(text) {
+                if (!text) return '-';
+                const escaped = text
+                    .replace(/&/g, '&amp;')
+                    .replace(/</g, '&lt;')
+                    .replace(/>/g, '&gt;');
+                return escaped.replace(/#([^\s#]+)/g, '<a href="https://x.com/hashtag/$1" target="_blank" rel="noopener noreferrer">#$1</a>');
             }
 
             // 日時フォーマット関数
