@@ -929,6 +929,26 @@
       "join_method": "Xに写真を投稿し「#DMフォトアワード2026春」と作品名を記載。",
       "source": "https://x.com/dm_avatar/status/2037434486246555900",
       "info": "ヒナミorルシルが1体以上写っていること・縦型比率2:3・1人最大10作品まで・サンプルアバターOK・詳細規約は画像確認必須・NSFW禁止"
+    },
+    {
+      "event_name": "第1回 VTYLE Avatar Photo Contest",
+      "start date": "2026-03-16T00:00:00+09:00",
+      "end date": "2026-03-27T15:00:00+09:00",
+      "description": "VRChatアバター写真限定の初回コンテスト。Discord投票で1〜3位決定。",
+      "organizer": "VTYLE / Overay (@BoothOveray)",
+      "join_method": "指定DiscordリンクにVRChatアバター写真1枚投稿 → 気に入った作品に👍リアクションで投票。",
+      "source": "https://x.com/BoothOveray/status/2033368111236386858",
+      "info": "1人1枚のみ・NSFW/過度露出は除外可能性あり・VRChatアバター写真限定"
+    },
+    {
+      "event_name": "第4回ゆるフォトコン",
+      "start date": "2026-04-01T00:00:00+09:00",
+      "end date": "2026-04-12T23:59:59+09:00",
+      "description": "「春」をテーマにしたゆるいフォトコン。桜・ひなまつり・新生活など各自の「春」を表現。",
+      "organizer": "駄狐 こん / ゆるフォト交流会 (@psk_esk)",
+      "join_method": "春をテーマにした写真をXに投稿（詳細はリプライ欄参照）。#ゆるフォトコン を付けて投稿。",
+      "source": "https://x.com/psk_esk/status/2039175958813720722",
+      "info": "賞品・注意事項はリプライ確認必須"
     }
   ],
   "weekly_recurring_events": {
