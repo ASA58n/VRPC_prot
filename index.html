@@ -638,7 +638,7 @@
                     .replace(/&/g, '&amp;')
                     .replace(/</g, '&lt;')
                     .replace(/>/g, '&gt;');
-                return escaped.replace(/#([^\s#]+)/g, '<a href="https://x.com/hashtag/$1" target="_blank" rel="noopener noreferrer">#$1</a>');
+                return escaped.replace(/#([^\s#（）「」【】『』〔〕。、！？・…〜]+)/g, '<a href="https://x.com/hashtag/$1" target="_blank" rel="noopener noreferrer">#$1</a>');
             }
 
             // 日時フォーマット関数
