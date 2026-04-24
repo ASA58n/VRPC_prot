@@ -999,6 +999,46 @@
       "join_method": "#SCPC タグを付けてX投稿。",
       "source": "https://x.com/htp_slashcoVR/status/2043979760146260035",
       "info": "大賞（Booth/Patronギフト2,000円）、優秀賞1,500円、優良賞1,000円、佳作500円×2、KAMI作品賞（未定）。賞品画像参照。"
+    },
+    {
+      "event_name": "第5回 ぶいちゃコーデ フォトコンテスト",
+      "start date": "2026-04-24T00:00:00+09:00",
+      "end date": "2026-05-24T23:59:59+09:00",
+      "description": "VRCファッション写真コンテスト。全体賞（最優秀20,000円・優秀10,000円）＋13部門賞（各部門1名）。部門例：れおなるど部門、トラスとウェッジ部門など。VRC/Unity撮影可、複数人・複数投稿可。",
+      "organizer": "ぶいちゃコーデ | VRC Fashion Media (@vrc_style)",
+      "join_method": "①@vrc_styleをフォロー＆該当投稿をRP ② #ぶいちゃコーデ を付けて投稿 ③部門参加時は各部門タグ追加",
+      "source": "https://x.com/vrc_style/status/2047616563839451550",
+      "info": "・アバター・衣装の利用規約厳守 ・大量タグ使用禁止 ・部門ごとに応募開始/締切が異なる場合あり"
+    },
+    {
+      "event_name": "第2回VRCポートレートフォトコン",
+      "start date": "2026-04-24T00:00:00+09:00",
+      "end date": "2026-05-10T23:59:59+09:00",
+      "description": "テーマ「壁紙にしたいと思える写真」。スマホ部門（縦長）とPC部門（横長）の2部門。VRC撮影限定。",
+      "organizer": "y4m_vrc (@y4m_vrc)",
+      "join_method": " #第2回VRCポートレートフォトコン を付けて投稿＋当該ツイートを引用（1人各部門1作品）",
+      "source": "https://x.com/y4m_vrc/status/2047597643405381732",
+      "info": "・人物1人以上 ・レタッチ制限あり ・他コン重複NG ・結果発表：5/24予定"
+    },
+    {
+      "event_name": "エミエミフォトコン2026（エミスティアちゃんオンリーフォトコン）",
+      "start date": "2026-04-13T00:00:00+09:00",
+      "end date": "2026-05-29T23:59:59+09:00",
+      "description": "SKYMY Workshop「エミスティア -EMISTIA-」5周年記念オンリーフォトコン。エミスティアちゃん専用アバター使用作品のみ。Amazonギフトカード中心＋協賛賞多数。",
+      "organizer": "たに RS (@tani_ka_atgame)",
+      "join_method": "① #エミエミフォトコン2026 を付けてX投稿 ②投稿URLをGoogleフォーム登録（https://forms.gle/kSBVDMQRpE2JpZ4h7）",
+      "source": "https://x.com/tani_ka_atgame/status/2043615277502681147",
+      "info": "・エミスティア素体限定（非対応服/髪型OK、Body変更NG） ・レタッチNG ・VRC内で完結 ・1人2作品まで"
+    },
+    {
+      "event_name": "GSshop 100フォロー記念フォトコン",
+      "start date": "2026-04-24T00:00:00+09:00",
+      "end date": "2026-04-29T12:00:00+09:00",
+      "description": "GSshopフォロー100人記念フォトコン。テーマ『華』（どんな「華」でも可）。",
+      "organizer": "Gussan VR chat垢 (@GussanVRC777) / GSshop",
+      "join_method": "①トップポストにいいね＆RP ②トップポストを引用＋ #GSshop タグで写真投稿",
+      "source": "https://x.com/GussanVRC777/status/2047518568108220431",
+      "info": "・賞品：優秀賞「蒼華-SOUKA-同梱版」1名、他3名にギフト ・#vrchat #ラシューシャ 関連推奨"
     }
   ],
   "weekly_recurring_events": {
