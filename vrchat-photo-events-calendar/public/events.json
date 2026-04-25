@@ -1039,6 +1039,46 @@
       "join_method": "①トップポストにいいね＆RP ②トップポストを引用＋ #GSshop タグで写真投稿",
       "source": "https://x.com/GussanVRC777/status/2047518568108220431",
       "info": "・賞品：優秀賞「蒼華-SOUKA-同梱版」1名、他3名にギフト ・#vrchat #ラシューシャ 関連推奨"
+    },
+    {
+      "event_name": "アルエフォトコンテスト（Café Alue Photo Contest）",
+      "start date": "2026-04-01T00:00:00+09:00",
+      "end date": "2026-05-01T23:59:59+09:00",
+      "description": "CaféAluéを舞台にしたフォトコンテスト。豪華Booth賞品あり（大賞5,000円分など）",
+      "organizer": "CaféAlué（@AlueCafe0730） / 主催@nonnchan_03",
+      "join_method": "@AlueCafeをフォロー + #CaféAluéフォトコン で投稿 + 本告知ポストを引用 + CaféAluéからいいね＆RPで応募完了（1人2枚まで）",
+      "source": "https://x.com/AlueCafe0730/status/2040921675202806062",
+      "info": "1人2枚まで・他アバター映り込みOK（アルエ主役）・VRChat/Unity撮影限定・合成/軽めレタッチOK・NSFW/暴力/特定宗教禁止・受賞作品はアフターワールド掲載に同意したものとする"
+    },
+    {
+      "event_name": "7D1Mフォトコンテスト（mini7Dフォトコンテスト）",
+      "start date": "2026-04-25T00:00:00+09:00",
+      "end date": "2026-05-20T23:59:59+09:00",
+      "description": "mini7Dで制作されたWorldを対象にしたフォトコンテスト。最優秀賞はmini7DポータルWorld掲載＋3Dトロフィー＋Amazonギフト5,000円",
+      "organizer": "7Days&1Month World Works（@7D1M_vrc）",
+      "join_method": "Mini7DaysPortalWorld掲載Worldで撮影 → #7D1Mフォトコン  #7D1M を付けてX投稿",
+      "source": "https://x.com/7D1M_vrc/status/2047873296222519679",
+      "info": "16:9比率OK・レタッチ可・投稿枚数制限なし・過去SNS投稿の再投稿も可・結果発表は5/31"
+    },
+    {
+      "event_name": "真央1周年記念フォトコンテスト（真央-mao-フォトコン）",
+      "start date": "2026-04-27T00:00:00+09:00",
+      "end date": "2026-05-17T23:59:59+09:00",
+      "description": "テーマ『真央と歩んだ、あなただけの思い出を…』。1周年記念フォトコン（印象に残る瞬間や関係性を1枚に）",
+      "organizer": "-Bar Mao- DUAL BLEND（@MaoDUAL_BLEND）",
+      "join_method": " #VRC_真央フォトコン を付けてX投稿（詳細は告知画像参照）",
+      "source": "https://x.com/MaoDUAL_BLEND/status/2047963832619016202",
+      "info": "最優秀賞5000円分Boothギフトほか・自由な発想で参加可"
+    },
+    {
+      "event_name": "DIGICON5",
+      "start date": "2026-04-25T00:00:00+09:00",
+      "end date": "2026-05-09T23:59:59+09:00",
+      "description": "VRChat撮影部門（テーマ：ロマンティック）とUnity撮影部門（テーマ：アバターポートレート）の2部門制フォトコンテスト。OXI Design主催。各部門入選作品はVRChatワールド内で展示予定",
+      "organizer": "OXI Design（@1ustAlternative）",
+      "join_method": "Xで #DIGICON5 と部門に応じて #VRChat または #Unity を付けて投稿（各部門1人1枚まで）",
+      "source": "https://x.com/1ustAlternative/status/2047988016191549794",
+      "info": "誰でも参加可・投稿期間4/25〜5/9・画像サイズ自由（展示時は1-2Kに圧縮）・VRChat部門：VRChat内撮影画像のみ（レンダリング/ポストプロセス/軽微レタッチ・AI加工可、生成AIによる大幅加筆・合成不可）・Unity部門：Unity上制作・撮影画像対象（同加工条件）・著作権は投稿者帰属・主催者による商用利用なし・結果発表は応募終了後"
     }
   ],
   "weekly_recurring_events": {
