@@ -993,12 +993,12 @@
     {
       "event_name": "第1回 SlashCoフォトコンテスト",
       "start date": "2026-04-02T00:00:00+09:00",
-      "end date": "2026-04-30T23:59:59+09:00",
+      "end date": "2026-05-16T00:00:00+09:00",
       "description": "テーマ「仲間と協力」。SlashCoVRワールド限定撮影。レタッチ・カメラギミック・NPC使用OK（SlashCo風改変推奨）。",
       "organizer": "すらしゅこなんもわからん集会 (@htp_slashcoVR)",
       "join_method": "#SCPC タグを付けてX投稿。",
-      "source": "https://x.com/htp_slashcoVR/status/2043979760146260035",
-      "info": "大賞（Booth/Patronギフト2,000円）、優秀賞1,500円、優良賞1,000円、佳作500円×2、KAMI作品賞（未定）。賞品画像参照。"
+      "source": "https://x.com/htp_slashcoVR/status/2051927474578288686",
+      "info": "元々4月末締切だったが5月16日0時まで延長中。大賞（Booth/Patronギフト2,000円）、優秀賞1,500円、優良賞1,000円、佳作500円×2、KAMI作品賞（未定）。賞品画像参照。"
     },
     {
       "event_name": "第5回 ぶいちゃコーデ フォトコンテスト",
@@ -1159,6 +1159,36 @@
       "join_method": "#エクちゃんフラワーフォトコン を付けてXに投稿。",
       "source": "https://x.com/i/status/2050185213993537644",
       "info": "過度なレタッチはお控えください MMDワールドで撮影された画像の投稿は禁止です。 NSFW / 暴力 / 性的表現は禁止です 規約により禁止されているアイテムのプレゼントは出来ません タグの未記載は無効となります"
+    },
+    {
+      "event_name": "VRブラッドリコール フォトコンテスト (#VRブラリコフォトコン)",
+      "start date": "2026-05-08T00:00:00+09:00",
+      "end date": "2026-05-31T23:59:59+09:00",
+      "description": "VRブラッドリコールのアバター衣装を活用したフォトコンテスト。原作再現・改変力を競う。",
+      "organizer": "一般社団法人REARV（原作：シエラゲームズ)",
+      "join_method": "指定BOOTH商品（衣装など）を1つ以上使用し、Xで #VRブラリコフォトコン をつけて投稿。",
+      "source": "https://x.com/REARV_Tw/status/2052396519777841412",
+      "info": "審査基準：原作再現・改変力・表現力・話題性。優秀賞2名（Amazonギフト1万円）、佳作6名（3千円）。入賞作品はBOOTH賞品ページ掲載（了承必要）。審査発表6月中旬。詳細はGoogleドキュメント参照。"
+    },
+    {
+      "event_name": "USAGI_PHOTOCON_2026 (USAGIフォトコン)",
+      "start date": "2026-05-03T00:00:00+09:00",
+      "end date": "2026-05-22T23:59:59+09:00",
+      "description": "maisonusagi FULLPACKのお洋服（衣装・髪型）を対象とした豪華フォトコンテスト。VRC/Unity写真どちらでもOK。",
+      "organizer": "うさみ (@_usagiexpress) / Maison Usagi",
+      "join_method": "#USAGI_PHOTOCON_2026 をつけてX投稿。参加条件：告知ポストのRP＋主催アカウントのフォロー。他ショップアイテム併用OK、レタッチ・複数投稿OK。",
+      "source": "https://x.com/_usagiexpress/status/2050793626687709483",
+      "info": "優勝者発表5/30。景品は「VIVEフルトラ全部セット」（お渡しは6/25に変更）。対象は現在販売中のFULLPACK衣装使用。総合的に素晴らしい写真を選定。"
+    },
+    {
+      "event_name": "Cafeクワイエット 3周年フォトコン",
+      "start date": "2026-05-05T00:00:00+09:00",
+      "end date": "2026-05-20T23:59:59+09:00",
+      "description": "「文字と私」をお題にしたCafeクワイエット 3周年記念フォトコン。賞品（大賞・副賞・店長特別賞）あり。",
+      "organizer": "Cafeクワイエット (@koyanyoro)",
+      "join_method": "専用フォームから入稿＋ #Cafeクワイエットフォトコン をつけてX投稿。",
+      "source": "https://x.com/koyanyoro/status/2051236724098085239",
+      "info": "NSFW・グロテスク・ホラー表現禁止。一人4点まで。レタッチOK。無言勢でなくても参加可。"
     }
   ],
   "weekly_recurring_events": {
