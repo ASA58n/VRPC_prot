@@ -1209,6 +1209,26 @@
       "join_method": "告知ポストを引用 ＆ #星撫フォトコン で投稿。",
       "source": "https://x.com/hoshinade_VRC/status/2056313852355084614",
       "info": "賞品: Boothギフト5000円分ほか。詳細・ルールは添付画像参照。"
+    },
+    {
+      "event_name": "VRCosmeリリース記念フォトコン",
+      "start date": "2026-05-23T00:00:00+09:00",
+      "end date": "2026-06-13T23:59:59+09:00",
+      "description": "テーマ：「あなたのVRChatライフを、作品に」（思い出のスクショ、好きなワールド、推しとの写真などなんでもOK！）",
+      "organizer": "雨苺なつき / VRCosme",
+      "join_method": "この投稿を引用して #VRCosmeリリース記念フォトコン をつけて投稿",
+      "source": "https://x.com/mu_natuki/status/2058104473583812940",
+      "info": "VRChat内で撮影した写真のみ、複数参加OK、レタッチOK（VRCosme推奨）、NSFW禁止、Unity撮影対象外、結果発表6/17予定"
+    },
+    {
+      "event_name": "VRChat スナップ写真フォトコン vol.1",
+      "start date": "2026-05-22T00:00:00+09:00",
+      "end date": "2026-06-12T23:59:59+09:00",
+      "description": "スナップ写真のコンテスト。選出2500円ギフト。応募枚数3枚まで。",
+      "organizer": "榊田あまと | AM470",
+      "join_method": "#VSNAPvol1 でXに投稿",
+      "source": "https://x.com/i/status/2057476513448988961",
+      "info": "素材合成、Unity撮影不可"
     }
   ],
   "weekly_recurring_events": {
