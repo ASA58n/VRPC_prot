@@ -1229,6 +1229,56 @@
       "join_method": "#VSNAPvol1 でXに投稿",
       "source": "https://x.com/i/status/2057476513448988961",
       "info": "素材合成、Unity撮影不可"
+    },
+    {
+      "event_name": "しんのフォトコン2026夏",
+      "start date": "2026-05-31T00:00:00+09:00",
+      "end date": "2026-06-15T23:59:59+09:00",
+      "description": "Booth3D販売1周年記念フォトコン。雪花しんの衣装を着たVRC写真を募集します。",
+      "organizer": "雪花しん/shin @_shin_sinsin",
+      "join_method": "XでVRC写真を投稿（ #しんのフォトコン2026夏 を付ける）。フォーム応募をしてくれた方には参加賞「写真を入れられる懐中時計”PhoitoWatch”」をプレゼント。",
+      "source": "https://x.com/_shin_sinsin/status/2060980182782218623",
+      "info": "レタッチOK。Unity撮影不可。撮影ギミック使用可。NSFW不可。過度の暴力/グロテスク表現不可。他ショップアイテムとの組み合わせOK（上半身・下半身いずれかをメインに利用必須）。過去写真可。複数人可（受賞は代表者のみ）。"
+    },
+    {
+      "event_name": "ざつじどフォトコン",
+      "start date": "2026-06-01T00:00:00+09:00",
+      "end date": "2026-06-14T23:59:59+09:00",
+      "description": "真の「ざつじど」（デフォルトカメラによるカジュアル自撮り）を競うフォトコン。盛っていない本物の日常VRC写真を募集。",
+      "organizer": "レイチェルさん！ (@VRC_kurorachel)",
+      "join_method": "Xに #ざつじどフォトコン を付けて投稿（1人1枚まで、最後の投稿が有効）。",
+      "source": "https://x.com/VRC_kurorachel/status/2061281605218673031",
+      "info": "VRChatデフォルトカメラ自撮りのみ。レタッチ禁止。NSFW/R18禁止。過去作品OK。複数人OK（対象は投稿者1名のみ）。"
+    },
+    {
+      "event_name": "エクちゃん魔法フォトコン",
+      "start date": "2026-06-01T00:00:00+09:00",
+      "end date": "2026-06-25T23:59:59+09:00",
+      "description": "魔法をテーマにしたエクちゃん（素体改変アバター）の写真を募集するコンテスト。",
+      "organizer": "エクちゃんフォトコン委員会 (@Eku3D_Photo)",
+      "join_method": "Xに #エクちゃん魔法フォトコン を付けて投稿（1人3枚まで）。",
+      "source": "https://x.com/Eku3D_Photo/status/2061416721110401384",
+      "info": "エク素体改変アバター必須。VRC内撮影。魔法要素必須。レタッチOK。MMD撮影禁止。NSFW/暴力/性的表現禁止。"
+    },
+    {
+      "event_name": "CAFE Lethe フォトコンテスト",
+      "start date": "2026-05-26T00:00:00+09:00",
+      "end date": "2026-06-19T23:59:59+09:00",
+      "description": "テーマ「cafe」のフォトコン。VERMILONアバターを使用。",
+      "organizer": "Cafe Lethe（カフェ・レーテ） (@CafeLethe7110、主催：亜麻仁ヤエギ @Amani_yaegi)",
+      "join_method": "CafeLethe VRCグループ参加 + アカウントフォロー + 本ポスト引用＆ #CafeLethe_フォトコン で投稿。",
+      "source": "https://x.com/CafeLethe7110/status/2058933611064180969",
+      "info": "受賞作品は店内に展示。詳細はリプライ参照。"
+    },
+    {
+      "event_name": "ツクヨミ - 超かぐや姫！ファン フォトコンテスト",
+      "start date": "2026-05-24T00:00:00+09:00",
+      "end date": "2026-06-13T23:59:59+09:00",
+      "description": "超かぐや姫！をテーマにしたファン向けフォトコンテスト。KASSENコミュニティ関連。",
+      "organizer": "超かぐや姫！非公式 フォトコン広報 / KASSENコミュニティ",
+      "join_method": "Xに #超かぐ非公式VRCフォトコン タグ付き投稿 + Discordフォーム送信。",
+      "source": "https://x.com/Tom_t0m_tommy/status/2059169895166968119",
+      "info": "KASSEN世界以外撮影OK。参加前にDiscordルール確認。投票期間あり（6/16-6/27）。"
     }
   ],
   "weekly_recurring_events": {
@@ -1250,7 +1300,7 @@
     }
   },
   "event_summary": {
-    "total_events": 22,
+    "total_events": 27,
     "categories": {
       "seasonal": 3,
       "themed": 15,
