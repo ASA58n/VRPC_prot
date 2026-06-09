@@ -533,7 +533,8 @@
                                     organizer: event.organizer,
                                     join_method: event.join_method,
                                     source: event.source,
-                                    info: event.info
+                                    info: event.info,
+                                    platform: event.platform
                                 }
                             }));
 
@@ -587,7 +588,7 @@
                 document.getElementById('eventWorld').textContent = event.extendedProps.info || '-';
                 document.getElementById('eventOrganizer').textContent = event.extendedProps.organizer || '-';
                 document.getElementById('eventJoinMethod').innerHTML = linkifyHashtags(event.extendedProps.join_method);
-                document.getElementById('eventPlatform').textContent = 'VRChat';
+                document.getElementById('eventPlatform').textContent = event.extendedProps.platform || 'VRChat';
                 const sourceElement = document.getElementById('eventSource');
                 const sourceUrl = event.extendedProps.source;
                 if (sourceUrl && sourceUrl !== '-') {
