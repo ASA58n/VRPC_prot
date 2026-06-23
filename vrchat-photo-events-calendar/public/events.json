@@ -1340,6 +1340,56 @@
       "join_method": "Xで #にゃんたVRフォトコン #にゃんたVR部 を付けて投稿。",
       "source": "https://x.com/Nyantasia_vr/status/2065775483309195364",
       "info": "詳細・ルールは投稿画像およびリプライ参照。元資料の6/31表記は6月末と推定し、終了日は6月30日として登録。"
+    },
+    {
+      "event_name": "第2回 Urukiフォトコン",
+      "start date": "2026-06-22T00:00:00+09:00",
+      "end date": "2026-07-11T23:59:59+09:00",
+      "description": "Urukiちゃんを被写体としたVRChat写真コンテスト（第2回）。VRCで撮影（レタッチ等自由）。スタッフ投票で最優秀賞、優秀賞、入選を決定。選ばれた作品はUrukiちゃん集会会場に展示され、別ワールドにアーカイブ展示。",
+      "organizer": "やきさばぱん (@YakiYaki_38) / #Urukiちゃん集会 主催",
+      "join_method": "Xに #Urukiフォトコン を付けて投稿（1人4枚まで）。VRC撮影・Urukiちゃん被写体必須。NSFW禁止。合同作品可（参加者明記・Uruki特定可）。",
+      "source": "https://x.com/YakiYaki_38/status/2068754621062115596",
+      "info": "応募期間終了時点の投稿が選考対象。期間内差し替え可。選考後2日以内に主催のいいねがない場合は、DMでポストURLを共有。画像に詳細ルール記載。"
+    },
+    {
+      "event_name": "#推しワンフォトコン",
+      "start date": "2026-06-19T00:00:00+09:00",
+      "end date": "2026-07-20T23:59:59+09:00",
+      "description": "好きな楽曲のワンフレーズと、そのワンフレーズを表現した写真を投稿するフォトコン。VRCワールド撮影写真限定。レタッチOK（AIレタッチNG）。",
+      "organizer": "カーミラ(ゲーミング悪魔i4)＝VRC (@CarmillaMaki)",
+      "join_method": "Xに #推しワンフォトコン と曲のワンフレーズ、その表現写真を一緒に投稿（1人2枚まで）。VRC撮影限定。版権アバター・NSFW・暴力表現・MMDワールドはNG。複数人での撮影可（賞品は投稿者へ）。",
+      "source": "https://x.com/CarmillaMaki/status/2067829434481258519",
+      "info": "賞品は最優秀賞がBOOTH商品3,000円分、優秀賞が1,000円分×3。詳細はリプライ欄参照。"
+    },
+    {
+      "event_name": "#ちっちゃいミルフィちゃんフォトコン",
+      "start date": "2026-05-29T00:00:00+09:00",
+      "end date": "2026-06-26T23:59:59+09:00",
+      "description": "ちっちゃいミルフィちゃん（身長0.8m以下・ミルフィ素体改変）を被写体としたフォトコン。最優秀賞（ミルフィ対応品5,000円分）、優秀賞（2,500円分）、有坂みと先生賞（2,500円分）、テーマ賞（かわいい賞・仲良し賞・サンプル賞 各1,000円分）。結果は7月集会で発表。",
+      "organizer": "Tsukuyomi_Luna (@Zzz_Tsukuyomi) / #ちっちゃいミルフィちゃん集会 主催",
+      "join_method": "Xに #ちっちゃいミルフィちゃんフォトコン を付けて投稿（1人4枚まで）。VRCワールド写真のみ。複数人での撮影可。",
+      "source": "https://x.com/Zzz_Tsukuyomi/status/2062755394410398074",
+      "info": "過度なレタッチ、MMDワールド写真、NSFW・暴力・性的表現は禁止。身長0.8m以下・ミルフィ素体改変必須。画像に詳細応募条件・注意事項記載。"
+    },
+    {
+      "event_name": "夏の #桔梗フォトコン",
+      "start date": "2026-06-01T00:00:00+09:00",
+      "end date": "2026-06-30T23:59:59+09:00",
+      "description": "桔梗ちゃんをメイン被写体とした夏のフォトコン。複数のBOOTHショップが協賛し、豪華景品多数。発表は7月15日12:00、授賞式は7月19日22:00から。",
+      "organizer": "桔梗ちゃんすこれ (@kikyochansukore) / 桔梗ちゃん集会",
+      "join_method": "Xに #桔梗フォトコン を付けて投稿（1人3枚まで）。VRC撮影・桔梗ちゃんメイン。他アバターの映り込み、複数人での撮影可。",
+      "source": "https://x.com/kikyochansukore/status/2061230316531134892",
+      "info": "レタッチ・カメラ拡張可。NSFWに配慮。協賛ショップと詳細注意点は元ポストの画像・リプライ参照。"
+    },
+    {
+      "event_name": "#KGWalk_ImageContest (Kawaii Grus Walk Image Contest)",
+      "start date": "2026-06-22T00:00:00+09:00",
+      "end date": "2026-07-06T23:59:59+09:00",
+      "description": "Liminal / Retro Internet / Analog HorrorをテーマとしたVRChatイベントのImage Contest。Heisei_VHSアプリを必ず使用して撮影・編集。アバター制限なし。何枚でも投稿可。審査員を最も引き込んだ作品に5,500円相当の賞品。",
+      "organizer": "ZIPP (@zipp0123)",
+      "join_method": "Xに #KGWalk_ImageContest を付けて投稿。Heisei_VHS必須、AI使用不可、画像サイズ自由。クリップなどの編集はHeisei_VHS適用前に行う。アバター制限なし。",
+      "source": "https://x.com/zipp0123/status/2068996237714682191",
+      "info": "詳細ルールは投稿画像参照。審査員2名をDMまたはリプライで募集中。Heisei_VHSアプリ: https://hiyameshi-retro-pack.web.app/apps/Heisei-VHS/"
     }
   ],
   "weekly_recurring_events": {
