@@ -1470,6 +1470,66 @@
       "join_method": "Xに #しなの制服フォトコン を付けて投稿。",
       "source": "https://x.com/naru_020301/status/2066808019334386042?s=20",
       "info": "詳細は元ポストのリプライ参照。"
+    },
+    {
+      "event_name": "StudioYONOアバターフォトコンテスト",
+      "start date": "2026-07-15T00:00:00+09:00",
+      "end date": "2026-07-31T23:59:59+09:00",
+      "description": "StudioYONO制作アバター（テレサ、怜、斑霞、士堂など）を使用した写真コンテスト。各アバター賞やSAMPLE賞、YONO特別賞あり。協賛ショップ多数。",
+      "organizer": "はるまき (@Harumaki136) / StudioYONO",
+      "join_method": "対象アバターを使用した写真をXに投稿し、共通ハッシュタグ #StudioYONOアバターフォトコンテスト と対象アバターのハッシュタグ（例: #テレサフォトコン など）を付ける。",
+      "source": "https://x.com/Harumaki136/status/2072306339741855926",
+      "info": "レタッチ・画像加工可。AI生成・AI加工禁止。R18・公序良俗に反する表現・過度な暴力表現禁止。複数アバター写っていてもOKだが、メインはStudioYONOアバター。発表は8月31日予定。"
+    },
+    {
+      "event_name": "フォトノモリ3",
+      "start date": "2026-06-28T00:00:00+09:00",
+      "end date": "2026-08-28T23:59:59+09:00",
+      "description": "ツクルノモリアバター限定のフォトイベント。公式とティコノモリ協賛。サンプルアバターでも参加可能。",
+      "organizer": "Mota (@MotaXX7OLDL) / ツクルノモリVR",
+      "join_method": "ツクルノモリアバターで撮影し、指定ハッシュタグを付けて投稿。リプライ記載のアカウントをフォローし、リプライ記載のポストを引用する。",
+      "source": "https://x.com/MotaXX7OLDL/status/2071213805116498199",
+      "info": "合成・NFT・AR可。詳細は元ポストや公式ワールド参照。"
+    },
+    {
+      "event_name": "第8回Velleフォトコン",
+      "start date": "2026-07-12T00:00:00+09:00",
+      "end date": "2026-07-31T23:59:59+09:00",
+      "description": "Velleちゃんを被写体としたVRChat写真コンテスト。",
+      "organizer": "こま (@kommma_)",
+      "join_method": "Velleちゃんを被写体とした写真をXに #Velleフォトコン を付けて投稿（1人1投稿4枚まで）。",
+      "source": "https://x.com/kommma_/status/2075959394274267140",
+      "info": "被写体の同意を得て投稿。VRCで撮影（加筆修正・レタッチ自由）。NSFW表現は控えること。最終日時点のポストを選考。複数アバターOKだがVelleがわかる程度。受賞作品は集会会場に掲示。"
+    },
+    {
+      "event_name": "VirtualMarket × VRC感情の解釈フォトコン コラボ",
+      "start date": "2026-07-11T00:00:00+09:00",
+      "end date": "2026-07-26T23:59:59+09:00",
+      "description": "VKET Summer開催期間中のコラボフォトコン。テーマは「熱狂」。優秀作品にはVKET関連特別3Dモデルをプレゼント。",
+      "organizer": "しろねこ (@46nekoVRC)",
+      "join_method": "VKET公式ワールドで撮影し、Xに #Vket2026Summer と #VRC感情の解釈フォトコンコラボ を付けて投稿。",
+      "source": "https://x.com/46nekoVRC/status/2075746897235460416",
+      "info": "撮影ワールドはVKET公式ワールドのみ。ネガティブ要素を含む作品は対象外。賞品詳細は後日発表。"
+    },
+    {
+      "event_name": "コマネ発売記念 フォトコンテスト",
+      "start date": "2026-07-04T00:00:00+09:00",
+      "end date": "2026-07-25T23:59:59+09:00",
+      "description": "コマネを使って撮影した写真のフォトコン。改変OK。未所持でもペデスタルで参加可能。",
+      "organizer": "VRC合法チート研究会 (@vgc_gohocheat)",
+      "join_method": "コマネを使用した写真をXに投稿。ハッシュタグ #komane3D #komaneフォトコン2026 の両方を付ける。1人何枚でもOK。",
+      "source": "https://x.com/vgc_gohocheat/status/2073568748284604417",
+      "info": "最優秀賞は理想の衣装またはギミック作成とVGC商品3品。審査員賞3名はVGC商品3品。詳細Google Docsあり。結果はメタカル最前線で発表。受賞作はVRC-JP初心者プラザで展示。"
+    },
+    {
+      "event_name": "Velvet Kiss フォトコン",
+      "start date": "2026-07-10T00:00:00+09:00",
+      "end date": "2026-07-14T23:59:59+09:00",
+      "description": "Velvet Kissイベントのアフターでの吸血鬼たちのフォトコンテスト。プール＆水着仕様。",
+      "organizer": "Velvet Kiss (@VRC_VelvetKiss)",
+      "join_method": "公式Xをフォローし、該当ポストを引用して撮った写真を投稿。タグ不要。",
+      "source": "https://x.com/VRC_VelvetKiss/status/2075412466692133302",
+      "info": "吸血鬼のみが映っている写真が対象。来客者の映り込みや条件未達は対象外。加筆編集OK。提出期限は7月14日23:59。ベストショットに招待券プレゼント。"
     }
   ],
   "weekly_recurring_events": {
