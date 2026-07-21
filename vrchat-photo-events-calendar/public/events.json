@@ -1530,6 +1530,66 @@
       "join_method": "公式Xをフォローし、該当ポストを引用して撮った写真を投稿。タグ不要。",
       "source": "https://x.com/VRC_VelvetKiss/status/2075412466692133302",
       "info": "吸血鬼のみが映っている写真が対象。来客者の映り込みや条件未達は対象外。加筆編集OK。提出期限は7月14日23:59。ベストショットに招待券プレゼント。"
+    },
+    {
+      "event_name": "第4回VRフォトコンテスト（VR Photography 2026）",
+      "start date": "2026-07-19T00:00:00+09:00",
+      "end date": "2026-08-23T23:59:59+09:00",
+      "description": "VR空間内で撮影した、感情表現を重視する複数部門制の大規模フォトコンテスト。",
+      "organizer": "XR Grapher Association",
+      "join_method": "@XRGrapherをフォローし、Xに #第4回VRフォトコン2026 を付けて投稿したうえでGoogleフォームから応募。",
+      "source": "https://x.com/XRGrapher/status/2078765565481779239",
+      "info": "VRChat内での撮影を推奨。開始日は告知日の2026年7月19日頃。"
+    },
+    {
+      "event_name": "第一回 カフェCloverCherryフォトコン",
+      "start date": "2026-07-20T00:00:00+09:00",
+      "end date": "2026-07-31T23:59:59+09:00",
+      "description": "カフェCloverCherryの魅力が伝わる写真を募集するフォトコン。最優秀賞1名に白川憶人氏描き下ろしイラストを贈呈。",
+      "organizer": "ストラス (@strustrust_VRC) / CloverCherry",
+      "join_method": "指定カフェワールドで撮影し、Xに #CloverCherryフォトコン を付けて投稿。",
+      "source": "https://x.com/strustrust_VRC/status/2079185426720731414",
+      "info": "応募枚数不問。AIレタッチ可。ワールドの雰囲気を損なう加工は禁止。"
+    },
+    {
+      "event_name": "影領域フォトコン",
+      "start date": "2026-07-18T00:00:00+09:00",
+      "end date": "2026-08-31T23:59:59+09:00",
+      "description": "アップデートおよびリリース半年を記念し、「影領域エフェクト」を使用したVRChat内写真を募集するフォトコン。",
+      "organizer": "相川お手上げ (@aikawaoteage)",
+      "join_method": "Xに #影領域フォトコン を付けて投稿。",
+      "source": "https://x.com/aikawaoteage/status/2078135044921753816",
+      "info": "VRCインゲームで撮影した作品が対象。合成可（制限あり）、AI補助ツールのみ可（生成は禁止）、動画可。フレンドが商品を未所持でも参加可。優秀賞3名にBOOTHのVRC関連ギフト各5,000円分。"
+    },
+    {
+      "event_name": "ゆるフォトコン 第七回",
+      "start date": "2026-07-01T00:00:00+09:00",
+      "end date": "2026-07-31T23:59:59+09:00",
+      "description": "「夏」をテーマにした写真を募集するフォトコン。",
+      "organizer": "ゆるフォト交流会 (@YuruPhoto_)",
+      "join_method": "Xに #ゆるフォトコン を付けて投稿。",
+      "source": "関連ポスト",
+      "info": "入賞発表あり。"
+    },
+    {
+      "event_name": "骸骨×クロスプラットフォームフォトコン",
+      "start date": "2026-07-01T00:00:00+09:00",
+      "end date": "2026-07-31T23:59:59+09:00",
+      "description": "骸骨アバターを使用したクロスプラットフォーム対応フォトコン。",
+      "organizer": "Caminari Lei ほか",
+      "join_method": "Xに #骸骨クロスプラットフォームフォトコン を付けて投稿。",
+      "source": "関連note/X",
+      "info": "骸骨アバターの使用が必須。賞品はBOOTH商品。"
+    },
+    {
+      "event_name": "褐色フォトコン",
+      "start date": "2026-07-24T00:00:00+09:00",
+      "end date": "2026-08-23T23:59:59+09:00",
+      "description": "褐色肌を魅力的に表現したVRChat写真を募集するフォトコン。最優秀賞、部門賞3種、その他多数の賞を用意。",
+      "organizer": "あきなき (@AkiNaki_VRChat)",
+      "join_method": "Xに #褐色フォトコン を付けて写真を投稿。",
+      "source": "https://x.com/AkiNaki_VRChat/status/2079400984963620988?s=20",
+      "info": "褐色改変が対象。日焼け跡、レタッチ、加工、撮影・ライティングギミック、過去写真、複数人、複数投稿可。投稿者は必ず褐色アバターを使用。Unity撮影、R18、NSFW、AI生成、黒肌・異種肌は禁止。賞品はBOOTHギフトまたはAmazonギフト。"
     }
   ],
   "weekly_recurring_events": {
