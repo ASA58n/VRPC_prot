@@ -1624,12 +1624,12 @@
     {
       "event_name": "第八回 ゆるフォトコン",
       "start date": "2026-08-01T00:00:00+09:00",
-      "end date": "2026-08-11T23:59:59+09:00",
+      "end date": "2026-08-17T23:59:59+09:00",
       "description": "テーマは「VRChat」。それぞれが思うVRChatの写真を募集するフォトコン。",
       "organizer": "ゆるフォト交流会 (@YuruPhoto_) / 駄狐 こん (@psk_esk)",
       "join_method": "Xに #ゆるフォトコン を付けて投稿。おはツイ・おはポスへのタグ付け、過去写真も可。",
       "source": "https://x.com/YuruPhoto_/status/2083112289226641723",
-      "info": "AIによる大幅な加筆・生成、Unity撮影は禁止。複数応募時は最後の投稿を参照。入賞作品はゆるフォト交流会ワールドに掲示し、大賞は8月22日の交流会イベントなどで発表予定。"
+      "info": "VRChat内で撮影した作品が対象。AIによる大幅な加筆・生成、Unity撮影は禁止。複数応募時は最後の投稿を参照。入賞作品はゆるフォト交流会ワールドに掲示。大賞はBOOTHギフト3,000円分で、8月22日の交流会イベントなどで発表予定。"
     },
     {
       "event_name": "メガネ祭りフォトコン",
@@ -1680,6 +1680,86 @@
       "join_method": "Xに #エクちゃん夏休みフォトコン を付けて投稿。1人2枚まで。",
       "source": "https://x.com/i/status/2083522380886945905",
       "info": "エク素体の改変アバターを使用し、VRChatワールド内で撮影した作品が対象。レタッチ可。優秀賞はBOOTHギフト2,500円分、審査員賞3名は各1,000円分。"
+    },
+    {
+      "event_name": "SASA-Cafeアバターフォトコン",
+      "start date": "2026-08-11T00:00:00+09:00",
+      "end date": "2026-08-20T23:59:59+09:00",
+      "description": "華夜または椿姫を被写体とした写真を募集するアバターフォトコン。",
+      "organizer": "怠居雲丹（うに） (@lazy_uni)",
+      "join_method": "Xに #SASACafeアバターフォトコン を付け、告知ポストを引用して投稿。複数投稿可。",
+      "source": "https://x.com/lazy_uni/status/2087045874031706196",
+      "info": "写真内のアバターは華夜または椿姫のみ。髪型・衣装・メイクの改変、レタッチ、VRChat外での撮影可。NSFW・AI生成は禁止。無改変賞あり。結果は8月22日の集会で発表予定。"
+    },
+    {
+      "event_name": "第2回VRoidフォトコンテスト",
+      "start date": "2026-08-01T00:00:00+09:00",
+      "end date": "2026-08-31T23:59:59+09:00",
+      "description": "VRoid作品を対象とし、VRoidユーザーの投票で最優秀賞を決定するフォトコン。",
+      "organizer": "tokino (@allianzkadett)",
+      "join_method": "Xに #VRoid_フォトコン2 を付けて投稿。",
+      "source": "https://x.com/allianzkadett/status/2083206055472079179",
+      "info": "VRoidであることが応募条件。8月15日までは1アカウント1枚、16日以降は追加で1枚応募可。投票日は9月18日。"
+    },
+    {
+      "event_name": "OKEANOSフォトコン2026",
+      "start date": "2026-07-31T00:00:00+09:00",
+      "end date": "2026-09-30T23:59:59+09:00",
+      "description": "OKEANOS DESCENTの1周年を記念したフォトコン。指定ワールドで撮影した作品を募集。",
+      "organizer": "OKEANOS GROUP (@descent14071)",
+      "join_method": "写真と簡単なタイトルを添え、Xに #OKEANOSフォトコン2026 を付けて投稿。複数投稿可。",
+      "source": "https://x.com/descent14071/status/2083327717215535461",
+      "info": "撮影場所はOKEANOS DESCENTのみ（一部除外）。VRChatのデフォルトカメラを使用すること。過去のOKEANOSフォトコン応募作品は不可。開始日は7月31日頃。"
+    },
+    {
+      "event_name": "FLASTORE 3アバター合同イベント「456祭」フォトコン",
+      "start date": "2026-08-01T00:00:00+09:00",
+      "end date": "2026-08-16T23:59:59+09:00",
+      "description": "テーマは「夏」。Wolfram、Nemo、Maonを対象とする単体3部門と合同部門のフォトコン。",
+      "organizer": "@nemowata_0317 ほか（FLASTORE関連）",
+      "join_method": "単体部門はXに #456祭 と対象アバターのハッシュタグ、合同部門は #456祭 #FLASTORE を付けて投稿。",
+      "source": "https://x.com/nemowata_0317/status/2083162034565513356",
+      "info": "詳しい投稿条件は告知ポストとツリーを参照。"
+    },
+    {
+      "event_name": "Flavor Lab+ PHOTO CONTEST",
+      "start date": "2026-08-07T00:00:00+09:00",
+      "end date": "2026-09-13T23:59:59+09:00",
+      "description": "「思わずアイスを食べたくなる一枚」をテーマに、VRChatで撮影した写真を募集。",
+      "organizer": "Flavor Lab+ (@FlavorLab_VRC)",
+      "join_method": "公式アカウントをフォローし、告知ポストを引用して、Xに #FlavorLab_フォトコン を付けて投稿。",
+      "source": "https://x.com/FlavorLab_VRC/status/2085607098889691303",
+      "info": "AI生成は禁止。受賞者には協賛ショップ・クリエイターからの賞品とFlavor Lab+招待チケットを贈呈。詳細は告知ポストのリプライを参照。"
+    },
+    {
+      "event_name": "あなたの居場所VRフォトコン",
+      "start date": "2026-07-20T00:00:00+09:00",
+      "end date": "2026-08-31T23:59:59+09:00",
+      "description": "「あなたの居場所」をテーマにしたVRフォトコン。",
+      "organizer": "@vrc_mo4ca",
+      "join_method": "応募方法と規約は https://shutterpact.mo4ca.net/#rule/rHnF3weFYjc を参照。",
+      "source": "https://x.com/vrc_mo4ca/status/2086256030535827805",
+      "info": "応募期限は8月31日。"
+    },
+    {
+      "event_name": "デフォカメフォトコン（標準カメラ限定）",
+      "start date": "2026-08-08T00:00:00+09:00",
+      "end date": "2026-08-29T23:59:59+09:00",
+      "description": "VRChat標準カメラのみを使用する、初心者向けのフォトコン。",
+      "organizer": "@holomomochan",
+      "join_method": "Xに #デフォカメフォトコン を付けて投稿。",
+      "source": "https://x.com/holomomochan/status/2085256253346074954",
+      "info": "細部を厳格に審査しない方針。優秀賞は用意された各種レンズから選択可。"
+    },
+    {
+      "event_name": "ないとかーむBar_フォトコンテスト",
+      "start date": "2026-08-12T00:00:00+09:00",
+      "end date": "2026-08-31T23:59:59+09:00",
+      "description": "「ないとかーむBar」で撮影した写真を募集するフォトコン。",
+      "organizer": "_よなぎ_ (@yonagi_no_vrc)",
+      "join_method": "Xに #ないとかーむ を付けて投稿。",
+      "source": "https://x.com/yonagi_no_vrc/status/2087213073547542702",
+      "info": "最優秀賞はワールド掲載とBOOTHプレゼント、優秀賞はワールド掲載。"
     }
   ],
   "weekly_recurring_events": {
