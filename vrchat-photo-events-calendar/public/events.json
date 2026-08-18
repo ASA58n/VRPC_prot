@@ -1553,7 +1553,7 @@
     },
     {
       "event_name": "影領域フォトコン",
-      "start date": "2026-07-17T00:00:00+09:00",
+      "start date": "2026-07-18T00:00:00+09:00",
       "end date": "2026-08-31T23:59:59+09:00",
       "description": "アップデートおよびリリース半年を記念し、「影領域エフェクト」を使用したVRChat内写真を募集するフォトコン。",
       "organizer": "相川お手上げ (@aikawaoteage)",
@@ -1760,6 +1760,56 @@
       "join_method": "Xに #ないとかーむ を付けて投稿。",
       "source": "https://x.com/yonagi_no_vrc/status/2087213073547542702",
       "info": "最優秀賞はワールド掲載とBOOTHプレゼント、優秀賞はワールド掲載。"
+    },
+    {
+      "event_name": "KSKWorksフォトコン（KsKWorksワールドフォトコンテスト）",
+      "start date": "2026-08-11T00:00:00+09:00",
+      "end date": "2026-08-31T23:59:59+09:00",
+      "description": "KSKWorks制作ワールドで過ごした「二人だけの一瞬」をテーマに、2人1組で応募するフォトコン。",
+      "organizer": "@Stella_XJV",
+      "join_method": "対象ワールドで2人の写真を撮影し、Xに #KSKWorksフォトコン を付けて投稿。",
+      "source": "https://x.com/Stella_XJV/status/2086657112479080614",
+      "info": "対象ワールドでの撮影必須。色調補正、トリミング、明るさ調整など構図を変えないレタッチ可。生成AI、描き足し、大幅な描き直しは禁止。最優秀賞1組にBOOTHのVRChat関連商品合計約10,000円分。結果発表までDMを受信可能にすること。"
+    },
+    {
+      "event_name": "第三回TMフォトコン",
+      "start date": "2026-09-01T00:00:00+09:00",
+      "end date": "2026-09-30T23:59:59+09:00",
+      "description": "「ENN」をテーマに、縁・演・園・遠・焉・円・炎など自由な解釈の写真を募集するフォトコン。",
+      "organizer": "あきらのVRC垢 (@akira_VRC0614)",
+      "join_method": "期間内に写真を1枚添付し、Xに #第三回TMフォトコン を記載して告知ポストをリポスト。",
+      "source": "https://x.com/akira_VRC0614/status/2088778561859801259",
+      "info": "VRChatデフォルトカメラのみ使用可。レタッチ・画像編集、センシティブ表現は禁止。1人1枚まで。応募作品は専用展示ワールドに展示。最優秀賞はBOOTH商品3,000円分。"
+    },
+    {
+      "event_name": "第四回ルルネフォトコンテスト",
+      "start date": "2026-08-15T00:00:00+09:00",
+      "end date": "2026-08-23T23:59:59+09:00",
+      "description": "ルルネちゃんを題材に、「あなたの夏」をテーマとした写真を募集するフォトコン。",
+      "organizer": "ふゆさめ (@Huyusameee_VRC)",
+      "join_method": "Xに #ルルネフォトコンテスト を付けて投稿。複数投稿可。",
+      "source": "https://x.com/Huyusameee_VRC/status/2085924064624079279",
+      "info": "サンプルアバター、おちびちゃんずでの参加、レタッチ、VRChat外での撮影可。デフォルト賞は無改変Prefabが対象だが、撮影ギミックは導入可。"
+    },
+    {
+      "event_name": "UZお誕生日フォトコン",
+      "start date": "2026-08-12T00:00:00+09:00",
+      "end date": "2026-08-29T23:59:59+09:00",
+      "description": "主催者の誕生日を記念し、主催者とのツーショット写真を募集するフォトコン。",
+      "organizer": "@UZ511987952558",
+      "join_method": "告知ポストへの返信として、主催者とのツーショット写真を投稿。ハッシュタグ指定なし。",
+      "source": "https://x.com/UZ511987952558/status/2087478442183041168",
+      "info": "指定アバターと撮影した作品が対象。写真加工は自由。選出者にBOOTHおねだり券を贈呈。"
+    },
+    {
+      "event_name": "Egil=Sapphire 2周年記念フォトコンテスト（#SSESフォトコン）",
+      "start date": "2026-08-15T00:00:00+09:00",
+      "end date": "2026-08-31T23:59:59+09:00",
+      "description": "Egil=Sapphireの2周年を記念し、「海の乙女」をテーマとした作品を募集するフォトコン。",
+      "organizer": "SecretSpace【Egil=Sapphire】 (@vrcEgilSapphire)",
+      "join_method": "Xに #SSESフォトコン を付け、公式ポストを引用して作品画像を投稿。",
+      "source": "https://x.com/vrcEgilSapphire/status/2088551452348448801",
+      "info": "VRChat内撮影を高く評価。生成AIによるレタッチは評価に影響する場合あり。結果発表は9月11日予定。衣装フルセットやイベント招待チケットなどの賞品あり。"
     }
   ],
   "weekly_recurring_events": {
