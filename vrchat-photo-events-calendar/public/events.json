@@ -1764,12 +1764,12 @@
     {
       "event_name": "KSKWorksフォトコン（KsKWorksワールドフォトコンテスト）",
       "start date": "2026-08-11T00:00:00+09:00",
-      "end date": "2026-08-31T23:59:59+09:00",
+      "end date": "2026-09-07T23:59:59+09:00",
       "description": "KSKWorks制作ワールドで過ごした「二人だけの一瞬」をテーマに、2人1組で応募するフォトコン。",
       "organizer": "@Stella_XJV",
       "join_method": "対象ワールドで2人の写真を撮影し、Xに #KSKWorksフォトコン を付けて投稿。",
-      "source": "https://x.com/Stella_XJV/status/2086657112479080614",
-      "info": "対象ワールドでの撮影必須。色調補正、トリミング、明るさ調整など構図を変えないレタッチ可。生成AI、描き足し、大幅な描き直しは禁止。最優秀賞1組にBOOTHのVRChat関連商品合計約10,000円分。結果発表までDMを受信可能にすること。"
+      "source": "https://x.com/Stella_XJV/status/2091854205757837378",
+      "info": "締切は当初の8月31日から9月7日へ延長。対象ワールドでの撮影必須。色調補正、トリミング、明るさ調整など構図を変えないレタッチ可。生成AI、描き足し、大幅な描き直しは禁止。最優秀賞1組にBOOTHのVRChat関連商品合計約10,000円分。結果発表までDMを受信可能にすること。初回告知: https://x.com/Stella_XJV/status/2086657112479080614"
     },
     {
       "event_name": "第三回TMフォトコン",
@@ -1810,6 +1810,56 @@
       "join_method": "Xに #SSESフォトコン を付け、公式ポストを引用して作品画像を投稿。",
       "source": "https://x.com/vrcEgilSapphire/status/2088551452348448801",
       "info": "VRChat内撮影を高く評価。生成AIによるレタッチは評価に影響する場合あり。結果発表は9月11日予定。衣装フルセットやイベント招待チケットなどの賞品あり。"
+    },
+    {
+      "event_name": "かぷちやフォトコン",
+      "start date": "2026-08-17T00:00:00+09:00",
+      "end date": "2026-08-31T23:59:59+09:00",
+      "description": "「夏」をテーマにした写真を募集するフォトコン。",
+      "organizer": "かぷちや (@Capettiya / @shiasakura)",
+      "join_method": "Xに #かぷちやフォトコン を付けて投稿。1人2枚までが選考対象。",
+      "source": "https://x.com/Capettiya/status/2089175451734610351",
+      "info": "詳細は告知ポストのツリーを参照。"
+    },
+    {
+      "event_name": "八咫烏フォトコン2026（第2回）",
+      "start date": "2026-08-24T00:00:00+09:00",
+      "end date": "2026-09-24T23:59:59+09:00",
+      "description": "八咫烏公式ワールドで撮影した、八咫烏の世界観を感じられる格好いい写真を募集するフォトコン。",
+      "organizer": "魔特六課八咫烏 公式 (@m_yata_official)",
+      "join_method": "Xに #八咫烏フォトコン2026 を付けて投稿し、ワールド名などの必須事項をGoogleフォームから提出。",
+      "source": "https://x.com/m_yata_official/status/2091722165812871453",
+      "info": "公式ワールドでの撮影必須。1投稿につき画像1枚、最大4枚まで応募可。レタッチ・加工可。ただし過度な変形・合成は審査対象外となる場合あり。公序良俗に反する作品は禁止。版権物の使用に注意。"
+    },
+    {
+      "event_name": "つくさきフォトコンテスト",
+      "start date": "2026-08-17T00:00:00+09:00",
+      "end date": "2026-08-30T23:59:59+09:00",
+      "description": "BAR＆LOUNGE「行きつく先は」の店舗で撮影した写真を募集するフォトコン。浴衣フェアの写真も対象。",
+      "organizer": "BAR＆LOUNGE～行きつく先は～ (@BARLOUNGEtksk)",
+      "join_method": "公式アカウントをフォローしてグループに参加し、Xに #つくさき を付けて投稿。",
+      "source": "https://x.com/BARLOUNGEtksk/status/2081640905484963856",
+      "info": "撮影対象期間は2026年7月27日から8月30日まで。"
+    },
+    {
+      "event_name": "けだまフォトコン（第3回）",
+      "start date": "2026-08-03T00:00:00+09:00",
+      "end date": "2026-08-30T23:59:59+09:00",
+      "description": "「忘れられないひととき」をテーマに、リオ、リナ、ノエルを使用した写真を募集するフォトコン。",
+      "organizer": "Fluffy's Cafe けだまびより (@FluffysCafeVR)",
+      "join_method": "作品にタイトルを付け、Xに #けだまフォトコン を付けて投稿。1人5作品まで。",
+      "source": "https://x.com/FluffysCafeVR/status/2084112129339355156",
+      "info": "締切は当初の8月16日から8月30日へ延長。アバター改変可。NSFWは禁止。"
+    },
+    {
+      "event_name": "VRChat スナップ写真フォトコン vol.2「夏霞」",
+      "start date": "2026-08-21T00:00:00+09:00",
+      "end date": "2026-09-11T23:59:59+09:00",
+      "description": "「夏霞」をイメージしたVRChatのスナップ写真を募集するフォトコン。",
+      "organizer": "@Sakakida_Amato",
+      "join_method": "Xに #VSNAPvol2 を付けて投稿。最大3枚まで応募可。",
+      "source": "https://x.com/Sakakida_Amato/status/2089502537489453364",
+      "info": "入賞者2～3名にBOOTHギフト2,500円分を贈呈。"
     }
   ],
   "weekly_recurring_events": {
