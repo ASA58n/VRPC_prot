@@ -1884,12 +1884,12 @@
     {
       "event_name": "エクちゃん学園フォトコン",
       "start date": "2026-09-01T00:00:00+09:00",
-      "end date": "2026-09-23T23:59:59+09:00",
+      "end date": "2026-10-18T23:59:59+09:00",
       "description": "学園生活を送るエクちゃんをテーマにした写真を募集するフォトコン。",
       "organizer": "エクちゃんフォトコン委員会 (@Eku3D_Photo)",
       "join_method": "Xに #エクちゃん学園フォトコン を付けて投稿。1人2枚まで。",
       "source": "https://x.com/Eku3D_Photo/status/2094759659303321863",
-      "info": "エク素体の改変アバターを使用し、VRChatワールド内で撮影した作品が対象。レタッチ可。MMDワールド撮影、NSFW、暴力・性的表現は禁止。優秀賞はBOOTHギフト2,000円分、審査員賞3名は各1,000円分、仲良し賞は500円分。"
+      "info": "締切は10月18日まで延長。エク素体の改変アバターを使用し、VRChatワールド内で撮影した作品が対象。レタッチ可。MMDワールド撮影、NSFW、暴力・性的表現は禁止。優秀賞はBOOTHギフト2,000円分、審査員賞3名は各1,000円分、仲良し賞は500円分。"
     },
     {
       "event_name": "Wiege/Kerzeフォトコンテスト",
@@ -1970,6 +1970,76 @@
       "join_method": "Xに #VRC風景ポートレートフォトコン を付けて投稿。1人3枚まで。",
       "source": "https://x.com/Oku3VRC/status/2094983663238905973",
       "info": "AIレタッチとUnity撮影は禁止。最優秀賞は5,000円、優秀賞2名は各3,000円、特別賞は5,000円。"
+    },
+    {
+      "event_name": "第二回VRC軍装同好会フォトコン",
+      "start date": "2026-08-13T00:00:00+09:00",
+      "end date": "2026-09-15T23:59:59+09:00",
+      "description": "「突撃」をテーマに、軍装を中心とした写真を募集するフォトコン。",
+      "organizer": "VRC軍装同好会 (@GUNPUKU1940)",
+      "join_method": "@GUNPUKU1940をフォローし、Xに #第二回VRC軍装同好会フォトコン を付けて投稿。1人1枚、16:9。",
+      "source": "https://x.com/GUNPUKU1940/status/2087866031050285277",
+      "info": "写真補正可。加筆、合成、AI、Unity撮影は禁止。"
+    },
+    {
+      "event_name": "プラチナフォトコンテスト",
+      "start date": "2026-08-30T00:00:00+09:00",
+      "end date": "2026-09-29T23:59:59+09:00",
+      "description": "プラチナを被写体に、サンプル、夏改変、学校、有坂みとの4部門で作品を募集するフォトコン。",
+      "organizer": "あるけよ (@ALKeYoJP)",
+      "join_method": "Xに #プラチナフォトコンテスト と応募部門のハッシュタグを付けて投稿。",
+      "source": "https://x.com/ALKeYoJP/status/2093987177118183902",
+      "info": "プラチナであることが明確であればキメラ改変も応募可。詳細は元ポストを参照。"
+    },
+    {
+      "event_name": "VSP7周年宇宙フォトコン",
+      "start date": "2026-09-08T00:00:00+09:00",
+      "end date": "2026-09-30T23:59:59+09:00",
+      "description": "VSPの7周年を記念し、「宇宙とわたし」「宇宙でみつけたもの」をテーマに作品を募集するフォトコン。バーチャル部門とリアル部門を実施。",
+      "organizer": "天文仮想研究所 VSP (@vsp_vrc)",
+      "join_method": "タイトル、応募テーマ、コメントを添え、Xに #VSP7周年宇宙フォトコン を付けて投稿。1人3作品まで。",
+      "source": "https://x.com/vsp_vrc/status/2097296046934376760",
+      "info": "レタッチ可。NSFW、AI生成は禁止。応募作品を広報に使用する場合あり。"
+    },
+    {
+      "event_name": "第2回ALTGARAGE集会フォトコンテスト",
+      "start date": "2026-09-13T00:00:00+09:00",
+      "end date": "2026-09-30T23:59:59+09:00",
+      "description": "「私の好きな○○」をテーマに、ALTちゃんを被写体とした写真を募集するフォトコン。",
+      "organizer": "スイ VRC (@S_u_i_VRchat)",
+      "join_method": "Xに #ALTGARAGE集会フォトコン を付けて投稿。最大5枚、1投稿につき1枚。",
+      "source": "https://x.com/S_u_i_VRchat/status/2099095041864241290",
+      "info": "詳細は主催者のnoteを参照。"
+    },
+    {
+      "event_name": "マツケンVRCフォトコンテスト",
+      "start date": "2026-09-10T00:00:00+09:00",
+      "end date": "2026-10-02T23:59:59+09:00",
+      "description": "マツケンサンバIIの衣装やダンスを撮影した写真・映像を募集するフォトコン。",
+      "organizer": "TOKYO AVATAR GATE",
+      "join_method": "公式アカウントをフォローし、Xに #マツケンVRC #マツケンVRフォト を付けて写真または映像を投稿。",
+      "source": "https://x.com/TOKYOAVATARGATE/status/2097988457461321822",
+      "info": "応募者から抽選で5名に3,000円分のクーポンを贈呈。"
+    },
+    {
+      "event_name": "VERMILION PHOTOGRAPH CONTEST",
+      "start date": "2026-09-05T00:00:00+09:00",
+      "end date": "2026-10-10T23:59:59+09:00",
+      "description": "VERMILIONアバターを撮影したVRChat写真を募集するフォトコン。",
+      "organizer": "HoUrO (@alter_HUO)",
+      "join_method": "Xに #VERMILION_PHOTO_CAG を付けて投稿。",
+      "source": "https://x.com/alter_huo/status/2094630496122884359?s=46&t=jboHUTuCwl2cbCHCbQ9y5Q",
+      "info": "賞や応募規定の詳細は主催者の固定ポストを参照。"
+    },
+    {
+      "event_name": "えんじぇりーとフォトコン",
+      "start date": "2026-09-13T00:00:00+09:00",
+      "end date": "2026-09-23T23:59:59+09:00",
+      "description": "「えんじぇりーと」の衣装を着用した写真を募集するフォトコン。縦・横どちらの写真も応募可。",
+      "organizer": "えんじぇりーと～Angeleet～ (@Angeleet_Shop)",
+      "join_method": "Xに #えんじぇりーとふぉとこん を付けて投稿。",
+      "source": "https://x.com/Angeleet_Shop/status/2098985821231825337?s=20",
+      "info": "詳細は元ポストを参照。"
     }
   ],
   "weekly_recurring_events": {
