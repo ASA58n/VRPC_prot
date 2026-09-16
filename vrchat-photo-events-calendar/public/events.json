@@ -2040,6 +2040,26 @@
       "join_method": "Xに #えんじぇりーとふぉとこん を付けて投稿。",
       "source": "https://x.com/Angeleet_Shop/status/2098985821231825337?s=20",
       "info": "詳細は元ポストを参照。"
+    },
+    {
+      "event_name": "ナナセ・ノワールフォトコン2026",
+      "start date": "2026-09-14T00:00:00+09:00",
+      "end date": "2026-10-10T23:59:59+09:00",
+      "description": "「ナナセ・ノワールをもっと使って、撮って、楽しもう！」をコンセプトに、ナナセ・ノワールの写真を募集するフォトコン。",
+      "organizer": "白良 (@k_hakura)",
+      "join_method": "Xに #ナナセノワールフォトコン2026 を付けて投稿。",
+      "source": "https://x.com/k_hakura/status/2099151124695482728",
+      "info": "1人1枚まで応募可。複数枚を投稿した場合は、最新日時の写真を応募作品として扱う。"
+    },
+    {
+      "event_name": "UOMEフォトコン",
+      "start date": "2026-09-19T00:00:00+09:00",
+      "end date": "2026-10-10T23:59:59+09:00",
+      "description": "カメラギミック「UOME Lens」のみを使用した写真を募集するフォトコン。ギミック入りのサンプルアバターでも参加可。",
+      "organizer": "@holomomochan",
+      "join_method": "Xに #UOMEフォトコン を付けて投稿。応募は1人1枚まで。",
+      "source": "https://x.com/holomomochan/status/2100057098046583201?s=20",
+      "info": "作品に #UOME fatdesign の透かしを入れること。"
     }
   ],
   "weekly_recurring_events": {
