@@ -1864,12 +1864,12 @@
     {
       "event_name": "VRChat弓道フォトコンテスト2026",
       "start date": "2026-09-01T00:00:00+09:00",
-      "end date": "2026-09-20T23:59:59+09:00",
+      "end date": "2026-09-23T23:59:59+09:00",
       "description": "VRChat内で撮影した、人物・所作・道具・場面・ワールドなど広義の「弓道」に関係する写真を募集するフォトコン。",
       "organizer": "VRC弓道部 (@VRCQD / 部長 @syuutingbe)",
       "join_method": "Xに作品タイトルと #VRC弓道フォトコン2026 を付けて投稿後、特設サイトからエントリー登録。1人3作品まで。",
       "source": "https://x.com/VRCQD/status/2094765732722794874",
-      "info": "Xへの投稿だけでは投票対象外。投票期間は9月22日から30日。撮影実態を損なわない範囲の加工可。AI生成、イラスト化、文字入れ、前年作品の再投稿は禁止。結果発表は10月上旬予定。詳細: https://puchiryuuvrc.github.io/QDPhoto2026-Pages/"
+      "info": "締切は当初の9月20日から9月23日へ延長。Xへの投稿だけでは投票対象外。投票期間は9月22日頃から30日。撮影実態を損なわない範囲の加工可。AI生成、イラスト化、文字入れ、前年作品の再投稿は禁止。結果発表は10月上旬予定。詳細: https://puchiryuuvrc.github.io/QDPhoto2026-Pages/"
     },
     {
       "event_name": "第9回ゆるフォトコン",
@@ -2060,6 +2060,26 @@
       "join_method": "Xに #UOMEフォトコン を付けて投稿。応募は1人1枚まで。",
       "source": "https://x.com/holomomochan/status/2100057098046583201?s=20",
       "info": "作品に #UOME fatdesign の透かしを入れること。"
+    },
+    {
+      "event_name": "VRC DJ PhotoContest 2026",
+      "start date": "2026-10-05T00:00:00+09:00",
+      "end date": "2026-11-15T23:59:59+09:00",
+      "description": "「vibes」をテーマに、対象DJイベントの開催期間中に撮影したVRChat写真を募集するフォトコン。応募作品は12月20日からGallery & fanCafé Kittensで展示予定。",
+      "organizer": "あかなす。(@tomato_ym_vr)",
+      "join_method": "Xに #VRCDJPhotoContest と撮影したイベントのハッシュタグを付けて投稿し、Googleフォームから写真を提出。応募枚数の制限なし。",
+      "source": "https://x.com/tomato_ym_vr/status/2100502089814474806",
+      "info": "対象イベントのルールに従って撮影。告知のテーマ表記「vives」は誤記で、正しくは「vibes」。応募フォーム: https://forms.gle/vLD9E5k1p7ceDYok8"
+    },
+    {
+      "event_name": "KUROMARUアバターフォトコンテスト",
+      "start date": "2026-09-19T00:00:00+09:00",
+      "end date": "2026-10-09T23:59:59+09:00",
+      "description": "「蠱惑のミダリス」の発売を記念し、KUROMARUアバター（ばななちゃん・しずくさん・メロトロン・ミダリス）を撮影した写真を募集するフォトコン。テーマ指定なし。サンプルアバターでも参加可。",
+      "organizer": "ぷっちー (@VRChat_Pucchii)",
+      "join_method": "告知ポストを引用し、Xに #KUROMARUアバターフォトコン を付けて投稿。応募枚数の制限なし。",
+      "source": "https://x.com/VRChat_Pucchii/status/2101098952502239396",
+      "info": "VRChat内で撮影した作品が対象。レタッチ、VRChat写真同士の合成可。生成AIは禁止。サンプルアバター賞の応募には本文に「Sample」と記載。入賞は1人1点。結果発表は10月24日予定。"
     }
   ],
   "weekly_recurring_events": {
