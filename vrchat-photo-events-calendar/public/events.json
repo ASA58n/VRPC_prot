@@ -1703,13 +1703,13 @@
     },
     {
       "event_name": "OKEANOSフォトコン2026",
-      "start date": "2026-07-31T00:00:00+09:00",
+      "start date": "2026-08-01T00:00:00+09:00",
       "end date": "2026-09-30T23:59:59+09:00",
       "description": "OKEANOS DESCENTの1周年を記念したフォトコン。指定ワールドで撮影した作品を募集。",
       "organizer": "OKEANOS GROUP (@descent14071)",
       "join_method": "写真と簡単なタイトルを添え、Xに #OKEANOSフォトコン2026 を付けて投稿。複数投稿可。",
-      "source": "https://x.com/descent14071/status/2083327717215535461",
-      "info": "撮影場所はOKEANOS DESCENTのみ（一部除外）。VRChatのデフォルトカメラを使用すること。過去のOKEANOSフォトコン応募作品は不可。開始日は7月31日頃。"
+      "source": "https://x.com/descent14071/status/2100420580193509577",
+      "info": "撮影場所はOKEANOS DESCENTのみ（RESONANCE HOLE・海洋国家マリーシアは除外）。VRChatのデフォルトカメラのみ使用可。過去のOKEANOSフォトコン応募作品は不可。結果発表は10月1日から6日の予定。"
     },
     {
       "event_name": "FLASTORE 3アバター合同イベント「456祭」フォトコン",
@@ -2034,12 +2034,12 @@
     {
       "event_name": "えんじぇりーとフォトコン",
       "start date": "2026-09-13T00:00:00+09:00",
-      "end date": "2026-09-23T23:59:59+09:00",
+      "end date": "2026-09-27T23:59:59+09:00",
       "description": "「えんじぇりーと」の衣装を着用した写真を募集するフォトコン。縦・横どちらの写真も応募可。",
       "organizer": "えんじぇりーと～Angeleet～ (@Angeleet_Shop)",
       "join_method": "Xに #えんじぇりーとふぉとこん を付けて投稿。",
       "source": "https://x.com/Angeleet_Shop/status/2098985821231825337?s=20",
-      "info": "詳細は元ポストを参照。"
+      "info": "締切は当初の9月23日から9月27日へ延長。詳細は元ポストを参照。"
     },
     {
       "event_name": "ナナセ・ノワールフォトコン2026",
@@ -2080,6 +2080,56 @@
       "join_method": "告知ポストを引用し、Xに #KUROMARUアバターフォトコン を付けて投稿。応募枚数の制限なし。",
       "source": "https://x.com/VRChat_Pucchii/status/2101098952502239396",
       "info": "VRChat内で撮影した作品が対象。レタッチ、VRChat写真同士の合成可。生成AIは禁止。サンプルアバター賞の応募には本文に「Sample」と記載。入賞は1人1点。結果発表は10月24日予定。"
+    },
+    {
+      "event_name": "第2回カフェCloverCherryフォトコン",
+      "start date": "2026-09-23T00:00:00+09:00",
+      "end date": "2026-10-25T23:59:59+09:00",
+      "description": "「CloverCherryで過ごす時間」をテーマに、指定カフェワールドで撮影した写真を募集するフォトコン。",
+      "organizer": "ストラス (@strustrust_VRC)",
+      "join_method": "指定ワールドで撮影し、Xに #CloverCherryフォトコン を付けて投稿。応募枚数の制限なし。",
+      "source": "https://x.com/strustrust_VRC/status/2102736883034038594",
+      "info": "対象ワールドはカフェCloverCherryと期間限定公開のNight版。応募者本人が撮影した作品に限る。レタッチ程度のAI利用可。ワールドに存在しない物の追加・削除や雰囲気を大きく変える加工は禁止。受賞者5名に、希望者のみストラスコーヒー特製ドリップバッグを贈呈。"
+    },
+    {
+      "event_name": "双子改変フォトコン",
+      "start date": "2026-09-28T00:00:00+09:00",
+      "end date": "2026-10-25T23:59:59+09:00",
+      "description": "双子改変集会の1周年を記念し、2人で撮影した双子改変写真を募集するフォトコン。",
+      "organizer": "くろまるる (@kuromaruru_vrc)",
+      "join_method": "Xに #双子改変集会フォトコン を付けて投稿。詳細は告知ポストのツリーを参照。",
+      "source": "https://x.com/kuromaruru_vrc/status/2104360941806575930",
+      "info": "原則として実際に2人で参加して撮影したペア作品が対象。双子コーデ改変ではなく双子改変であること。ベストコーデ賞、ベストフォト賞、主催賞あり。"
+    },
+    {
+      "event_name": "universe73studio PHOTO CONTEST 2026",
+      "start date": "2026-09-19T00:00:00+09:00",
+      "end date": "2026-10-04T23:59:59+09:00",
+      "description": "universe73studioの商品、Nedux、またはNeduxのサンプルを使用した写真を募集するフォトコン。",
+      "organizer": "universe73studio",
+      "join_method": "対象商品、Nedux、または指定サンプルを使用して撮影し、共通タグと応募部門のタグを付けてXに投稿。",
+      "source": "https://x.com/byuniverse73stk/status/2102363606981493011?s=46",
+      "info": "大規模な描き足し、合成、生成AIによる生成・置換・補完は審査対象外。U73商品部門とNedux部門の賞品はVRC+3か月分とAmazonギフトカード5,000円分。NDXサンプル賞はNeduxのギフトコード。"
+    },
+    {
+      "event_name": "リウル1周年フォトコン",
+      "start date": "2026-09-24T00:00:00+09:00",
+      "end date": "2026-10-20T23:59:59+09:00",
+      "description": "kai9氏のアバター「リウル」の1周年を記念したフォトコン。",
+      "organizer": "Chat Libre-シャ リーブル- (@VRC_ChatLibre)",
+      "join_method": "Xに #リウル1周年フォトコン を付けて投稿。応募枚数の制限なし。",
+      "source": "https://x.com/VRC_ChatLibre/status/2103046790748713191",
+      "info": "リウル以外が写った作品は応募不可。サンプル賞以外はレタッチ、カメラギミック使用可。サンプル賞はレタッチ、カメラギミック使用不可。作者賞はBOOTHギフト5,000円分、キャスト賞2名は各2,500円分、サンプル賞はオリジナル3DモデルLiulのギフト。"
+    },
+    {
+      "event_name": "VRChatノスタルジーフォトコンテスト2026",
+      "start date": "2026-10-01T00:00:00+09:00",
+      "end date": "2026-10-15T23:59:00+09:00",
+      "description": "「まどろみ」「切なさ」「儚さ」をテーマに、VRChatで出会った愛おしくも寂しい一瞬を写真と言葉で表現するフォトコン。",
+      "organizer": "あまかゆ屋 (@amakayuya)",
+      "join_method": "Xに #ノスタルジーフォトコン を付けて投稿。1人2枚まで、1投稿につき写真1枚。",
+      "source": "https://x.com/amakayuya/status/2103439387639849027",
+      "info": "結果発表は10月18日22:00予定。最優秀賞1名は10,000円分の賞品、優秀賞2名は各5,000円分の賞品、特別賞1名あり。受賞者には特製トロフィーを贈呈。詳細ルールは元ポストの添付画像とツリーを参照。"
     }
   ],
   "weekly_recurring_events": {
