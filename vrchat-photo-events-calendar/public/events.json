@@ -1539,7 +1539,7 @@
       "organizer": "XR Grapher Association",
       "join_method": "@XRGrapherをフォローし、Xに #第4回VRフォトコン2026 を付けて投稿したうえでGoogleフォームから応募。",
       "source": "https://x.com/XRGrapher/status/2078765565481779239",
-      "info": "VRChat内での撮影を推奨。開始日は告知日の2026年7月19日頃。"
+      "info": "VRChat内での撮影を推奨。"
     },
     {
       "event_name": "第一回 カフェCloverCherryフォトコン",
@@ -2130,6 +2130,76 @@
       "join_method": "Xに #ノスタルジーフォトコン を付けて投稿。1人2枚まで、1投稿につき写真1枚。",
       "source": "https://x.com/amakayuya/status/2103439387639849027",
       "info": "結果発表は10月18日22:00予定。最優秀賞1名は10,000円分の賞品、優秀賞2名は各5,000円分の賞品、特別賞1名あり。受賞者には特製トロフィーを贈呈。詳細ルールは元ポストの添付画像とツリーを参照。"
+    },
+    {
+      "event_name": "ENERGY PhotoContest",
+      "start date": "2026-09-20T00:00:00+09:00",
+      "end date": "2026-10-10T23:59:59+09:00",
+      "description": "「ENERGY」をテーマに、ZUNGDER ENERGY本体またはゲーミング冷蔵庫を写した写真を募集するフォトコン。",
+      "organizer": "@ZungDa_GanEn",
+      "join_method": "告知ポストを引用し、Xに #ZUNGDER_ENERGY を付けて投稿。1回の引用につき写真1枚、複数回応募可。",
+      "source": "https://x.com/ZungDa_GanEn/status/2101329387614609493",
+      "info": "VRChat内で撮影した作品が対象。レタッチ可、AI加工は禁止。最優秀賞はBOOTHまたはAmazonギフト2,000円分、優秀賞は1,000円分。"
+    },
+    {
+      "event_name": "第2回メガネしなの集会 ○○の秋杯フォトコン",
+      "start date": "2026-09-30T00:00:00+09:00",
+      "end date": "2026-11-02T23:59:59+09:00",
+      "description": "「秋×メガネ」をテーマに、メガネしなのの写真を募集するフォトコン。",
+      "organizer": "メガネしなの集会 (@megane_shinano / 運営 @imlovinit_vrc_c)",
+      "join_method": "Xに #メガしなフォトコン を付けて投稿。枚数制限なし、過去作品の再掲可。",
+      "source": "https://x.com/megane_shinano/status/2105417410291392722",
+      "info": "入賞者1名に、作品をもとにした約10,000円相当のネームロゴを贈呈。"
+    },
+    {
+      "event_name": "第10回ゆるフォトコン",
+      "start date": "2026-10-01T00:00:00+09:00",
+      "end date": "2026-10-16T23:59:59+09:00",
+      "description": "「秋」をテーマにした写真を募集するフォトコン。大賞3枠とゆるフォト賞24枠を選出。",
+      "organizer": "ゆるフォト交流会 (@YuruPhoto_ / 主催 @psk_esk / 副主催 @Hatto_VRC)",
+      "join_method": "Xに #ゆるフォトコン を付けて投稿。過去写真や普段のおはツイでも参加可。",
+      "source": "https://x.com/YuruPhoto_/status/2105226941934756188",
+      "info": "複数応募時は最後の投稿を参照。Unity撮影可。AIによる大幅な加筆・画像生成は禁止。大賞3名にBOOTHギフト各2,000円分を贈呈し、入賞作品を交流会ワールドに掲示。"
+    },
+    {
+      "event_name": "舞夜ちゃん周年フォトコン",
+      "start date": "2026-10-05T00:00:00+09:00",
+      "end date": "2026-10-30T23:59:59+09:00",
+      "description": "舞夜ちゃんの5周年を記念し、舞夜ちゃんをテーマにした写真を募集するフォトコン。改変、デフォルト、サンプルアバターで参加可。",
+      "organizer": "@RBmofumofuDET",
+      "join_method": "Xに #舞夜ちゃん周年フォトコン を付けて投稿。",
+      "source": "https://x.com/RBmofumofuDET/status/2107124906429440453",
+      "info": "舞夜ちゃん周年集会は10月31日開催予定。"
+    },
+    {
+      "event_name": "ハッピーマリシアフォトコン",
+      "start date": "2026-10-06T00:00:00+09:00",
+      "end date": "2026-10-31T23:59:59+09:00",
+      "description": "マリシアの楽しい・幸せな瞬間を募集するフォトコン。サンプルアバターでも参加でき、Maryciaが主役であれば他アバターの映り込みも可。",
+      "organizer": "ban_1370 (@bigbangty2411)",
+      "join_method": "告知ポストを引用し、Xに #ハッピーマリシアフォトコン を付けて投稿。応募点数の制限なし。",
+      "source": "https://x.com/bigbangty2411/status/2107123647584575708",
+      "info": "VRChat内撮影のみ。複数枚の重ね合成、AI生成・AI補正、NSFW、性的表現、政治・宗教表現、MMD、Unity Editor撮影は禁止。最優秀賞はBOOTHギフト3,000円分、優秀賞3名とおもしろ賞1名は各1,000円分。"
+    },
+    {
+      "event_name": "地雷系ミルフィフォトコン",
+      "start date": "2026-10-01T00:00:00+09:00",
+      "end date": "2026-10-15T23:59:59+09:00",
+      "description": "地雷系・病みかわ系などをテーマに改変したミルフィちゃんの写真を募集するフォトコン。",
+      "organizer": "ミルフィちゃん集会 (@MilfyChanShukai)",
+      "join_method": "Xに #地雷系ミルフィフォトコン を付けて投稿。",
+      "source": "https://x.com/MilfyChanShukai/status/2105417415710417387?s=20",
+      "info": "NSFW、暴力的表現は禁止。詳細は元ポストを参照。"
+    },
+    {
+      "event_name": "第一回 山羊のメアちゃんフォトコンテスト",
+      "start date": "2026-09-28T00:00:00+09:00",
+      "end date": "2026-10-28T23:59:59+09:00",
+      "description": "アバター「山羊のメア」を主な被写体とした写真を募集するフォトコン。賞品および参加賞あり。",
+      "organizer": "YOUR (@your0409_vr)",
+      "join_method": "Catalystのコンテストページから応募。",
+      "source": "https://x.com/your0409_vr/status/2098773633024004581?s=20",
+      "info": "Catalystへのユーザー登録が必要。対象アバター: https://booth.pm/ja/items/6382745"
     }
   ],
   "weekly_recurring_events": {
