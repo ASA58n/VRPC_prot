@@ -2200,6 +2200,96 @@
       "join_method": "Catalystのコンテストページから応募。",
       "source": "https://x.com/your0409_vr/status/2098773633024004581?s=20",
       "info": "Catalystへのユーザー登録が必要。対象アバター: https://booth.pm/ja/items/6382745"
+    },
+    {
+      "event_name": "Cafe Julius 2周年記念フォトコンテスト",
+      "start date": "2026-10-10T00:00:00+09:00",
+      "end date": "2026-10-18T23:59:59+09:00",
+      "description": "Cafe Juliusの2周年を記念し、「ダイナーガールスタイル」をテーマに、かふぇゆりおみやげを使用した縦長写真を募集するフォトコン。",
+      "organizer": "Cafe Julius (@Julius_cafe2024)",
+      "join_method": "Xに #かふぇゆりフォトコン2026 を付けて投稿。",
+      "source": "https://x.com/Julius_cafe2024/status/2108573208303829319",
+      "info": "詳細は元ポストのポスターを参照。"
+    },
+    {
+      "event_name": "HalloweenGambit 1周年記念フォトコン",
+      "start date": "2026-10-11T00:00:00+09:00",
+      "end date": "2026-10-25T23:59:59+09:00",
+      "description": "HalloweenGambitの1周年を記念し、「ハロウィン」をテーマに写真を募集するフォトコン。",
+      "organizer": "HalloweenGambit (@HG_VRChatBar)",
+      "join_method": "Xに #ハロギャンフォトコン を付けて投稿。枚数制限なし。",
+      "source": "https://x.com/HG_VRChatBar/status/2108790521707758012",
+      "info": "VRChatワールド内で撮影した作品が対象。レタッチ、加工、過去写真、複数人での撮影可。AI生成、R18、Unity撮影は禁止。"
+    },
+    {
+      "event_name": "スノゥ * Snow フォトコンテスト",
+      "start date": "2026-09-26T00:00:00+09:00",
+      "end date": "2026-10-18T23:59:59+09:00",
+      "description": "アバター「スノゥ * Snow」の写真を募集するフォトコン。",
+      "organizer": "涼色 (@cy_fros)",
+      "join_method": "Xに #Snow3Dフォトコン を付けて投稿。枚数制限なし、過去写真の再投稿可。",
+      "source": "https://x.com/cy_fros/status/2103680969484247107",
+      "info": "最優秀賞にSNS用アイコンイラストを贈呈。詳細は元ポストの画像を参照。"
+    },
+    {
+      "event_name": "ハオランくんフォトコン",
+      "start date": "2026-10-09T00:00:00+09:00",
+      "end date": "2026-10-23T23:59:59+09:00",
+      "description": "ハオランくんの写真を募集するフォトコン。",
+      "organizer": "かみん (@4k4m1n)",
+      "join_method": "Xに #ハオランくんフォトコン を付け、ハオランくんの写真を投稿。",
+      "source": "https://x.com/4k4m1n/status/2107236892483932459",
+      "info": "結果発表は10月30日予定。応募条件と規定の詳細は元ポストのツリーを参照。"
+    },
+    {
+      "event_name": "ピューマのぷまちゃん誕生記念フォトコン",
+      "start date": "2026-10-01T00:00:00+09:00",
+      "end date": "2026-10-20T23:59:59+09:00",
+      "description": "ピューマのぷまちゃんの誕生を記念したフォトコン。",
+      "organizer": "みと (@mitomitomitochi)",
+      "join_method": "Xに #ぷまちゃん生誕祭フォトコン を付けて投稿。1人3枚まで。",
+      "source": "https://x.com/mitomitomitochi/status/2105492901534777688",
+      "info": "複数ショップからの賞品あり。詳細は元ポストのリプライを参照。"
+    },
+    {
+      "event_name": "翠羽 -Suiha- フォトコンテスト",
+      "start date": "2026-10-08T00:00:00+09:00",
+      "end date": "2026-10-21T23:59:59+09:00",
+      "description": "アバター「翠羽 -Suiha-」の改変またはサンプルアバターで撮影した写真を募集するフォトコン。",
+      "organizer": "荒嵜造船所 (@dockyard_YS)",
+      "join_method": "告知ポストを引用し、Xに #SuihaPhoto を付けて投稿。",
+      "source": "https://x.com/dockyard_YS/status/2107961668022026695",
+      "info": "引用ポストが必須。賞品の詳細は元ポストを参照。"
+    },
+    {
+      "event_name": "第6回ぶいちゃコーデフォトコン",
+      "start date": "2026-10-09T00:00:00+09:00",
+      "end date": "2026-11-12T23:59:59+09:00",
+      "description": "アバターと服装が確認できるコーデ写真を募集するフォトコン。複数の部門賞を実施。",
+      "organizer": "ぶいちゃコーデ (@vrc_style)",
+      "join_method": "ぶいちゃコーデ公式サイトへ投稿するか、Xに #ぶいちゃコーデ を付けて投稿。部門賞への応募は使用アイテムを登録。",
+      "source": "https://x.com/vrc_style/status/2108467505979097178",
+      "info": "投稿数の制限なし。VRChat・Unity撮影可。アイテムの利用規約を遵守すること。最優秀賞は20,000円。確実な応募には公式サイトへの投稿を推奨。"
+    },
+    {
+      "event_name": "彼方BAR フォトコンテスト",
+      "start date": "2026-10-03T00:00:00+09:00",
+      "end date": "2026-10-23T20:00:00+09:00",
+      "description": "#彼方3D を広めることを目的としたフォトコン。対象アバターを所持していなくても参加できる部門あり。",
+      "organizer": "彼方BAR (@KanataBar_VRC)",
+      "join_method": "告知ポストを引用して写真を投稿。",
+      "source": "https://x.com/KanataBar_VRC/status/2106217676909826500",
+      "info": "応募部門や規定の詳細は元ポストの画像を参照。"
+    },
+    {
+      "event_name": "RunVeil Spotlight Selection",
+      "start date": "2026-10-10T00:00:00+09:00",
+      "end date": "2026-11-15T23:59:59+09:00",
+      "description": "「聖夜の過ごし方」をテーマに、2着以上を組み合わせたコーディネート改変のVRChat写真を募集するフォトコン。",
+      "organizer": "RunVeil (@RunVeil_vrc / na_mi)",
+      "join_method": "@RunVeil_vrcをフォローし、告知ポストにいいねして引用リポスト。引用内に #runveil_rss を付けて写真を投稿。1人1枚まで。",
+      "source": "https://x.com/RunVeil_vrc/status/2108482608287924662?s=20",
+      "info": "VRChat内で撮影した作品が対象。Unity撮影、レタッチは禁止。最優秀賞は2,000円分の選べるギフト、公式note掲載、ワールド展示。"
     }
   ],
   "weekly_recurring_events": {
