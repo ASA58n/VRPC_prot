@@ -2290,6 +2290,76 @@
       "join_method": "@RunVeil_vrcをフォローし、告知ポストにいいねして引用リポスト。引用内に #runveil_rss を付けて写真を投稿。1人1枚まで。",
       "source": "https://x.com/RunVeil_vrc/status/2108482608287924662?s=20",
       "info": "VRChat内で撮影した作品が対象。Unity撮影、レタッチは禁止。最優秀賞は2,000円分の選べるギフト、公式note掲載、ワールド展示。"
+    },
+    {
+      "event_name": "VGG 2周年フォトコン",
+      "start date": "2026-10-15T00:00:00+09:00",
+      "end date": "2026-11-05T23:59:59+09:00",
+      "description": "テーマ「冒険」。知らないワールドや旅の景色など。",
+      "organizer": "@VRC_GamersGuild",
+      "join_method": "#VGG2周年フォトコン ＋ワールド名＋一言を付けて投稿。1人5作品まで。",
+      "source": "https://x.com/VRC_GamersGuild/status/2110732785178849696",
+      "info": "10/15以降に撮影。明るさ/色調補正/トリミングOK。生成AI置換NG。他者写る場合了承必須。"
+    },
+    {
+      "event_name": "スキミアフォトコン",
+      "start date": "2026-10-19T00:00:00+09:00",
+      "end date": "2026-11-20T23:59:59+09:00",
+      "description": "スキミア展示ワールド公開記念。スキミアアバター（改変・サンプル可）。",
+      "organizer": "@Sukimia_Syukai",
+      "join_method": "#スキミアフォトコン をつけて投稿。",
+      "source": "https://x.com/Sukimia_Syukai/status/2110367406384374045",
+      "info": "指定撮影ワールドあり。"
+    },
+    {
+      "event_name": "フォトノモリ4",
+      "start date": "2026-10-11T00:00:00+09:00",
+      "end date": "2026-12-20T23:59:59+09:00",
+      "description": "ツクルノモリアバター限定。日常から季節テーマまで。サンプルOK。最優秀・優秀賞＋ランダム賞。",
+      "organizer": "ツクルノモリVR / Mota",
+      "join_method": "#フォトノモリ4 を付け、ツクルノモリVR固定ポストを引用。1人最大5枚。",
+      "source": "https://vrnavi.jp/fotonomori4/",
+      "info": "合成・AR・レタッチOK。CGソフトレンダなどアバターとして撮っていないものNG。結果発表12/25。"
+    },
+    {
+      "event_name": "ユニマス1周年フォトコン",
+      "start date": "2026-10-20T00:00:00+09:00",
+      "end date": "2026-11-20T23:59:59+09:00",
+      "description": "テーマ：『一撃必殺』。エフェクトあり/なし部門。各部門1作品まで。",
+      "organizer": "@umvs_official",
+      "join_method": "#ユニマス1周年フォトコン をつけてXに投稿。",
+      "source": "https://x.com/umvs_official/status/2105607599328792821",
+      "info": "VRChat内撮影のみ。軽度レタッチ・ポーズギミック可。Unity撮影不可、AI/CG追加不可など。最優秀賞 BOOTH 5,000円分など。結果発表 11/27。ポスター・レギュレーション画像に詳細あり。"
+    },
+    {
+      "event_name": "第3回Urukiフォトコン",
+      "start date": "2026-10-18T00:00:00+09:00",
+      "end date": "2026-11-01T23:59:59+09:00",
+      "description": "Urukiちゃんを被写体とした写真。改変部門とサンプル部門。",
+      "organizer": "@YakiYaki_38",
+      "join_method": "#Urukiフォトコン をつけてXに投稿。最大4枚。VRC撮影（レタッチ自由）。",
+      "source": "https://x.com/YakiYaki_38/status/2111940389733068969",
+      "info": "NSFW控え。サンプル部門は特定サンプルアバターのみ。合同作品可。展示予定。ツリーに詳細ルールあり。"
+    },
+    {
+      "event_name": "Harim World 写真コンテスト",
+      "start date": "2026-10-04T00:00:00+09:00",
+      "end date": "2026-11-01T23:59:00+09:00",
+      "description": "Harimのワールドで撮影した写真。動画も可。",
+      "organizer": "@wooharim",
+      "join_method": "#Harimworld を付けてXに投稿。",
+      "source": "https://x.com/wooharim/status/2106607971694531049",
+      "info": "参加者中から5名にHARIM VIPワールド入場権（Super VIP 2ヶ月）。"
+    },
+    {
+      "event_name": "第一回あきらフォトコンテスト",
+      "start date": "2026-10-18T00:00:00+09:00",
+      "end date": "2026-11-01T23:59:59+09:00",
+      "description": "あきらアバター。フリー部門とネタ部門。優勝でイラスト化など。",
+      "organizer": "@comutya_1",
+      "join_method": "フリー部門は #あきらフォトコンテスト2026_フリー 、ネタ部門は #あきらフォトコンテスト2026_ネタ を付けてXに写真を投稿。@comutya_1のフォロー必須。最大5枚。",
+      "source": "https://x.com/comutya_1/status/2111782275537059919",
+      "info": "部門別ルール（人数・レタッチ）。結果発表11/4。"
     }
   ],
   "weekly_recurring_events": {
