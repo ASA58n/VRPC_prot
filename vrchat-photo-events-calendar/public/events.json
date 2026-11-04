@@ -2144,7 +2144,7 @@
     {
       "event_name": "第2回メガネしなの集会 ○○の秋杯フォトコン",
       "start date": "2026-09-30T00:00:00+09:00",
-      "end date": "2026-11-02T23:59:59+09:00",
+      "end date": "2026-11-14T23:59:59+09:00",
       "description": "「秋×メガネ」をテーマに、メガネしなのの写真を募集するフォトコン。",
       "organizer": "メガネしなの集会 (@megane_shinano / 運営 @imlovinit_vrc_c)",
       "join_method": "Xに #メガしなフォトコン を付けて投稿。枚数制限なし、過去作品の再掲可。",
@@ -2390,6 +2390,76 @@
       "join_method": "Xに #デフォカメフォトコン を付けて投稿。グループ参加を推奨。",
       "source": "https://x.com/holomomochan/status/2114190218949710288",
       "info": "細部を厳格にチェックしない方針。11月10日に勉強会あり。"
+    },
+    {
+      "event_name": "シジミフォトコン",
+      "start date": "2026-11-01T00:00:00+09:00",
+      "end date": "2026-11-21T23:59:59+09:00",
+      "description": "VRChatアバター「シジミ」を使用した写真。物語性・エモさ重視。",
+      "organizer": "@koumohusai",
+      "join_method": "#シジミフォトコン をつけて投稿。複数作品可。",
+      "source": "https://x.com/koumohusai/status/2116296081948721214",
+      "info": "レタッチOK。AI合成・生成禁止。人型アバターの写り込み原則禁止。賞品なし。"
+    },
+    {
+      "event_name": "まめふれぼーいず フォトコンテスト",
+      "start date": "2026-11-01T00:00:00+09:00",
+      "end date": "2026-11-22T23:59:59+09:00",
+      "description": "まめふれぼーいず1周年記念。テーマ『少年時代』。メンバー限定。まめふれんず男性改変中心。",
+      "organizer": "@Mamefure_boys",
+      "join_method": "グループに加入し、XにVRCユーザー名・写真と #ぼーいずフォトコン を付けて投稿。",
+      "source": "https://x.com/Mamefure_boys/status/2116680377431650721",
+      "info": "レタッチ不可。VirtualLens/加工ソフト不可。メインは男性改変。"
+    },
+    {
+      "event_name": "第1回MI☆CAフォトコンテスト",
+      "start date": "2026-10-23T00:00:00+09:00",
+      "end date": "2026-11-07T23:59:59+09:00",
+      "description": "MI☆CAアバターの魅力を表現した写真。通常部門とハロウィン部門あり。",
+      "organizer": "@Chocomint_86",
+      "join_method": "Xに #MICA_3D #MICAフォトコン2026 をつけ、本文に部門名を明記して投稿。",
+      "source": "https://x.com/Chocomint_86/status/2113557364964241679",
+      "info": "VRChat内カメラのみ。過度な加筆・AI生成禁止。最優秀賞にアバターギフトなど。"
+    },
+    {
+      "event_name": "第二回Havenフォトコン",
+      "start date": "2026-11-01T00:00:00+09:00",
+      "end date": "2026-11-30T23:59:59+09:00",
+      "description": "テーマ「冬」。",
+      "organizer": "@cafe_Haven0784",
+      "join_method": "告知ポストを引用し #cafe_haven_photocon をつけて投稿。最大3枚まで。",
+      "source": "https://x.com/cafe_Haven0784/status/2116779094780330292",
+      "info": "AI生成・合成不可。他者の映り込みは承諾を得る。複数ワールドOK。"
+    },
+    {
+      "event_name": "秋のエクちゃんフォトコン",
+      "start date": "2026-11-01T00:00:00+09:00",
+      "end date": "2026-11-23T23:59:59+09:00",
+      "description": "「秋」をテーマに、エク素体の改変アバターで撮影した写真を募集するフォトコン。各種サンプルアバターでも参加可。",
+      "organizer": "エクちゃんフォトコン委員会 @Eku3D_Photo",
+      "join_method": "Xに #秋のエクちゃんフォトコン を付けて投稿。1人3枚まで。",
+      "source": "https://x.com/Eku3D_Photo/status/2116817635828736152?a=yidzolRpaoCNT1xONKU&s=20",
+      "info": "VRChat（PC・Mobile）、Unity、その他DCCツールなど撮影方法は不問。レタッチ可、AIによるレタッチは禁止。NSFW・暴力・性的表現、MMDワールドで撮影した画像は禁止。指定タグなし・枚数超過は無効。使用素材の権利を確認すること。規約で禁止されたアイテムは賞品にできない。優秀賞は審査員全員、審査員賞は各審査員が選考。投稿作品はワールド内に掲示される場合あり。規定は予告なく変更される場合あり。問い合わせは主催者へのDM。"
+    },
+    {
+      "event_name": "第二回推しワンフレーズフォトコン",
+      "start date": "2026-10-28T00:00:00+09:00",
+      "end date": "2026-11-30T23:59:59+09:00",
+      "description": "好きなワンフレーズと、それを表現したVRChat写真を募集するフォトコン。",
+      "organizer": "カーミラ(ゲーミング悪魔i4)＝VRC @CarmillaMaki",
+      "join_method": "Xに #第二回推しワンフォトコン を付けて投稿。応募数の制限なし。",
+      "source": "https://x.com/CarmillaMaki/status/2115353067378147442",
+      "info": "最優秀賞はBOOTH賞品3,000円分、優秀賞3枠は各1,000円分。複数受賞なし。詳細は元ポストを参照。"
+    },
+    {
+      "event_name": "VRCPSS2ndAnniv_VirtualCreativeAwards（不在の輪郭）",
+      "start date": "2026-11-03T00:00:00+09:00",
+      "end date": "2027-01-01T23:59:59+09:00",
+      "description": "VRCPSS設立2周年記念。テーマ「不在の輪郭」。",
+      "organizer": "@Sai10Photograph",
+      "join_method": "詳細はDiscordで確認・応募。",
+      "source": "https://x.com/Sai10Photograph/status/2106260684057264511",
+      "info": "高難易度テーマ。状況により期間延長の可能性あり。"
     }
   ],
   "weekly_recurring_events": {
