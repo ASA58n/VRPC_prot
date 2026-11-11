@@ -2460,6 +2460,56 @@
       "join_method": "詳細はDiscordで確認・応募。",
       "source": "https://x.com/Sai10Photograph/status/2106260684057264511",
       "info": "高難易度テーマ。状況により期間延長の可能性あり。"
+    },
+    {
+      "event_name": "第11回ゆるフォトコン",
+      "start date": "2026-11-01T00:00:00+09:00",
+      "end date": "2026-11-16T23:59:59+09:00",
+      "description": "テーマ『安らぎ -Chill-』。あなたが感じる安らぎを一枚に。",
+      "organizer": "ゆるフォト交流会 (@YuruPhoto_)",
+      "join_method": "添付画像・リプライ欄の詳細を確認し、Xに #ゆるフォトコン を付けて投稿。",
+      "source": "https://x.com/YuruPhoto_/status/2116371104411648472",
+      "info": "詳細・注意事項は添付画像・リプ欄確認。問い合わせは主催まで。"
+    },
+    {
+      "event_name": "ソルトちゃんフォトコン",
+      "start date": "2026-11-08T00:00:00+09:00",
+      "end date": "2026-11-30T23:59:00+09:00",
+      "description": "ソルトちゃんデビューお祝いのフォトコン。1人1枚。",
+      "organizer": "SugaryRabbit (@SugaryRabbit_VR)",
+      "join_method": "#ソルトちゃんフォトコン をつけて投稿し、Googleフォームに登録必須。",
+      "source": "https://x.com/SugaryRabbit_VR/status/2119416028308607051",
+      "info": "顔・体はソルトちゃんを使用。レタッチ自由。VRChat・Unityの撮影方法の指定なし。Xへの投稿のみでは応募対象外。Googleフォームへの登録必須。"
+    },
+    {
+      "event_name": "第1回マリシアデフォ髪フォトコン",
+      "start date": "2026-10-19T00:00:00+09:00",
+      "end date": "2026-11-18T23:59:59+09:00",
+      "description": "マリシアのデフォ髪及びデフォ髪基調の改変を使用したフォトコン。",
+      "organizer": "えら (@Era_vrc)",
+      "join_method": "Xに #マリシアデフォ髪フォトコン と写真タイトルを付けて投稿。",
+      "source": "https://x.com/Era_vrc/status/2111381718976315675",
+      "info": "デフォ髪および雰囲気を崩さない改変が対象。詳細ルールは元ポストの返信欄を確認。質問は主催者まで。"
+    },
+    {
+      "event_name": "V広島駅制服フォトコン",
+      "start date": "2026-11-10T00:00:00+09:00",
+      "end date": "2026-11-23T23:59:59+09:00",
+      "description": "まめふれんずアバターに制服アイテムを着用し、バーチャル広島駅内で撮影。選出作品はリアル広島駅サイネージ掲載。",
+      "organizer": "バーチャル大阪駅/広島駅公式 (@official_vos_)",
+      "join_method": "#V広島駅制服フォトコン をつけて投稿。",
+      "source": "https://x.com/official_vos_/status/2120094316802756707",
+      "info": "対象アバター：まめふれんず。制服アイテム着用。詳細は企画ページ参照。"
+    },
+    {
+      "event_name": "シフォンちゃん ぱすてるしろっぷフォトコンテスト",
+      "start date": "2026-11-06T00:00:00+09:00",
+      "end date": "2026-11-17T23:59:59+09:00",
+      "description": "シフォンちゃんの改変あり・改変なしの2部門で写真を募集するフォトコン。賞品はこまど氏のアバターや1対1イベントの招待券。",
+      "organizer": "ぽきつん　@pokitn_vrchat",
+      "join_method": "Xに #ぱすてるしろっぷフォトコンテスト を付けて投稿。",
+      "source": "https://x.com/pastel_chiffon/status/2118704966177079613?a=5izTeL6gtEKmZbgjTAU&s=20",
+      "info": "各部門2枚まで。詳細は元ポストの画像を参照。"
     }
   ],
   "weekly_recurring_events": {
