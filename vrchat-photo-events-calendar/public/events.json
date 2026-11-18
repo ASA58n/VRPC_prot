@@ -2510,6 +2510,36 @@
       "join_method": "Xに #ぱすてるしろっぷフォトコンテスト を付けて投稿。",
       "source": "https://x.com/pastel_chiffon/status/2118704966177079613?a=5izTeL6gtEKmZbgjTAU&s=20",
       "info": "各部門2枚まで。詳細は元ポストの画像を参照。"
+    },
+    {
+      "event_name": "写真わからん集会わからんフォトコン",
+      "start date": "2026-11-15T00:00:00+09:00",
+      "end date": "2026-12-06T23:59:59+09:00",
+      "description": "「暖」を自由に解釈した写真を募集するフォトコン。初陣枠の最優秀賞は3,000円分、無差別枠は1,500円分。",
+      "organizer": "写真わからん集会 @photo_wakaran",
+      "join_method": "Xに #わからんフォトコン を付けて投稿し、Googleフォームから送信。",
+      "source": "https://x.com/photo_wakaran/status/2121955873895653723?a=TmvvJkm-2u8jmAnMRL4&s=19",
+      "info": "テーマの解釈は自由。AIを使用したレタッチは禁止。初陣枠はVRChatのフォトコン受賞歴がない方のみ参加可。詳細は元ポストの画像を参照。"
+    },
+    {
+      "event_name": "第2回Keenooアバターフォトコン",
+      "start date": "2026-11-13T00:00:00+09:00",
+      "end date": "2026-12-06T23:59:59+09:00",
+      "description": "Keenooショップのアバターを使用したフォトコン。",
+      "organizer": "@keenoo_kyano",
+      "join_method": "告知ポストを引用リポストし、Xに #KeenooPhotocon2 を付けて投稿。",
+      "source": "https://x.com/keenoo_kyano/status/2121166179641557261",
+      "info": "AI使用不可。NSFW不可。レタッチ可。過去他コン未使用写真。"
+    },
+    {
+      "event_name": "Noiz君のフォトコンテスト",
+      "start date": "2026-12-01T00:00:00+09:00",
+      "end date": "2026-12-31T23:59:59+09:00",
+      "description": "Noizアバター関連のフォトコンテスト。",
+      "organizer": "@F1qneur_VRC",
+      "join_method": "Xに #Noizフォトコン を付けて写真を投稿。1投稿1枚、投稿数制限なし。詳細: https://note.com/f1qneur_vrc/n/n199152450552",
+      "source": "https://x.com/F1qneur_VRC/status/2122132552039428109",
+      "info": "頭はNoizを使用。フィルター・エフェクトなどの加工可。VRChat・Unity撮影可。賞の詳細は主催者noteを確認: https://note.com/f1qneur_vrc/n/n199152450552"
     }
   ],
   "weekly_recurring_events": {
