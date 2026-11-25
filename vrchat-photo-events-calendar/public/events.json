@@ -2404,7 +2404,7 @@
     {
       "event_name": "まめふれぼーいず フォトコンテスト",
       "start date": "2026-11-01T00:00:00+09:00",
-      "end date": "2026-11-22T23:59:59+09:00",
+      "end date": "2026-11-30T23:59:59+09:00",
       "description": "まめふれぼーいず1周年記念。テーマ『少年時代』。メンバー限定。まめふれんず男性改変中心。",
       "organizer": "@Mamefure_boys",
       "join_method": "グループに加入し、XにVRCユーザー名・写真と #ぼーいずフォトコン を付けて投稿。",
@@ -2540,6 +2540,36 @@
       "join_method": "Xに #Noizフォトコン を付けて写真を投稿。1投稿1枚、投稿数制限なし。詳細: https://note.com/f1qneur_vrc/n/n199152450552",
       "source": "https://x.com/F1qneur_VRC/status/2122132552039428109",
       "info": "頭はNoizを使用。フィルター・エフェクトなどの加工可。VRChat・Unity撮影可。賞の詳細は主催者noteを確認: https://note.com/f1qneur_vrc/n/n199152450552"
+    },
+    {
+      "event_name": "しんのフォトコン2026冬",
+      "start date": "2026-11-22T00:00:00+09:00",
+      "end date": "2026-12-20T23:59:59+09:00",
+      "description": "しんの倉庫ショップのアバター・衣装を使用したVRChat写真を募集するフォトコン。テーマ自由。shin賞は8,000円分のギフトなど。こむる賞あり。",
+      "organizer": "雪花しん/shin (@_shin_sinsin)",
+      "join_method": "Xに #しんのフォトコン2026冬 を付けて投稿、またはフォームから応募。応募枚数の制限なし。",
+      "source": "https://x.com/_shin_sinsin/status/2124337077315891676",
+      "info": "応募枚数不問 解釈自由 Unity撮影不可"
+    },
+    {
+      "event_name": "マリシアむらさきフォトコン",
+      "start date": "2026-11-01T00:00:00+09:00",
+      "end date": "2026-11-30T23:59:59+09:00",
+      "description": "むらさき色を主としたマリシアのお写真募集。最優秀賞最大3000円など。",
+      "organizer": "@_runasawa_",
+      "join_method": "#マリシアむらさきフォトコン を付けてポスト。",
+      "source": "https://x.com/_runasawa_/status/2114553037817876865",
+      "info": "詳細は画像とリプを確認。企画・審査員：らき、ルナサワ。"
+    },
+    {
+      "event_name": "第9回Velleフォトコン",
+      "start date": "2026-11-24T00:00:00+09:00",
+      "end date": "2026-12-07T23:59:59+09:00",
+      "description": "Velleちゃんを被写体とした写真。1人1投稿4枚まで。",
+      "organizer": "@kommma_",
+      "join_method": "#Velleフォトコン をつけてXに投稿。",
+      "source": "https://x.com/kommma_/status/2125070715221410139",
+      "info": "被写体の同意が必要。NSFW表現は控えること。VRChat内で撮影。レタッチ自由。"
     }
   ],
   "weekly_recurring_events": {
